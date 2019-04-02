@@ -1,0 +1,7 @@
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/edit_cache.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/install/strip.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/preinspector.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/rebuild_cache.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/list_install_components.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/install/local.dir
+/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/install.dir
