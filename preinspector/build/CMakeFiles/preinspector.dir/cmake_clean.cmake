@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/preinspector.dir/main.cpp.o"
   "CMakeFiles/preinspector.dir/IO/Parametros.cpp.o"
   "CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o"
+  "CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o"
   "CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o"
   "CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o"
   "CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o"

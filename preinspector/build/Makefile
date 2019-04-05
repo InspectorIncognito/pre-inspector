@@ -169,6 +169,33 @@ preinspector/fast:
 	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/build
 .PHONY : preinspector/fast
 
+IO/Chequeos.o: IO/Chequeos.cpp.o
+
+.PHONY : IO/Chequeos.o
+
+# target to build an object file
+IO/Chequeos.cpp.o:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o
+.PHONY : IO/Chequeos.cpp.o
+
+IO/Chequeos.i: IO/Chequeos.cpp.i
+
+.PHONY : IO/Chequeos.i
+
+# target to preprocess a source file
+IO/Chequeos.cpp.i:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Chequeos.cpp.i
+.PHONY : IO/Chequeos.cpp.i
+
+IO/Chequeos.s: IO/Chequeos.cpp.s
+
+.PHONY : IO/Chequeos.s
+
+# target to generate assembly for a file
+IO/Chequeos.cpp.s:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Chequeos.cpp.s
+.PHONY : IO/Chequeos.cpp.s
+
 IO/FuenteDatos.o: IO/FuenteDatos.cpp.o
 
 .PHONY : IO/FuenteDatos.o
@@ -749,6 +776,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... IO/Chequeos.o"
+	@echo "... IO/Chequeos.i"
+	@echo "... IO/Chequeos.s"
 	@echo "... IO/FuenteDatos.o"
 	@echo "... IO/FuenteDatos.i"
 	@echo "... IO/FuenteDatos.s"

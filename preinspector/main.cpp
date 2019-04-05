@@ -30,6 +30,7 @@
 // #include "IO/Tablas/TablaServiciosParaAndroid.h"
 //#include "IO/Tablas/TablaServiciosPorParadasPorSecuencia.h"
 #include "IO/Tablas/TablaGrilla.h"
+#include "IO/Chequeos.h"
 
 using namespace std;
 
@@ -40,39 +41,18 @@ int main(int argc, const char* argv[])
 	///Referencia a estructura que almacena todos los datos externos
 	FuenteDatos *fdd = new FuenteDatos(argv[1]);
 
+    Chequeos checks;
+    checks.chequeaParaderos(fdd);
+    
 	///Procesado de paraderos
 	ProcesaParadas *pp = new ProcesaParadas(fdd);
 
 	///Procesando grilla
 	GridProcess *pg = new GridProcess(fdd);
 
-	///Tabla de paradas
-//	TablaParadas *tparadas = new TablaParadas(fdd);
-
-// 	///Tabla de servicios
-// 	TablaServicios *tservicios = new TablaServicios(fdd);
-
-	///Tabla de servicios por parada
-//	TablaServiciosPorParada *tserviciosPorParada = new TablaServiciosPorParada(fdd);
-
-// 	///Tabla de distancias de paradas en ruta
-// 	TablaDistanciaEnRutaParadas *tdistanciasParadas = new TablaDistanciaEnRutaParadas(fdd);
-
-// 	///Tabla con el tramado de las rutas
-// 	TablaRutasTramadas *tRutasTramadas = new TablaRutasTramadas(fdd);
-
-// 	///Tabla con las rutas simplificadas
-// 	TablaRutasSimplificadas *tRutasSimplificadas = new TablaRutasSimplificadas(fdd);
-// 
 	//Tabla de paradas para Android
 	TablaServiciosPorParadaParaAndriod *tParadasParaAndriod = new TablaServiciosPorParadaParaAndriod(fdd);
 
-// 	///Tabla de servicios para Android
-// 	//TablaServiciosParaAndroid *tServiciosParaAndroid = new TablaServiciosParaAndroid(fdd);
-// 
-// 	///Tabla de puntos de carga
-// 	TablaPuntoCarga *tPuntosDecarga = new TablaPuntoCarga(fdd);
-// 
 	///Tabla de grilla
 	TablaGrilla *tGrilla = new TablaGrilla(fdd);
 

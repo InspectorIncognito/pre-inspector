@@ -6,6 +6,36 @@
 
 #IncludeRegexTransform: 
 
+/home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.cpp
+Chequeos.h
+/home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.h
+
+/home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.h
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+locale
+-
+algorithm
+-
+regex
+-
+FuenteDatos.h
+/home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
+../Utilidades/TimeStampHandler.h
+/home/mauricio/workspace/preInspector/preinspector/Utilidades/TimeStampHandler.h
+../Utilidades/StringFunctions.h
+/home/mauricio/workspace/preInspector/preinspector/Utilidades/StringFunctions.h
+../Utilidades/ConvertCoordinate.h
+/home/mauricio/workspace/preInspector/preinspector/Utilidades/ConvertCoordinate.h
+../Utilidades/Cronometro.h
+/home/mauricio/workspace/preInspector/preinspector/Utilidades/Cronometro.h
+
 /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.cpp
 FuenteDatos.h
 /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
@@ -279,6 +309,8 @@ iostream
 -
 string
 -
+map
+-
 
 /home/mauricio/workspace/preInspector/preinspector/Utilidades/ConvertCoordinate.cpp
 ConvertCoordinate.h
@@ -373,4 +405,6 @@ IO/Tablas/TablaServiciosPorParadaParaAndriod.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.h
 IO/Tablas/TablaGrilla.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaGrilla.h
+IO/Chequeos.h
+/home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.h
 

@@ -36,7 +36,7 @@ FuenteDatos::FuenteDatos(const char *nombreArchivoParametros)
 	outParameters << "key;value" << endl;
 
 	///Lectura de diccionario de codigos servicio-sentido
-	leeDiccionarioServicios();
+// 	leeDiccionarioServicios();
 
 	///Lectura de las rutas
 	leeRutas();
@@ -45,89 +45,89 @@ FuenteDatos::FuenteDatos(const char *nombreArchivoParametros)
 	leeRedDeParadas();
  
     ///Instancia de lectura de secuencia de paraderos
-	leeSecuenciaDeParadas();
+	//leeSecuenciaDeParadas();
 
 	///
 	leeSecuenciaDeParadasDTPM();
 
 }
 
-void FuenteDatos::leeDiccionarioServicios()
-{
-	int nTimeStart = Cronometro::GetMilliCount();
-
-	///Archivo de entrada Principal
-	ifstream archivoDiccionario;
-	archivoDiccionario.open(parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt");
-
-	///Chequeo de archivo 
-	if (!archivoDiccionario.good())
-		cout << "Error : No se encuentra el archivo " << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << "!" << endl;
-	else
-		cout << "Cargando datos de Diccionario (" << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << ")... ";
-
-	///Vector contenedor de la linea actual del archivo
-	vector<string> cur;
-
-	int nlineas = 0;
-
-	///Lectura del header
-	cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
-
-
-	///Lectura archivo primario
-	while (archivoDiccionario.good())
-	{
-		nlineas++;
-
-		///Lectura de linea del archivo
-		cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
-		
-		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
-		if (cur.size() == 0 || cur[0].compare("") == 0)
-			continue;
-
-		std::locale loc;
-		std::string str = cur[3];
-		for (std::string::size_type i = 0; i < cur[3].length(); ++i)
-			str[i] = std::toupper(cur[3][i], loc);
-
-		vector<string> od = StringFunctions::Explode(str, '-');
-
-		Servicio ser;
-		if (od.size() == 2)
-			ser = Servicio(cur[0], od[0].substr(0,od[0].length()-1), od[1].substr(1, od[1].length()), cur[7]);
-		else if (od.size() == 1)
-			ser = Servicio(cur[0], od[0].substr(0, od[0].length() - 1), "", cur[7]);
-		else
-			cout << "ERROR : Servicio no bien definido en datos de entrada(routes.txt)!" << endl;
-
-		servicios[ser.nombre] = ser;
-
-		///Insercion en diccionario de servicios-sentidos global
-		dicSS.servicios[string(cur[0] + "I")] = cur[0];
-		dicSS.servicios[string(cur[0] + "R")] = cur[0];
-
-		///identificacion de colores
-		map<string, string>::iterator icolor = parametros->mapeoColores.find(cur[7]);
-
-		if (icolor != parametros->mapeoColores.end())
-		{
-			dicSS.colores[cur[0]] = (*icolor).second;
-
-		}
-	}
-
-// 	///DEBUG
-// 	ofstream fout;
-// 	fout.open("dicSS.out");
-// 	for (map<string, string>::iterator it = dicSS.servicios.begin(); it != dicSS.servicios.end(); it++)
-// 		fout << (*it).first << ";" << (*it).second << endl;
-// 	fout.close();
-
-	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
-
-}
+// void FuenteDatos::leeDiccionarioServicios()
+// {
+// 	int nTimeStart = Cronometro::GetMilliCount();
+// 
+// 	///Archivo de entrada Principal
+// 	ifstream archivoDiccionario;
+// 	archivoDiccionario.open(parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt");
+// 
+// 	///Chequeo de archivo 
+// 	if (!archivoDiccionario.good())
+// 		cout << "Error : No se encuentra el archivo " << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << "!" << endl;
+// 	else
+// 		cout << "Cargando datos de Diccionario (" << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << ")... ";
+// 
+// 	///Vector contenedor de la linea actual del archivo
+// 	vector<string> cur;
+// 
+// 	int nlineas = 0;
+// 
+// 	///Lectura del header
+// 	cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
+// 
+// 
+// 	///Lectura archivo primario
+// 	while (archivoDiccionario.good())
+// 	{
+// 		nlineas++;
+// 
+// 		///Lectura de linea del archivo
+// 		cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
+// 		
+// 		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
+// 		if (cur.size() == 0 || cur[0].compare("") == 0)
+// 			continue;
+// 
+// 		std::locale loc;
+// 		std::string str = cur[3];
+// 		for (std::string::size_type i = 0; i < cur[3].length(); ++i)
+// 			str[i] = std::toupper(cur[3][i], loc);
+// 
+// 		vector<string> od = StringFunctions::Explode(str, '-');
+// 
+// 		Servicio ser;
+// 		if (od.size() == 2)
+// 			ser = Servicio(cur[0], od[0].substr(0,od[0].length()-1), od[1].substr(1, od[1].length()), cur[7]);
+// 		else if (od.size() == 1)
+// 			ser = Servicio(cur[0], od[0].substr(0, od[0].length() - 1), "", cur[7]);
+// 		else
+// 			cout << "ERROR : Servicio no bien definido en datos de entrada(routes.txt)!" << endl;
+// 
+// 		servicios[ser.nombre] = ser;
+// 
+// 		///Insercion en diccionario de servicios-sentidos global
+// 		dicSS.servicios[string(cur[0] + "I")] = cur[0];
+// 		dicSS.servicios[string(cur[0] + "R")] = cur[0];
+// 
+// 		///identificacion de colores
+// 		map<string, string>::iterator icolor = parametros->mapeoColores.find(cur[7]);
+// 
+// 		if (icolor != parametros->mapeoColores.end())
+// 		{
+// 			dicSS.colores[cur[0]] = (*icolor).second;
+// 
+// 		}
+// 	}
+// 
+// // 	///DEBUG
+// // 	ofstream fout;
+// // 	fout.open("dicSS.out");
+// // 	for (map<string, string>::iterator it = dicSS.servicios.begin(); it != dicSS.servicios.end(); it++)
+// // 		fout << (*it).first << ";" << (*it).second << endl;
+// // 	fout.close();
+// 
+// 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
+// 
+// }
 
 void FuenteDatos::leeRutas()
 {
@@ -175,12 +175,26 @@ void FuenteDatos::leeRutas()
 
         string code = cur.at(1);
         
-		///Generacion del codigo servicio-sentido concatenando las 3 columnas servicio-sentido-variante
+        dicSS.servicios_2_usuario[cur.at(1)] = cur.at(2);
 
-		dicSS.servicios_rutas[code] = code;
 
-		///Transformacion de coordenadas
-		//ConvertCoordinate::LLtoUTM(23, atof(cur[1].c_str()), atof(cur[2].c_str()), y, x, UTMZone);
+        map<string, Servicio>::iterator iit = serviciosBase.find(cur[5]);
+        if(iit == serviciosBase.end())
+        {
+            Servicio servicio;
+            servicio.nombre = cur[5];
+            servicio.variantes[cur[5]] = cur[1];
+            servicio.direccion = string("-");
+            
+            serviciosBase[cur[5]] = servicio;
+        }
+        else
+        {
+            (*iit).second.variantes[cur[1]] = cur[8];
+        }
+        
+        
+		dicSS.colores[cur[1]] = cur[9];
 
         int x = atoi(cur.at(6).c_str());
         int y = atoi(cur.at(7).c_str());
@@ -224,6 +238,51 @@ void FuenteDatos::leeRutas()
 	rutas.CalculaTramificado(parametros->distanciaTramado);
 	rutas.SimplificaRutas();
 
+    ///Detecto direccion de servicios_base
+    for(map<string, Servicio>::iterator iit = serviciosBase.begin();iit != serviciosBase.end();iit++)
+    {
+        for(map<string,string>::iterator iiit = (*iit).second.variantes.begin();iiit != (*iit).second.variantes.end();iiit++)
+        {
+            if( (*iit).first.compare((*iiit).first) == 0)
+            {
+                (*iit).second.direccion = (*iiit).second;
+                
+                std::locale loc;
+                std::string str = (*iit).second.direccion;
+                for (std::string::size_type i = 0; i < (*iit).second.direccion.length(); ++i)
+                    str[i] = std::toupper((*iit).second.direccion[i], loc);
+
+                vector<string> od = StringFunctions::Explode(str, '-');
+                
+                if ((int)od.size()==2)
+                {
+                    (*iit).second.destino = od[1].substr(1, od[1].length());
+                    (*iit).second.origen = od[0].substr(0,od[0].length()-1);
+                }
+                else
+                {
+                    (*iit).second.destino = str;
+                    (*iit).second.origen = str;
+                }
+            }
+        }
+    }
+    
+    ///DEBUG
+    ofstream debug;
+    debug.open("servicios_base.txt");
+    for(map<string, Servicio>::iterator iit = serviciosBase.begin();iit != serviciosBase.end();iit++)
+    {
+        debug << (*iit).first << " || " << (*iit).second.direccion << " || " << (*iit).second.destino << endl;
+        debug << "-----------------------------------------------" << endl;
+        for(map<string,string>::iterator iiit = (*iit).second.variantes.begin();iiit != (*iit).second.variantes.end();iiit++)
+        {
+            debug << "  " << (*iiit).first << " | " << (*iiit).second << endl;
+        }
+        debug << endl;
+    }
+    debug.close();
+        
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
 
 }
@@ -371,6 +430,252 @@ void FuenteDatos::leeRedDeParadas()
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
 }
 
+void FuenteDatos::leeSecuenciaDeParadasDTPM()
+{
+	int nTimeStart = Cronometro::GetMilliCount();
+
+	map<string, SecParadas>::iterator isec;
+
+	///Archivo de entrada Principal
+	ifstream archivoParaderos;
+	archivoParaderos.open(parametros->nombreArchivoConsolidadoDeParadas.c_str());
+
+	///Chequeo de archivo
+	if (!archivoParaderos.good())
+		cout << "No se encuentra el archivo " << parametros->nombreArchivoConsolidadoDeParadas << "!" << endl;
+	else
+		cout << "Cargando datos de Secuencia de Paraderos (" << parametros->nombreArchivoConsolidadoDeParadas << ")... " << endl;
+
+
+	///Vector contenedor de la linea actual del archivo
+	vector<string> cur;
+
+	int nlineas = 0;
+
+	///Lectura del header
+	cur = StringFunctions::ExplodeF(';', &archivoParaderos);
+	 
+	int iParCodigo = 6;
+	int iParCodigoVariante = 4;
+	int iParCodigoServicio = 2;
+	int iParCodigoSentido = 3;
+	int iParX = 12;
+	int iParY = 13;
+	int iParNombre = 11;
+	int iParCodigoUsuario = 7;
+	int iParComuna = 8;
+	int iParSecuencia = 0;
+
+	///Lectura archivo primario
+	while (archivoParaderos.good())
+	{
+		nlineas++;
+
+		///Lectura de linea del archivo
+		cur = StringFunctions::ExplodeF(';', &archivoParaderos);
+
+		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
+		if (cur.size() == 0 || cur[0].compare("") == 0)
+			continue;
+
+		if (cur[iParCodigo].compare("POR DEFINIR") == 0 || cur[iParCodigo].compare("POR DEFINIR ") == 0)
+			continue;
+
+
+                
+		map < string, Paradero >::iterator ired;
+		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
+		if (ired == redParaderos.red.end())
+		{
+			cout << "PARADERO NO ENCONTRADO EN GTFS : " << cur[iParCodigoUsuario] << endl;
+		}
+
+        string sentido;
+        if(cur[iParCodigoSentido].compare("Ida")==0 || cur[iParCodigoSentido].compare("I")==0 || cur[iParCodigoSentido].compare("ida")==0)
+            sentido = "I";
+        else
+            sentido = "R";
+            
+		///Generacion del codigo servicio-sentido concatenando las 3 columnas servicio-sentido-variante
+		string codigoServicioSentido;
+        string codigoServicio = string(cur[iParCodigoServicio] + sentido);
+
+		if (cur[iParCodigoVariante].compare("-") == 0 || cur[iParCodigoVariante].compare("") == 0)
+			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido);
+		else
+			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido + cur[iParCodigoVariante]);
+
+		isec = secuenciaDTPM.find(codigoServicioSentido);
+
+        ////COLOR
+		string color;
+		map<string, string>::iterator iiit = dicSS.colores.find(codigoServicioSentido);
+		if (iiit != dicSS.colores.end())
+			color = (*iiit).second;
+		else
+		{
+			cout << "ERROR : No se encontro el servicio " << codigoServicioSentido << " en la tabla de colores." << endl;
+			color = "0";
+		}
+
+		if (isec == secuenciaDTPM.end())
+		{
+			SecParadas sec;
+
+			sec.servicio = cur[iParCodigoServicio];
+            
+			if(cur[iParCodigoSentido].compare("Ida")==0)
+				sec.sentido = "I";
+			else
+				sec.sentido = "R";
+
+			sec.color = color;
+			sec.secuencia += cur[iParCodigoUsuario];
+            sec.secuenciav.push_back(cur[iParCodigoUsuario]);
+
+            
+			map< string, Servicio >::iterator iserv = serviciosBase.find(codigoServicioSentido);
+			if (iserv != serviciosBase.end())
+			{
+				sec.nombre = toCamelCase((*iserv).second.destino);
+			}
+			///Caso que no encuentra el base, busca en las variantes
+			else
+            {
+                map< string, Servicio >::iterator iserv2 = serviciosBase.find(codigoServicio);
+                if(iserv2 != serviciosBase.end() )
+                {
+                    map<string,string>::iterator iiiit = (*iserv2).second.variantes.find(codigoServicioSentido);
+                    if(iiiit != (*iserv2).second.variantes.end())
+                    {
+                        sec.nombre = toCamelCase((*iserv2).second.destino);
+                    }
+                    ///Caso que no encuentre la variante (Parche, error de dato, se busca en una posible base)
+                    else
+                    {
+                        codigoServicio.erase(std::remove(codigoServicio.begin(), codigoServicio.end(), 'e'), codigoServicio.end());
+                        codigoServicio.erase(std::remove(codigoServicio.begin(), codigoServicio.end(), 'v'), codigoServicio.end());
+                        codigoServicio.erase(std::remove(codigoServicio.begin(), codigoServicio.end(), 'c'), codigoServicio.end());
+
+                        map< string, Servicio >::iterator iserv3 = serviciosBase.find(codigoServicio);
+                        if(iserv3 != serviciosBase.end() )
+                        {
+                            sec.nombre = toCamelCase((*iserv3).second.destino);
+                        }
+                        
+                    }
+                }
+                
+            }
+            
+			if (cur[iParCodigoVariante].compare("-") != 0 && cur[iParCodigoVariante].compare("") != 0)
+				sec.nombre += " (" + cur[iParCodigoVariante] + ")";
+
+			secuenciaDTPM[codigoServicioSentido] = sec;
+
+		}
+		else
+		{
+			(*isec).second.secuencia += "-" + cur[iParCodigoUsuario];
+            (*isec).second.secuenciav.push_back(cur[iParCodigoUsuario]);
+		}
+
+		///Construccion de secuencia
+		///Busco paradero en red de paradas
+		Paradero par;
+		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
+		if (ired != redParaderos.red.end())
+		{
+			par = (*ired).second;
+		}
+		else
+		{
+			cout << "ERROR : paradero " << cur[iParCodigoUsuario] << " de stops_times.txt no se encuentra en stops.txt!" << endl;
+			continue;
+		}
+
+		map< string, map<int,Paradero> >::iterator iserv;
+		iserv = secParaderosTODOS.secuencias.find(codigoServicioSentido);
+		if (iserv == secParaderosTODOS.secuencias.end())
+		{
+			map<int, Paradero> tmp;
+			tmp[nlineas] = par;
+			secParaderosTODOS.secuencias[codigoServicioSentido] = tmp;
+		}
+		else
+		{
+			(*iserv).second[nlineas] = par;
+		}
+	}
+
+	///TEST
+	/*
+	for (map<string, Secuencia >::iterator isec = secuencias.begin(); isec != secuencias.end(); isec++)
+	{
+		cout << (*isec).first << "|";
+		cout << (*isec).second.codigo << "|";
+		cout << (*isec).second.nombre << endl;
+	}
+	*/
+
+
+	///DEBUG
+	ofstream fout;
+	fout.open("Android_busstops_sequences_dtpm" + parametros->version + ".csv");
+	fout << "servicio;sentido;color_id;direccion;paradas" << endl;
+	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
+	{
+		fout << (*isec).second.servicio << ";";
+		fout << (*isec).second.sentido << ";";
+		fout << (*isec).second.color << ";";
+		//fout << toCamelCase((*isec).second.nombre) << ";";
+		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
+		fout << (*isec).second.secuencia << endl;
+		
+	}
+	fout.close();
+    
+	ofstream fout1;
+	fout1.open("test" + parametros->version + ".csv");
+	fout1 << "servicio;sentido;color_id;direccion" << endl;
+	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
+	{
+		fout1 << (*isec).second.servicio << ";";
+		fout1 << (*isec).second.sentido << ";";
+		fout1 << (*isec).second.color << ";";
+		fout1 << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << endl;
+		
+	}
+	fout1.close();
+
+	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << endl;
+}
+
+string FuenteDatos::toCamelCase(string in)
+{
+	string out;
+	std::locale loc;
+
+	for (int i = 0; i < in.size(); i++)
+	{
+		if (i == 0)
+		{
+			out.push_back(std::toupper(in.at(i), loc));
+		}
+		else
+		{
+			int ant = i - 1;
+			if (in.at(ant) == ' ' || in.at(ant) == '(')
+				out.push_back(std::toupper(in.at(i), loc));
+			else
+				out.push_back(std::tolower(in.at(i), loc));
+
+		}
+	}
+
+	return out;
+}
+
 void FuenteDatos::CorrigeParadasMismaPosicion()
 {
 	int nTimeStart = Cronometro::GetMilliCount();
@@ -426,357 +731,147 @@ void FuenteDatos::CorrigeParadasMismaPosicion()
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
 }
 
-void FuenteDatos::leeSecuenciaDeParadasDTPM()
-{
-	int nTimeStart = Cronometro::GetMilliCount();
-
-	struct SecParadas {
-		string servicio;
-		string sentido;
-		string nombre;
-		string color;
-		string secuencia;
-	};
-
-	map<string, SecParadas> secuenciaDTPM;
-	map<string, SecParadas>::iterator isec;
-
-	///Archivo de entrada Principal
-	ifstream archivoParaderos;
-	archivoParaderos.open(parametros->nombreArchivoConsolidadoDeParadas.c_str());
-
-	///Chequeo de archivo
-	if (!archivoParaderos.good())
-		cout << "No se encuentra el archivo " << parametros->nombreArchivoConsolidadoDeParadas << "!" << endl;
-	else
-		cout << "Cargando datos de Secuencia de Paraderos (" << parametros->nombreArchivoConsolidadoDeParadas << ")... " << endl;
-
-
-	///Vector contenedor de la linea actual del archivo
-	vector<string> cur;
-
-	int nlineas = 0;
-
-	///Lectura del header
-	cur = StringFunctions::ExplodeF(';', &archivoParaderos);
-	 
-	int iParCodigo = 6;
-	int iParCodigoVariante = 4;
-	int iParCodigoServicio = 2;
-	int iParCodigoSentido = 3;
-	int iParX = 12;
-	int iParY = 13;
-	int iParNombre = 11;
-	int iParCodigoUsuario = 7;
-	int iParComuna = 8;
-	int iParSecuencia = 0;
-
-	///Lectura archivo primario
-	while (archivoParaderos.good())
-	{
-		nlineas++;
-
-		///Lectura de linea del archivo
-		cur = StringFunctions::ExplodeF(';', &archivoParaderos);
-
-		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
-		if (cur.size() == 0 || cur[0].compare("") == 0)
-			continue;
-
-		if (cur[iParCodigo].compare("POR DEFINIR") == 0 || cur[iParCodigo].compare("POR DEFINIR ") == 0)
-			continue;
-
-		map < string, Paradero >::iterator ired;
-		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
-		if (ired == redParaderos.red.end())
-		{
-			cout << "PARADERO NO ENCONTRADO EN GTFS : " << cur[iParCodigoUsuario] << endl;
-		}
-
-        string sentido;
-        if(cur[iParCodigoSentido].compare("Ida")==0)
-            sentido = "I";
-        else
-            sentido = "R";
-            
-		///Generacion del codigo servicio-sentido concatenando las 3 columnas servicio-sentido-variante
-		string codigoServicioSentido;
-
-		if (cur[iParCodigoVariante].compare("-") == 0 || cur[iParCodigoVariante].compare("") == 0)
-			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido);
-		else
-			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido + cur[iParCodigoVariante]);
-
-		isec = secuenciaDTPM.find(codigoServicioSentido);
-
-
-		string color;
-		map<string, string>::iterator iiit = dicSS.colores.find(cur[iParCodigoServicio]);
-		if (iiit != dicSS.colores.end())
-			color = (*iiit).second;
-		else
-		{
-			//cout << "ERROR : No se encontro el servicio " << (*iserv).first << " en la tabla de colores." << endl;
-			color = "0";
-		}
-
-		if (isec == secuenciaDTPM.end())
-		{
-			SecParadas sec;
-
-			sec.servicio = cur[iParCodigoServicio];
-			
-			if(cur[iParCodigoSentido].compare("Ida")==0)
-				sec.sentido = "I";
-			else
-				sec.sentido = "R";
-
-			sec.color = color;
-			sec.secuencia += cur[iParCodigoUsuario];
-
-			map< string, Servicio >::iterator iserv = servicios.find(sec.servicio);
-			if (iserv != servicios.end())
-			{
-				if (sec.sentido.compare("I") == 0)
-					sec.nombre = toCamelCase((*iserv).second.destino);
-				else
-					sec.nombre = toCamelCase((*iserv).second.origen);
-			}
-
-			if (cur[iParCodigoVariante].compare("-") != 0 && cur[iParCodigoVariante].compare("") != 0)
-				sec.nombre += " (" + cur[iParCodigoVariante] + ")";
-
-			secuenciaDTPM[codigoServicioSentido] = sec;
-
-		}
-		else
-		{
-			(*isec).second.secuencia += "-" + cur[iParCodigoUsuario];
-		}
-		
-		///Construccion de secuencia
-		///Busco paradero en red de paradas
-		Paradero par;
-		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
-		if (ired != redParaderos.red.end())
-		{
-			par = (*ired).second;
-		}
-		else
-		{
-			cout << "ERROR : paradero " << cur[iParCodigoUsuario] << " de stops_times.txt no se encuentra en stops.txt!" << endl;
-			continue;
-		}
-		
-		map< string, map<int,Paradero> >::iterator iserv;
-		iserv = secParaderosTODOS.secuencias.find(codigoServicioSentido);
-		if (iserv == secParaderosTODOS.secuencias.end())
-		{
-			map<int, Paradero> tmp;
-			tmp[nlineas] = par;
-			secParaderosTODOS.secuencias[codigoServicioSentido] = tmp;
-		}
-		else
-		{
-			(*iserv).second[nlineas] = par;
-		}
-	}
-
-	///TEST
-	/*
-	for (map<string, Secuencia >::iterator isec = secuencias.begin(); isec != secuencias.end(); isec++)
-	{
-		cout << (*isec).first << "|";
-		cout << (*isec).second.codigo << "|";
-		cout << (*isec).second.nombre << endl;
-	}
-	*/
-
-	///DEBUG
-	ofstream fout;
-	fout.open("Android_busstops_sequences_dtpm" + parametros->version + ".csv");
-	fout << "servicio;sentido;color_id;direccion;paradas" << endl;
-	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
-	{
-		fout << (*isec).second.servicio << ";";
-		fout << (*isec).second.sentido << ";";
-		fout << (*isec).second.color << ";";
-		//fout << toCamelCase((*isec).second.nombre) << ";";
-		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
-		fout << (*isec).second.secuencia << endl;
-		
-	}
-	fout.close();
-
-	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << endl;
-}
-
-string FuenteDatos::toCamelCase(string in)
-{
-	string out;
-	std::locale loc;
-
-	for (int i = 0; i < in.size(); i++)
-	{
-		if (i == 0)
-		{
-			out.push_back(std::toupper(in.at(i), loc));
-		}
-		else
-		{
-			int ant = i - 1;
-			if (in.at(ant) == ' ' || in.at(ant) == '(')
-				out.push_back(std::toupper(in.at(i), loc));
-			else
-				out.push_back(std::tolower(in.at(i), loc));
-
-		}
-	}
-
-	return out;
-}
-
-void FuenteDatos::leeSecuenciaDeParadas()
-{
-	int nTimeStart = Cronometro::GetMilliCount();
-
-    int iParCodigo = 6;
-	int iParCodigoVariante = 4;
-	int iParCodigoServicio = 2;
-	int iParCodigoSentido = 3;
-	int iParX = 12;
-	int iParY = 13;
-	int iParNombre = 11;
-	int iParCodigoUsuario = 7;
-	int iParComuna = 8;
-	int iParSecuencia = 0;
-
-    
-	///Archivo de entrada Principal
-	ifstream archivoParaderos;
-	archivoParaderos.open(parametros->nombreArchivoConsolidadoDeParadas.c_str());
-
-	///Chequeo de archivo 
-	if (!archivoParaderos.good())
-		cout << "Error : No se encuentra el archivo " << parametros->nombreArchivoConsolidadoDeParadas << "!" << endl;
-	else
-		cout << "Cargando datos de Secuencia de Paraderos (" << parametros->nombreArchivoConsolidadoDeParadas << ")... ";
-
-	///Vector contenedor de la linea actual del archivo
-	vector<string> cur;
-
-	int nlineas = 0;
-
-	///Lectura del header
-	cur = StringFunctions::ExplodeF(';', &archivoParaderos);
-
-	map< string, map<int,Paradero> >::iterator iserv;
-	map < string, Paradero >::iterator ired;
-
-	bool activo = false;
-	string servicio_ant = string("-");
-
-	map<string, Ruta>::iterator iRuta;
-
-	///Lectura archivo primario
-	while (archivoParaderos.good())
-	{
-		nlineas++;
-
-		///Lectura de linea del archivo
-		cur = StringFunctions::ExplodeF(';', &archivoParaderos);
-
-		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
-		if (cur.size() == 0 || cur[0].compare("") == 0)
-			continue;
-
-        if (cur[iParCodigo].compare("POR DEFINIR") == 0 || cur[iParCodigo].compare("POR DEFINIR ") == 0)
-			continue;
-        
-        ///Generacion del codigo servicio-sentido concatenando las 3 columnas servicio-sentido-variante
-		string codigoServicioSentido;
-        
-        string sentido;
-        if(cur[iParCodigoSentido].compare("Ida")==0)
-            sentido = "I";
-        else
-            sentido = "R";
-
-		if (cur[iParCodigoVariante].compare("-") == 0 || cur[iParCodigoVariante].compare("") == 0)
-			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido);
-		else
-			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido + cur[iParCodigoVariante]);
-        
-		string servicio = codigoServicioSentido;
-
-		//if (servicio.compare("D03I") == 0 && cur[3].compare("PD219")==0)
-		//	cout << "PAR1 : " << cur[3] << endl;
-
-		if (servicio.compare(servicio_ant) != 0)
-			activo = true;
-
-		if (servicio.compare(servicio_ant) == 0 && cur[4].compare("1") == 0)
-			activo = false;
-
-		//if (servicio.compare("I08I") == 0)
-		//	cout << "PAR2 : " << cur[3] << endl;
-
-		///Busco paradero en red de paradas
-		Paradero par;
-		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
-		if (ired != redParaderos.red.end())
-		{
-			par = (*ired).second;
-		}
-		else
-		{
-			cout << "ERROR : paradero " << cur[iParCodigoUsuario] << " de secuencia no se encuentra en " << parametros->nombreArchivoConsolidadoDeParadas << endl;
-			continue;
-		}
-
-		iRuta = rutas.mapeo->find(servicio);
-		Vector3D p = Vector3D((*ired).second.x, (*ired).second.y, 0.0);
-		float distance = -1;
-		if (iRuta != rutas.mapeo->end())
-		{
-			distance = (*iRuta).second.GetDistanceOnRoute(&p);
-			//cout << distance << endl;
-		}
-
-		if (activo)
-		{
-			///Construccion de secuencia
-			iserv = secParaderos.secuencias.find(servicio);
-			if (iserv == secParaderos.secuencias.end())
-			{
-				map<int, Paradero> tmp;
-				tmp[int(distance)] = par;
-				secParaderos.secuencias[servicio] = tmp;
-			}
-			else
-			{
-				(*iserv).second[int(distance)] = par;
-			}
-		}
-
-		servicio_ant = servicio;
-	}
-
-	///DEBUG
-// 	ofstream fout;
-// 	fout.open("secParadas.txt");
-// 	for (iserv = secParaderos.secuencias.begin(); iserv != secParaderos.secuencias.end(); iserv++)
+// void FuenteDatos::leeSecuenciaDeParadas()
+// {
+// 	int nTimeStart = Cronometro::GetMilliCount();
+// 
+//     int iParCodigo = 6;
+// 	int iParCodigoVariante = 4;
+// 	int iParCodigoServicio = 2;
+// 	int iParCodigoSentido = 3;
+// 	int iParX = 12;
+// 	int iParY = 13;
+// 	int iParNombre = 11;
+// 	int iParCodigoUsuario = 7;
+// 	int iParComuna = 8;
+// 	int iParSecuencia = 0;
+// 
+//     
+// 	///Archivo de entrada Principal
+// 	ifstream archivoParaderos;
+// 	archivoParaderos.open(parametros->nombreArchivoConsolidadoDeParadas.c_str());
+// 
+// 	///Chequeo de archivo 
+// 	if (!archivoParaderos.good())
+// 		cout << "Error : No se encuentra el archivo " << parametros->nombreArchivoConsolidadoDeParadas << "!" << endl;
+// 	else
+// 		cout << "Cargando datos de Secuencia de Paraderos (" << parametros->nombreArchivoConsolidadoDeParadas << ")... ";
+// 
+// 	///Vector contenedor de la linea actual del archivo
+// 	vector<string> cur;
+// 
+// 	int nlineas = 0;
+// 
+// 	///Lectura del header
+// 	cur = StringFunctions::ExplodeF(';', &archivoParaderos);
+// 
+// 	map< string, map<int,Paradero> >::iterator iserv;
+// 	map < string, Paradero >::iterator ired;
+// 
+// 	bool activo = false;
+// 	string servicio_ant = string("-");
+// 
+// 	map<string, Ruta>::iterator iRuta;
+// 
+// 	///Lectura archivo primario
+// 	while (archivoParaderos.good())
 // 	{
-// 		for (map<int, Paradero>::iterator ipar = (*iserv).second.begin(); ipar != (*iserv).second.end(); ipar++)
+// 		nlineas++;
+// 
+// 		///Lectura de linea del archivo
+// 		cur = StringFunctions::ExplodeF(';', &archivoParaderos);
+// 
+// 		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
+// 		if (cur.size() == 0 || cur[0].compare("") == 0)
+// 			continue;
+// 
+//         if (cur[iParCodigo].compare("POR DEFINIR") == 0 || cur[iParCodigo].compare("POR DEFINIR ") == 0)
+// 			continue;
+//         
+//         ///Generacion del codigo servicio-sentido concatenando las 3 columnas servicio-sentido-variante
+// 		string codigoServicioSentido;
+//         
+//         string sentido;
+//         if(cur[iParCodigoSentido].compare("Ida")==0)
+//             sentido = "I";
+//         else
+//             sentido = "R";
+// 
+// 		if (cur[iParCodigoVariante].compare("-") == 0 || cur[iParCodigoVariante].compare("") == 0)
+// 			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido);
+// 		else
+// 			codigoServicioSentido = string(cur[iParCodigoServicio] + sentido + cur[iParCodigoVariante]);
+//         
+// 		string servicio = codigoServicioSentido;
+// 
+// 		//if (servicio.compare("D03I") == 0 && cur[3].compare("PD219")==0)
+// 		//	cout << "PAR1 : " << cur[3] << endl;
+// 
+// 		if (servicio.compare(servicio_ant) != 0)
+// 			activo = true;
+// 
+// 		if (servicio.compare(servicio_ant) == 0 && cur[4].compare("1") == 0)
+// 			activo = false;
+// 
+// 		//if (servicio.compare("I08I") == 0)
+// 		//	cout << "PAR2 : " << cur[3] << endl;
+// 
+// 		///Busco paradero en red de paradas
+// 		Paradero par;
+// 		ired = redParaderos.red.find(cur[iParCodigoUsuario]);
+// 		if (ired != redParaderos.red.end())
 // 		{
-// 			fout << (*iserv).first << ";";
-// 			fout << (*ipar).first << ";";
-// 			fout << (*ipar).second.codigo << ";";
-// 			fout << (*ipar).second.nombre << endl;
+// 			par = (*ired).second;
 // 		}
+// 		else
+// 		{
+// 			cout << "ERROR : paradero " << cur[iParCodigoUsuario] << " de secuencia no se encuentra en " << parametros->nombreArchivoConsolidadoDeParadas << endl;
+// 			continue;
+// 		}
+// 
+// 		iRuta = rutas.mapeo->find(servicio);
+// 		Vector3D p = Vector3D((*ired).second.x, (*ired).second.y, 0.0);
+// 		float distance = -1;
+// 		if (iRuta != rutas.mapeo->end())
+// 		{
+// 			distance = (*iRuta).second.GetDistanceOnRoute(&p);
+// 			//cout << distance << endl;
+// 		}
+// 
+// 		if (activo)
+// 		{
+// 			///Construccion de secuencia
+// 			iserv = secParaderos.secuencias.find(servicio);
+// 			if (iserv == secParaderos.secuencias.end())
+// 			{
+// 				map<int, Paradero> tmp;
+// 				tmp[int(distance)] = par;
+// 				secParaderos.secuencias[servicio] = tmp;
+// 			}
+// 			else
+// 			{
+// 				(*iserv).second[int(distance)] = par;
+// 			}
+// 		}
+// 
+// 		servicio_ant = servicio;
 // 	}
-// 	fout.close();
-
-	///Variables para reporte
-	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
-}
+// 
+// 	///DEBUG
+// // 	ofstream fout;
+// // 	fout.open("secParadas.txt");
+// // 	for (iserv = secParaderos.secuencias.begin(); iserv != secParaderos.secuencias.end(); iserv++)
+// // 	{
+// // 		for (map<int, Paradero>::iterator ipar = (*iserv).second.begin(); ipar != (*iserv).second.end(); ipar++)
+// // 		{
+// // 			fout << (*iserv).first << ";";
+// // 			fout << (*ipar).first << ";";
+// // 			fout << (*ipar).second.codigo << ";";
+// // 			fout << (*ipar).second.nombre << endl;
+// // 		}
+// // 	}
+// // 	fout.close();
+// 
+// 	///Variables para reporte
+// 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
+// }

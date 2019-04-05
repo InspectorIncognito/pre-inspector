@@ -7,6 +7,7 @@ set( preinspector_SRCS
   ${preinspector_SOURCE_DIR}/main.cpp
   ${preinspector_SOURCE_DIR}/IO/Parametros.cpp
   ${preinspector_SOURCE_DIR}/IO/FuenteDatos.cpp
+  ${preinspector_SOURCE_DIR}/IO/Chequeos.cpp
   ${preinspector_SOURCE_DIR}/Transporte/Diccionarios/DiccionarioServicios.cpp
   ${preinspector_SOURCE_DIR}/Transporte/Servicios/Servicio.cpp
   ${preinspector_SOURCE_DIR}/Transporte/Rutas/Rutas.cpp

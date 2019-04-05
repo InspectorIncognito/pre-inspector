@@ -52,13 +52,13 @@ public:
 	~Parametros();
 
 	///Nombre del archivo con los datos de transacciones
-	string nombreCarpetaGTFS;
+// 	string nombreCarpetaGTFS;
 
 	///Nombre de archivo con horarios del funcionamiento de servicios
-	string nombreArchivoHorarios;
+// 	string nombreArchivoHorarios;
 
 	///Nombre de archivo con datos de puntos de carga bip
-	string nombreArchivoPuntosCargaBip;
+// 	string nombreArchivoPuntosCargaBip;
 
 	///Nombre de archivo con los datos de secuencias de paradas de dtpm
 	string nombreArchivoConsolidadoDeParadas;

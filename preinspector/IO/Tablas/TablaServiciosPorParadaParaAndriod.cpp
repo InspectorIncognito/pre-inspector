@@ -41,10 +41,12 @@ void TablaServiciosPorParadaParaAndriod::Crear()
 
 		for (map < int, Paradero >::iterator ipar = (*iserv).second.begin(); ipar != (*iserv).second.end(); ipar++)
 		{
-			iDicServ = fdd_->dicSS.servicios.find((*iserv).first);
+			iDicServ = fdd_->dicSS.servicios_2_usuario.find((*iserv).first);
 
-			if (iDicServ == fdd_->dicSS.servicios.end())
+			if (iDicServ == fdd_->dicSS.servicios_2_usuario.end())
 				continue;
+//             else
+//                 cout << "ERROR : Codigo de secuencia no encontrada en diccionario de rutas, codigo de usuario." << (*iserv).first << endl;
 
 			it = output.find((*ipar).second.codigo);
 

@@ -36,10 +36,10 @@ public:
 	~DiccionarioServicios(void);
 
 	///Tabla diccionario para codigo 2.2 y paraderos
-	map<string,string> servicios;
+	map<string,string> servicios_2_usuario;
 
 	///Tabla diccionario para codigo 2.2 y paraderos
-	map<string, string> servicios_rutas;
+	//map<string, string> servicios_rutas;
 
 	///Colores por servicio (servicio - color)
 	map<string, string> colores;

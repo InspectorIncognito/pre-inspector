@@ -129,9 +129,33 @@ CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o.provides: CMakeFiles/preinspect
 CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o.provides.build: CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o
 
 
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o: CMakeFiles/preinspector.dir/flags.make
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o: ../IO/Chequeos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.cpp
+
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preinspector.dir/IO/Chequeos.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.cpp > CMakeFiles/preinspector.dir/IO/Chequeos.cpp.i
+
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preinspector.dir/IO/Chequeos.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.cpp -o CMakeFiles/preinspector.dir/IO/Chequeos.cpp.s
+
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.requires:
+
+.PHONY : CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.requires
+
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.provides: CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.requires
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.provides.build
+.PHONY : CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.provides
+
+CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.provides.build: CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o
+
+
 CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o: ../Transporte/Diccionarios/DiccionarioServicios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Diccionarios/DiccionarioServicios.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o.p
 
 CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o: ../Transporte/Servicios/Servicio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Servicios/Servicio.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o.provides.build: 
 
 CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o: ../Transporte/Rutas/Rutas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Rutas/Rutas.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o: ../Transporte/Rutas/Ruta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Rutas/Ruta.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/preinspector.dir/Transporte/Rutas/Ruta.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o: ../Transporte/Paraderos/Paradero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/Paradero.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/preinspector.dir/Transporte/Paraderos/Paradero.cpp.o.provides.build: 
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o: ../Transporte/Paraderos/RedParadas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/RedParadas.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/preinspector.dir/Transporte/Paraderos/RedParadas.cpp.o.provides.build
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o: ../Transporte/Paraderos/SecuenciaParaderos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/SecuenciaParaderos.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/preinspector.dir/Transporte/Paraderos/SecuenciaParaderos.cpp.o.provid
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o: ../Transporte/Paraderos/ProcesaParadas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/ProcesaParadas.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/preinspector.dir/Transporte/Paraderos/ProcesaParadas.cpp.o.provides.b
 
 CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o: ../Transporte/Grid/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/Cell.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/preinspector.dir/Transporte/Grid/Cell.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o: ../Transporte/Grid/Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/Grid.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/preinspector.dir/Transporte/Grid/Grid.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o: ../Transporte/Grid/GridProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/GridProcess.cpp
 
 CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/preinspector.dir/Transporte/Grid/GridProcess.cpp.o.provides.build: CM
 
 CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o: ../Utilidades/Cronometro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Utilidades/Cronometro.cpp
 
 CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.i: cmake_force
@@ -419,7 +443,7 @@ CMakeFiles/preinspector.dir/Utilidades/Cronometro.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o: ../Utilidades/StringFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Utilidades/StringFunctions.cpp
 
 CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.i: cmake_force
@@ -443,7 +467,7 @@ CMakeFiles/preinspector.dir/Utilidades/StringFunctions.cpp.o.provides.build: CMa
 
 CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o: ../Utilidades/ConvertCoordinate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Utilidades/ConvertCoordinate.cpp
 
 CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.i: cmake_force
@@ -467,7 +491,7 @@ CMakeFiles/preinspector.dir/Utilidades/ConvertCoordinate.cpp.o.provides.build: C
 
 CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o: ../Utilidades/TimeStampHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Utilidades/TimeStampHandler.cpp
 
 CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.i: cmake_force
@@ -491,7 +515,7 @@ CMakeFiles/preinspector.dir/Utilidades/TimeStampHandler.cpp.o.provides.build: CM
 
 CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o: ../Utilidades/Geometry2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/Utilidades/Geometry2.cpp
 
 CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.i: cmake_force
@@ -515,7 +539,7 @@ CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o: ../IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp
 
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.i: cmake_force
@@ -539,7 +563,7 @@ CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o.p
 
 CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o: CMakeFiles/preinspector.dir/flags.make
 CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o: ../IO/Tablas/TablaGrilla.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o -c /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaGrilla.cpp
 
 CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.i: cmake_force
@@ -566,6 +590,7 @@ preinspector_OBJECTS = \
 "CMakeFiles/preinspector.dir/main.cpp.o" \
 "CMakeFiles/preinspector.dir/IO/Parametros.cpp.o" \
 "CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o" \
+"CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o" \
 "CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o" \
 "CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o" \
 "CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o" \
@@ -591,6 +616,7 @@ preinspector_EXTERNAL_OBJECTS =
 preinspector: CMakeFiles/preinspector.dir/main.cpp.o
 preinspector: CMakeFiles/preinspector.dir/IO/Parametros.cpp.o
 preinspector: CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o
+preinspector: CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o
 preinspector: CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o
 preinspector: CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o
 preinspector: CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o
@@ -611,7 +637,7 @@ preinspector: CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaA
 preinspector: CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o
 preinspector: CMakeFiles/preinspector.dir/build.make
 preinspector: CMakeFiles/preinspector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable preinspector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable preinspector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/preinspector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -622,6 +648,7 @@ CMakeFiles/preinspector.dir/build: preinspector
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/main.cpp.o.requires
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/IO/Parametros.cpp.o.requires
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o.requires
+CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o.requires
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/Transporte/Diccionarios/DiccionarioServicios.cpp.o.requires
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/Transporte/Servicios/Servicio.cpp.o.requires
 CMakeFiles/preinspector.dir/requires: CMakeFiles/preinspector.dir/Transporte/Rutas/Rutas.cpp.o.requires

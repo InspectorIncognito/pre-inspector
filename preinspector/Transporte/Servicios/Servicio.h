@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <string>
+#include <map>
 
 using namespace std;
 
@@ -46,7 +47,12 @@ public:
 	string origen;
 	string destino;
 	string color;
+    string direccion;
 
 	string horarioI;
 	string horarioR;
+    
+    string servicioSentidoVariante;
+    
+    map< string , string > variantes;
 };

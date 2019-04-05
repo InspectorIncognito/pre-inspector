@@ -74,39 +74,30 @@ class FuenteDatos{
 	RedParadas redParaderos;
 
 	///Estructura de secuencia de paraderos
-	SecuenciaParaderos secParaderos;
-
-	///Estructura de secuencia de paraderos
 	SecuenciaParaderos secParaderosTODOS;
+    
+    struct SecParadas {
+		string servicio;
+		string sentido;
+		string nombre;
+		string color;
+		string secuencia;
+        vector<string> secuenciav;
+	};
 
-// 	///Estructura de secuencia de paraderos
-// 	SecuenciaParaderos secParaderosDTPM;
+	map<string, SecParadas> secuenciaDTPM;
 
 	///Estructura de servicios
-	map<string, Servicio> servicios;
+// 	map<string, Servicio> servicios;
+    
+    ///Manejo de variantes
+    map<string, Servicio> serviciosBase;
 
-// 	///Estructura con la red de puntos de carga bip
-// 	map<int, PuntoBip> puntosDeCargaBip;
-// 
 	///Grilla para ordenar informacion geograficamente
 	Grid grid;
 
 	///Archivo para parametros variados de salida
 	ofstream outParameters;
-
-// 	///StopsTimes
-// 	struct Secuencia
-// 	{
-// 		map<int, string> paradas;
-// 		string hora_ini = string("-");
-// 		string hora_fin = string("-");
-// 		string nombre = string("-");
-// 		string version = string("-");
-// 		string codigo = string("-");
-// 	};
-
-// 	map<string, Secuencia > secuencias;
-// 	map<string, Secuencia >::iterator isec;
 
 	///Instancia de clase para manejo de tiempo
 	TimeStampHandler tsh;
@@ -116,17 +107,13 @@ class FuenteDatos{
 	void leeRutas();
 
 	void leeRedDeParadas();
-	void CorrigeParadasMismaPosicion();
+	
+    void CorrigeParadasMismaPosicion();
 
 	void leeSecuenciaDeParadas();
-	void leeSecuenciaDeParadasDTPM();
-// 	void readStopTimes();
 
-// 	void leeHorarios();
-// 
-// 	void leePuntosDeCargaBip();
-// 
-// 	bool estaEnSantiago(int x_, int y_);
+    void leeSecuenciaDeParadasDTPM();
+
 
 	string toCamelCase(string in);
 };

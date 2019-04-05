@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.cpp" "/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/preinspector.dir/IO/Chequeos.cpp.o"
   "/home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.cpp" "/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/preinspector.dir/IO/FuenteDatos.cpp.o"
   "/home/mauricio/workspace/preInspector/preinspector/IO/Parametros.cpp" "/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/preinspector.dir/IO/Parametros.cpp.o"
   "/home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaGrilla.cpp" "/home/mauricio/workspace/preInspector/preinspector/build/CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o"

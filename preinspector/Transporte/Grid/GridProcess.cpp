@@ -124,10 +124,14 @@ void GridProcess::IngresaRutasAGrilla()
 	map< string, map<int, int> >::iterator iCelRuta;
 	for (map<string, Ruta>::iterator iruta = fdd_->rutas.mapeo->begin(); iruta != fdd_->rutas.mapeo->end(); iruta++)
 	{
-		iDicServ = fdd_->dicSS.servicios.find((*iruta).first);
+		iDicServ = fdd_->dicSS.servicios_2_usuario.find((*iruta).first);
 
-		if (iDicServ == fdd_->dicSS.servicios.end())
+		if (iDicServ == fdd_->dicSS.servicios_2_usuario.end())
+        {
+            cout << "ERROR : ruta no encontrada en diccionario, critico pq no es rarisimo : " << (*iruta).first << endl;
 			continue;
+        }
+            
 
 		///1.- Deteccion de nodos dentro de celda
 		for (map<int, Vector3D>::iterator inodo = (*iruta).second.nodosSimplificados->begin(); inodo != (*iruta).second.nodosSimplificados->end(); inodo++)
