@@ -4,3 +4,5 @@ cat shapesAbril2019.txt | awk 'BEGIN{FS="\t";i=0}{print i";"$7";"$15";"$14";"$18
 file -bi <file name>
 
 iconv -f iso-8859-1 -t UTF8 < shapesAbril2019.csv > output.txt
+
+Modificar encondig a Consolidado de paradas tb
