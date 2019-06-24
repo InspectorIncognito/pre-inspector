@@ -112,6 +112,10 @@ public:
     
     static string toCamelCase(string in);
     static string EliminaCadenasBlancos(string in);
+    
+    static bool utf8_check_is_valid(const string& string);
+    
+    static string translateCharacters(string word);
 
 };
 

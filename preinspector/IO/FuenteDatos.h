@@ -87,9 +87,6 @@ class FuenteDatos{
 
 	map<string, SecParadas> secuenciaDTPM;
 
-	///Estructura de servicios
-// 	map<string, Servicio> servicios;
-    
     ///Manejo de variantes
     map<string, Servicio> serviciosBase;
 
@@ -102,6 +99,9 @@ class FuenteDatos{
 	///Instancia de clase para manejo de tiempo
 	TimeStampHandler tsh;
 
+    ///debug, tabla con palabras que perdieron caracteres en la traduccion
+    map<string,string> palabrasTraducidas;
+    
 	void leeDiccionarioServicios();
 
 	void leeRutas();
@@ -113,7 +113,6 @@ class FuenteDatos{
 	void leeSecuenciaDeParadas();
 
     void leeSecuenciaDeParadasDTPM();
-
 
 	string toCamelCase(string in);
 };

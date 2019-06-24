@@ -71,6 +71,9 @@ public:
 
 	///Nombre carpeta para guardar los reportes
 	string carpetaReportes;
+    
+    ///Nombre carpeta de salida
+    string outputPath;
 
 	///Distancia para tramar la ruta
 	float distanciaTramado;

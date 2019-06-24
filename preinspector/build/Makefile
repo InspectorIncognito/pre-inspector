@@ -277,6 +277,33 @@ IO/Tablas/TablaGrilla.cpp.s:
 	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.s
 .PHONY : IO/Tablas/TablaGrilla.cpp.s
 
+IO/Tablas/TablaRutas.o: IO/Tablas/TablaRutas.cpp.o
+
+.PHONY : IO/Tablas/TablaRutas.o
+
+# target to build an object file
+IO/Tablas/TablaRutas.cpp.o:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o
+.PHONY : IO/Tablas/TablaRutas.cpp.o
+
+IO/Tablas/TablaRutas.i: IO/Tablas/TablaRutas.cpp.i
+
+.PHONY : IO/Tablas/TablaRutas.i
+
+# target to preprocess a source file
+IO/Tablas/TablaRutas.cpp.i:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.i
+.PHONY : IO/Tablas/TablaRutas.cpp.i
+
+IO/Tablas/TablaRutas.s: IO/Tablas/TablaRutas.cpp.s
+
+.PHONY : IO/Tablas/TablaRutas.s
+
+# target to generate assembly for a file
+IO/Tablas/TablaRutas.cpp.s:
+	$(MAKE) -f CMakeFiles/preinspector.dir/build.make CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.s
+.PHONY : IO/Tablas/TablaRutas.cpp.s
+
 IO/Tablas/TablaServiciosPorParadaParaAndriod.o: IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o
 
 .PHONY : IO/Tablas/TablaServiciosPorParadaParaAndriod.o
@@ -788,6 +815,9 @@ help:
 	@echo "... IO/Tablas/TablaGrilla.o"
 	@echo "... IO/Tablas/TablaGrilla.i"
 	@echo "... IO/Tablas/TablaGrilla.s"
+	@echo "... IO/Tablas/TablaRutas.o"
+	@echo "... IO/Tablas/TablaRutas.i"
+	@echo "... IO/Tablas/TablaRutas.s"
 	@echo "... IO/Tablas/TablaServiciosPorParadaParaAndriod.o"
 	@echo "... IO/Tablas/TablaServiciosPorParadaParaAndriod.i"
 	@echo "... IO/Tablas/TablaServiciosPorParadaParaAndriod.s"

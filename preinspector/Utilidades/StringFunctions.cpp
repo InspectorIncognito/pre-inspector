@@ -22,6 +22,56 @@ StringFunctions::~StringFunctions()
 {
 }
 
+string StringFunctions::translateCharacters(string word)
+{
+     std::locale loc;
+     std::string str = word;
+     for (std::string::size_type i = 0; i < word.length(); ++i)
+         str[i] = std::tolower(word[i], loc);
+
+    std::string output;
+    for (std::string::size_type i=0; i < str.length(); i++)
+    {
+        //cout << str[i] << "|" << (int)str[i] << endl;
+        
+        if( (str[i] >= 'A' && str[i] <= 'Z') 
+        ||  (str[i] >= 'a' && str[i] <= 'z') 
+        ||  (str[i] >= '0' && str[i] <= '9') 
+        ||  str[i] == '(' || str[i] == ')' || str[i] == '-' || str[i] == ' ' || str[i] == '/' || str[i] == '.'
+        )
+        {
+            output.push_back(str[i]);
+        }
+        //else{
+        //    cout << "WTF1 : " << (int)str[i] << endl;
+       // }
+    }
+    
+    return output;
+}
+
+bool StringFunctions::utf8_check_is_valid(const string& string)
+{
+    int c,i,ix,n,j;
+    for (i=0, ix=string.length(); i < ix; i++)
+    {
+        c = (unsigned char) string[i];
+        if (0x00 <= c && c <= 0x7f) n=0; // 0bbbbbbb
+        else if ((c & 0xE0) == 0xC0) n=1; // 110bbbbb
+        else if ( c==0xed && i<(ix-1) && ((unsigned char)string[i+1] & 0xa0)==0xa0) return false; //U+d800 to U+dfff
+        else if ((c & 0xF0) == 0xE0) n=2; // 1110bbbb
+        else if ((c & 0xF8) == 0xF0) n=3; // 11110bbb
+        //else if (($c & 0xFC) == 0xF8) n=4; // 111110bb //byte 5, unnecessary in 4 byte UTF-8
+        //else if (($c & 0xFE) == 0xFC) n=5; // 1111110b //byte 6, unnecessary in 4 byte UTF-8
+        else return false;
+        for (j=0; j<n && i<ix; j++) { // n bytes matching 10bbbbbb follow ?
+            if ((++i == ix) || (( (unsigned char)string[i] & 0xC0) != 0x80))
+                return false;
+        }
+    }
+    return true;
+}
+
 string StringFunctions::EliminaCadenasBlancos(string in)
 {
 	string out;

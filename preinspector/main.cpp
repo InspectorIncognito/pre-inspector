@@ -15,21 +15,11 @@
 #include <iostream>
 #include "Utilidades/Cronometro.h"
 #include "IO/FuenteDatos.h"
-// #include "Transporte/Rutas/ProcesaRutas.h"
 #include "Transporte/Paraderos/ProcesaParadas.h"
 #include "Transporte/Grid/GridProcess.h"
-// #include "IO/Visualizacion/Visualizaciones.h"
-// #include "IO/Tablas/TablaDistanciaEnRutaParadas.h"
-// #include "IO/Tablas/TablaServicios.h"
- //#include "IO/Tablas/TablaServiciosPorParada.h"
-//#include "IO/Tablas/TablaParadas.h"
-// #include "IO/Tablas/TablaRutasTramadas.h"
-// #include "IO/Tablas/TablaPuntoCarga.h"
-// #include "IO/Tablas/TablaRutasSimplificadas.h"
 #include "IO/Tablas/TablaServiciosPorParadaParaAndriod.h"
-// #include "IO/Tablas/TablaServiciosParaAndroid.h"
-//#include "IO/Tablas/TablaServiciosPorParadasPorSecuencia.h"
 #include "IO/Tablas/TablaGrilla.h"
+#include "IO/Tablas/TablaRutas.h"
 #include "IO/Chequeos.h"
 
 using namespace std;
@@ -38,6 +28,8 @@ int main(int argc, const char* argv[])
 {
 	int nTimeStart = Cronometro::GetMilliCount();
 
+    setlocale(LC_CTYPE,"Spanish");
+    
 	///Referencia a estructura que almacena todos los datos externos
 	FuenteDatos *fdd = new FuenteDatos(argv[1]);
 
@@ -55,6 +47,9 @@ int main(int argc, const char* argv[])
 
 	///Tabla de grilla
 	TablaGrilla *tGrilla = new TablaGrilla(fdd);
+
+	///Tabla de rutas
+    TablaRutas *trutas =  new TablaRutas(fdd);    
 
 // 	///Tabla de secuencias, con variantes
 // 	TablaServiciosPorParadasPorSecuencia *tSpPpS = new TablaServiciosPorParadasPorSecuencia(fdd);

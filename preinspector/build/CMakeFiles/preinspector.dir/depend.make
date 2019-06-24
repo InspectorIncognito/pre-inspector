@@ -65,6 +65,26 @@ CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o: ../Utilidades/StringFun
 CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o: ../Utilidades/TimeStampHandler.h
 CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o: ../Utilidades/Types.h
 
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../IO/FuenteDatos.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../IO/Parametros.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../IO/Tablas/TablaRutas.cpp
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../IO/Tablas/TablaRutas.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Diccionarios/DiccionarioServicios.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Grid/Cell.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Grid/Grid.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Paraderos/Paradero.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Paraderos/RedParadas.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Paraderos/SecuenciaParaderos.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Rutas/Ruta.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Rutas/Rutas.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Transporte/Servicios/Servicio.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/ConvertCoordinate.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/Cronometro.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/Geometry2.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/StringFunctions.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/TimeStampHandler.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o: ../Utilidades/Types.h
+
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o: ../IO/FuenteDatos.h
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o: ../IO/Parametros.h
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o: ../IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp
@@ -187,6 +207,7 @@ CMakeFiles/preinspector.dir/main.cpp.o: ../IO/Chequeos.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../IO/FuenteDatos.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../IO/Parametros.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../IO/Tablas/TablaGrilla.h
+CMakeFiles/preinspector.dir/main.cpp.o: ../IO/Tablas/TablaRutas.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../IO/Tablas/TablaServiciosPorParadaParaAndriod.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../Transporte/Diccionarios/DiccionarioServicios.h
 CMakeFiles/preinspector.dir/main.cpp.o: ../Transporte/Grid/Cell.h

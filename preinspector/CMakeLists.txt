@@ -26,6 +26,7 @@ set( preinspector_SRCS
   ${preinspector_SOURCE_DIR}/Utilidades/Geometry2.cpp
   ${preinspector_SOURCE_DIR}/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp
   ${preinspector_SOURCE_DIR}/IO/Tablas/TablaGrilla.cpp
+  ${preinspector_SOURCE_DIR}/IO/Tablas/TablaRutas.cpp
 
 )
 

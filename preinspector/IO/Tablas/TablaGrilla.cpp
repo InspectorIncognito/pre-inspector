@@ -90,7 +90,7 @@ void TablaGrilla::Crear()
 
 	///Impresion de la tabla
 	ofstream fileout1;
-	fileout1.open("Android_grid" + fdd_->parametros->version + ".csv");
+	fileout1.open(string(fdd_->parametros->outputPath+"/"+fdd_->parametros->version + "/PhoneGrid.csv").c_str());
 	fileout1 << "iLat;";
 	fileout1 << "iLon;";
 	fileout1 << "stops;";

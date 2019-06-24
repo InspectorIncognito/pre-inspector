@@ -1,0 +1,44 @@
+(M) IRARRÁZAVAL  -  ÁLVARO CASANOVA | (m) irarrzaval  -  lvaro casanova
+(M) LA CISTERNA - VILLA ESPAÑA | (m) la cisterna - villa espana
+(M) LAS REJAS - VILLA LOS HEROES | (m) las rejas - villa los heroes
+(M) LO OVALLE - (M) ÑUBLE | (m) lo ovalle - (m) nuble
+(M) MACUL - VILLA ESPAÑA | (m) macul - villa espana
+(M) PARQUE O'HIGGINS - PEÑALOLEN | (m) parque ohiggins - penalolen
+(M) PLAZA EGAÑA - ANTUPIRÉN | (m) plaza egana - antupirn
+(M) PLAZA EGAÑA - LAS PARCELAS | (m) plaza egana - las parcelas
+(M) SANTA ISABEL - ÁLVARO CASANOVA | (m) santa isabel - lvaro casanova
+(M) ÑUBLE - (M) LO OVALLE | (m) nuble - (m) lo ovalle
+(M) ÑUÑOA - MALL PLAZA TOBALABA | (m) nunoa - mall plaza tobalaba
+ALAMEDA - VILLA LOS HEROES | alameda - villa los heroes
+ANTUPIRÉN- (M) PLAZA EGAÑA | antupirn- (m) plaza egana
+CERRO NAVIA - PEÑALOLEN | cerro navia - penalolen
+GABRIELA - ÑUÑOA | gabriela - nunoa
+HOSPITAL BORJA ARRIARAN - VILLA LOS H | hospital borja arriaran - villa los h
+LAS PARCELAS - (M) PLAZA EGAÑA | las parcelas - (m) plaza egana
+MAIPU - PEÑALOLEN | maipu - penalolen
+MALL PLAZA TOBALABA - (M) ÑUÑOA | mall plaza tobalaba - (m) nunoa
+NUEVA SAN MARTIN - PEÑALOLEN | nueva san martin - penalolen
+PEÑALOLEN  - MAIPU | penalolen  - maipu
+PEÑALOLEN - (M) PARQUE O'HIGGINS | penalolen - (m) parque ohiggins
+PEÑALOLEN - CERRO NAVIA | penalolen - cerro navia
+PEÑALOLEN - MAIPU | penalolen - maipu
+PEÑALOLEN - NUEVA SAN MARTIN | penalolen - nueva san martin
+PEÑALOLEN - VILLA EL ABRAZO | penalolen - villa el abrazo
+PIE ANDINO - VILLA LAS MAMIÑAS | pie andino - villa las maminas
+USACH - VILLA LOS HEROES | usach - villa los heroes
+VARIANTE PUNTA MAÑANA | variante punta manana
+VARIANTE PUNTA MAÑANA - PRENOCTURNO | variante punta manana - prenocturno
+VARIANTE PUNTA MAÑANA PUNTA TARDE | variante punta manana punta tarde
+VARIANTE PUNTA MAÑANA TRANSICION PUNTA M | variante punta manana transicion punta m
+VILLA CHILO - (M) PLAZA PUENTE ALTO | villa chilo - (m) plaza puente alto
+VILLA EL ABRAZO - PEÑALOLEN | villa el abrazo - penalolen
+VILLA ESPAÑA - (M) LA CISTERNA | villa espana - (m) la cisterna
+VILLA ESPAÑA - (M) MACUL | villa espana - (m) macul
+VILLA LAS MAMIÑAS - PIE ANDINO | villa las maminas - pie andino
+VILLA LOS HEROES - (M) LAS REJAS | villa los heroes - (m) las rejas
+VILLA LOS HEROES - HOSPITAL BORJA ARR | villa los heroes - hospital borja arr
+VILLA LOS HEROES - ALAMEDA | villa los heroes - alameda
+VILLA LOS HEROES - USACH | villa los heroes - usach
+ÁLVARO CASANOVA - (M) IRARRÁZAVAL | lvaro casanova - (m) irarrzaval
+ÁLVARO CASANOVA - (M) SANTA ISABEL | lvaro casanova - (m) santa isabel
+ÑUÑOA - GABRIELA | nunoa - gabriela

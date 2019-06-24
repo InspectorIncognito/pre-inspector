@@ -118,6 +118,24 @@ limits
 ../FuenteDatos.h
 /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
 
+/home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.cpp
+TablaRutas.h
+/home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.h
+
+/home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.h
+map
+-
+cstdlib
+-
+string
+-
+iostream
+-
+limits
+-
+../FuenteDatos.h
+/home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
+
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp
 TablaServiciosPorParadaParaAndriod.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.h
@@ -405,6 +423,8 @@ IO/Tablas/TablaServiciosPorParadaParaAndriod.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.h
 IO/Tablas/TablaGrilla.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaGrilla.h
+IO/Tablas/TablaRutas.h
+/home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.h
 IO/Chequeos.h
 /home/mauricio/workspace/preInspector/preinspector/IO/Chequeos.h
 

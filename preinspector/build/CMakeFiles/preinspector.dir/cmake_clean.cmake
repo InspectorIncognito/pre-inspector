@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/preinspector.dir/Utilidades/Geometry2.cpp.o"
   "CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o"
   "CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o"
+  "CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o"
   "preinspector.pdb"
   "preinspector"
 )

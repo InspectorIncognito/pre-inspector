@@ -44,7 +44,10 @@ void TablaServiciosPorParadaParaAndriod::Crear()
 			iDicServ = fdd_->dicSS.servicios_2_usuario.find((*iserv).first);
 
 			if (iDicServ == fdd_->dicSS.servicios_2_usuario.end())
+            {
+                //cout << "ERROR : Codigo de secuencia no encontrada en diccionario de rutas, codigo de usuario." << (*iserv).first << endl;
 				continue;
+            }
 //             else
 //                 cout << "ERROR : Codigo de secuencia no encontrada en diccionario de rutas, codigo de usuario." << (*iserv).first << endl;
 
@@ -66,7 +69,7 @@ void TablaServiciosPorParadaParaAndriod::Crear()
 
 	///Impresion de la tabla
 	ofstream fileout;
-	fileout.open("Android_busstops" + fdd_->parametros->version + ".csv");
+	fileout.open(string(fdd_->parametros->outputPath+"/"+fdd_->parametros->version + "/PhoneBusBtops.csv").c_str());
 	fileout << "code;";
 	fileout << "name;";
 	fileout << "latitude;";
@@ -88,7 +91,7 @@ void TablaServiciosPorParadaParaAndriod::Crear()
 			string strlat = StringFunctions::Double2String(lat, 10);
 			string strlon = StringFunctions::Double2String(lon, 10);
 
-			fileout << (*ired).second.codigo<< ";";
+			fileout << (*ired).second.codigo << ";";
             
             //fileout << StringFunctions::toCamelCase((*ired).second.nombre) << ";";
             fileout << StringFunctions::toCamelCase(StringFunctions::EliminaCadenasBlancos((*ired).second.nombre)) << ";";

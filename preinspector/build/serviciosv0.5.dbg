@@ -1,0 +1,926 @@
+servicio;sentido;color_id;direccion
+101;I;4;Cerrillos
+101;R;4;Recoleta
+101c;I;4;Cerrillos
+101c;R;4;(M) Las Rejas
+102;I;7;Mall Plaza Tobalaba
+102;R;7;(M) Las Rejas
+103;I;4;San Joaquin
+103;R;4;Providencia
+104;I;7;Mall Plaza Tobalaba
+104;I;7;Mall Plaza Tobalaba (PM)
+104;R;7;Providencia
+105;I;6;Lo Espejo
+105;R;6;Renca
+106;I;4;Penalolen
+106;I;4;Penalolen (PM)
+106;R;4;Nueva San Martin
+107;I;4;Av. Departamental
+107;R;4;Ciudad Empresarial
+107c;I;4;Plaza Renca
+107c;R;4;Ciudad Empresarial
+108;I;4;La Florida
+108;R;4;Maipu
+109;I;5;Maipu
+109N;I;5;Maipu
+109N;R;5;(M) Plaza Italia
+109;R;5;Renca
+110;I;5;Maipu
+110;R;5;Renca
+110c;I;5;Pudahuel Sur
+110c;R;5;Renca
+111;I;3;Ciudad Satelite
+111;R;3;(M) Pajaritos
+113;I;3;(M) Los Heroes
+113;R;3;Ciudad Satelite
+113;R;3;Ciudad Satelite (PM)
+113c;I;3;Ciudad Satelite
+113c;R;3;(M) Cerrillos
+113e;I;3;(M) Los Heroes
+113e;R;3;Ciudad Satelite
+114;I;7;Mall Plaza Tobalaba
+114;R;7;(M) Nunoa
+115;I;5;(M) Los Heroes
+115;R;5;Villa El Abrazo
+115;R;5;Villa El Abrazo (PM)
+116;R;6;Santiago Centro
+117;I;4;San Joaquin
+117;I;4;San Joaquin (PRN)
+117;R;4;(M) Vespucio Norte
+117;R;4;(M) Vespucio Norte (PRN)
+117c;I;4;Providencia
+118;I;5;La Florida
+118;R;5;Maipu
+119;I;3;Lo Espejo
+119;R;3;Mapocho
+120;I;6;(M) La Cisterna
+120;R;6;Renca
+121;I;3;Lo Espejo
+121;R;3;Mapocho
+125;I;3;Lo Espejo
+125;R;3;(M) U De Chile
+126;I;3;La Higuera
+126;I;3;La Higuera (PM)
+126;R;3;(M) Manuel Montt
+201;I;2;San Bernardo
+201;R;2;Mall Plaza Norte
+201e;I;2;San Bernardo
+201e;R;2;(M) Santa Ana
+202c;I;2;Mapocho
+202c;R;2;Los Libertadores
+203;I;2;La Pintana
+203;R;2;Huechuraba
+203e;I;2;La Pintana
+203e;R;2;Centro
+204;I;2;Gabriela
+204N;I;2;Gabriela
+204N;R;2;Alameda
+204;R;2;Alameda
+204e;I;2;Gabriela
+204e;R;2;Alameda
+205;I;2;Puente Alto
+205;R;2;Santiago
+205e;I;2;Puente Alto
+205e;R;2;Santiago
+206;I;2;La Pintana
+206;R;2;Centro
+206c;I;2;La Pintana
+206c;R;2;(M) Bio Bio
+207e;I;2;Av. Santa Rosa
+207e;R;2;Mapocho
+208;I;2;Centro
+208;R;2;Huechuraba
+208c;I;2;(M) Zapadores
+208c;R;2;Huechuraba
+209;I;2;Bajos De Mena
+209;R;2;Alameda
+209e;I;2;Bajos De Mena
+209e;R;2;Alameda
+210;I;2;Puente Alto
+210;R;2;Estacion Central
+210v;I;2;Av. Mexico
+210v;R;2;Estacion Central
+211;I;2;Nos
+211;R;2;La Florida
+211c;I;2;San Bernardo
+211c;R;2;(M) La Cisterna
+212;I;2;La Pintana
+212;I;2;La Pintana (PM)
+212;R;2;Providencia
+213e;I;7;Puente Alto
+213e;R;7;Plaza Italia
+214;I;2;Los Libertadores
+214;R;2;Santa Olga
+216;I;2;Vitacura
+216;R;2;Pablo De Rokha
+217e;I;2;(M) Santa Ana
+217e;R;2;Maestranza
+219e;I;2;Ciudad Empresarial
+219e;I;0;(TNOC)
+219e;R;2;(M) La Cisterna
+219e;R;2;(M) La Cisterna (PT)
+221e;I;2;Matucana
+221e;R;2;Puente Alto
+223;I;2;Lo Espejo
+223;R;2;Ciudad Empresarial
+224;I;2;Gabriela
+224;I;2;Gabriela (PM)
+224;R;2;Nunoa
+224c;I;2;Gabriela
+224c;R;2;(M) Vicente Valdes
+225;I;2;Bahia Catalina
+225;R;2;Las Condes
+226;I;2;Nonato Coo
+226;R;2;Centro
+227;I;2;Pedro Aguirre Cerda
+227;R;2;Villa Frei
+227;R;2;Villa Frei (PM)
+228;I;2;Angelmo
+228;I;2;Angelmo (PRN)
+228;R;2;(M) La Cisterna
+228;R;2;(M) La Cisterna (PRN)
+229;I;2;La Pintana
+229;R;2;(M) La Moneda
+230;I;2;Av. Santa Rosa
+230;R;2;Los Libertadores
+262N;I;2;Villa Espana
+262N;R;2;(M) Macul
+264N;I;2;Santo Tomas
+264N;R;2;Pedro Fontova
+271;I;2;San Bernardo
+271;R;2;Santiago
+301;I;3;Angelmo
+301;R;3;Juan Antonio Rios
+301c2;I;3;Lo Blanco
+301c2;R;3;(M) La Cisterna
+301c;I;3;Angelmo
+301c;I;3;Angelmo (PM)
+301c;R;3;(M) La Cisterna
+301c;R;3;(M) La Cisterna (PM)
+301e;I;3;Angelmo
+301e;I;3;Angelmo (PM)
+301e;R;3;(M) La Moneda
+301e;R;3;(M) La Moneda (PM)
+302;I;3;La Pintana
+302N;I;3;La Pintana
+302N;R;3;Alameda
+302;R;3;(M) Santa Ana
+302e;I;3;San Ramon
+302e;R;3;(M) Los Heroes
+303;I;3;Plaza Italia
+303;R;3;Quilicura
+303e;I;3;(M) Santa Ana
+303e;R;3;Quilicura
+307;I;3;Plaza Italia
+307c;I;3;(M) Los Libertadores
+307c;R;3;Lo Marcoleta
+307e;I;3;Plaza Italia
+307e;R;3;Rigoberto Jara
+308;I;3;Mapocho
+308;R;3;Lo Marcoleta
+308c;I;3;(M) Los Libertadores
+308c;R;3;San Luis
+313e;I;3;Estacion Central
+313e;I;3;Estacion Central (PT)
+313e;R;3;Quilicura
+313e;R;3;Quilicura (PT)
+314;I;3;Plaza Italia
+315c;I;3;(M) Los Libertadores
+315c;R;3;Rigoberto Jara
+315e;I;3;Plaza Italia
+315e;I;3;Plaza Italia (PMPT)
+315e;R;3;Rigoberto Jara
+315e;R;3;Rigoberto Jara (PMPT)
+321;I;3;Lo Sierra
+321;I;3;Lo Sierra (PRN)
+321;R;3;(M) Lo Ovalle
+321;R;3;(M) Lo Ovalle (PRN)
+322;I;3;Jardin Al
+322;R;3;(M) Bellavista De La Flori
+323;I;3;La Loma
+323;I;3;La Loma (PRN)
+323;R;3;(M) Bellavista La Florida
+323;R;3;(M) Bellavista La Florida (PRN)
+325;I;3;(M) Irarrazaval
+325;R;3;Gabriela
+325;R;3;Gabriela (PM)
+329;I;3;Mall Plaza Oeste
+329;I;3;Mall Plaza Oeste (PRN)
+329;R;3;Mall Florida Center
+329;R;3;Mall Florida Center (PRN)
+345;I;3;Alameda
+345;R;3;Lo Espejo
+345;R;3;Lo Espejo (PM)
+346N;I;3;Alameda
+346N;R;3;Lo Espejo
+348;I;3;(M) Lo Ovalle
+348;I;3;(M) Lo Ovalle (PRN)
+348;R;3;Rinconada
+348;R;3;Rinconada (PRN)
+350;I;3;Rinconada
+350;R;3;Ciudad Satelite
+350c;I;3;(M) Plaza Maipu
+385;I;3;Florida Center
+385;I;3;Florida Center (PRN)
+385;R;3;Villa Francia
+385;R;3;Villa Francia (PRN)
+401;I;4;Hospital Dipreca
+401;R;4;Maipu
+401c;I;4;Las Condes
+401c;R;4;(M) Escuela Militar
+402;I;4;Mapocho
+402;R;4;Pudahuel
+403;I;4;La Reina
+403;I;4;La Reina (PM)
+403;R;4;(M) Santa Ana
+404;I;4;Mapocho
+404;R;4;El Descanso
+404c;I;4;(M) Las Rejas
+404c;R;4;El Descanso
+405;I;4;Cantagallo
+405;R;4;Maipu
+405c;I;4;Vitacura
+405c;R;4;Plaza Italia
+406;I;4;Cantagallo
+406;R;4;Pudahuel
+406c;I;4;Cantagallo
+406c;R;4;(M) Escuela Militar
+407;I;4;Las Condes
+407;I;4;Las Condes (PRN)
+407;R;4;Enea
+407;R;4;Enea (PRN)
+408;I;5;Mapocho
+408;R;5;Renca
+408e;I;5;Mapocho
+408e;R;5;Renca
+409;I;4;Plaza San Enrique
+409;R;4;Mapocho
+410;I;6;Providencia
+410;R;6;Renca
+410;R;6;Renca (PT)
+410e;I;6;Providencia
+411;I;4;Plaza San Enrique
+411;R;4;Providencia
+412;I;4;La Reina
+412;R;4;Enea
+413c;I;4;(M) Las Rejas
+413c;R;4;Avenida Portal
+413v;I;4;(M) Plaza De Maipu
+413v;R;4;Avenida Portales
+414e;I;4;Los Trapenses
+414e;R;4;(M) Pudahuel
+415e;I;4;(M) Manquehue
+415e;R;4;(M) Pudahuel
+417e;I;4;(M) Manquehue
+417e;R;4;Maipu
+418;I;4;Av. Tobalaba
+418;I;4;Av. Tobalaba (PRN)
+418;R;4;Enea
+418;R;4;Enea (PRN)
+418;R;4;Enea (PT)
+419;I;4;Plaza Italia
+419;R;4;Villa Los Heroes
+420e;I;4;Lo Hermida
+420e;R;4;(M) Escuela Militar
+420e;R;4;(M) Escuela Militar (PT)
+421;I;4;San Carlos De Apoquindo
+421;R;4;Maipu
+422;I;4;La Reina
+422;I;4;La Reina (PM)
+422;R;4;Pobl. Teniente Merino
+423;I;4;Plaza Italia
+423;R;4;Segunda Transversal
+424;I;5;(M) U. De Chile
+424;R;5;Pudahuel Sur
+425;I;4;Lo Hermida
+425;R;4;Rigoberto Jara
+426;I;4;La Dehesa
+426;I;4;La Dehesa (PRN)
+426;R;4;Pudahuel
+426;R;4;Pudahuel (PRN)
+428;I;4;(M) La Cisterna
+428;I;4;(M) La Cisterna (N)
+428;R;4;Quilicura
+428;R;4;Quilicura (N)
+428c;I;4;(M) La Cisterna
+428c;I;4;(M) La Cisterna (TNOC)
+428c;R;4;Pudahuel
+428c;R;4;Pudahuel (TNOC)
+428e;I;4;(M) La Cisterna
+428e;I;4;(M) La Cisterna (TNOC)
+428e;R;4;Quilicura
+428e;R;4;Quilicura (TNOC)
+429;I;4;Lo Hermida
+429;R;4;Lo Echevers
+429;R;4;Lo Echevers (PT)
+429c;I;4;(M) Tobalaba
+429c;I;4;(M) Tobalaba (PT)
+429c;R;4;Quilicura
+429c;R;4;Quilicura (PT)
+430;I;4;La Dehesa
+430;R;4;Quilicura
+431c;I;4;(M) Las Rejas
+431c;R;4;Nueva San Martin
+431v;I;4;(M) Plaza De Maipu
+431v;R;4;Nueva San Martin
+432N;I;4;La Reina
+432N;R;4;Maipu
+435;I;4;Vitacura
+435;R;4;Quilicura
+501;I;5;Fleming
+501;R;5;(M) Parque Bustamante
+502;I;5;Cantagallo
+502;R;5;Cerro Navia
+502c;I;5;Santiago
+502c;R;5;Cerro Navia
+503;I;5;Vital Apoquindo
+503;I;5;Vital Apoquindo (PM)
+503;R;5;Av. La Estrella
+504;I;5;Hospital Dipreca
+504;R;5;El Tranque
+505;I;5;Penalolen
+505;I;5;Penalolen (PM)
+505;R;5;Cerro Navia
+505;R;5;Cerro Navia (PT)
+506;I;5;Penalolen
+506;R;5;Maipu
+506e;I;5;Penalolen
+506e;R;5;Maipu
+506v;I;5;Penalolen
+506v;R;5;Villa El Abrazo
+507;I;5;Av Grecia
+507;R;5;Enea
+507c;I;5;Penalolen
+507c;R;5;(M) Parque Ohiggins
+508;I;5;Av.las Torres
+508;I;5;Av.las Torres (PM)
+508;R;5;Av. Mapocho
+508;R;5;Av. Mapocho (PT)
+509;I;5;Mapocho
+509;R;5;Maipu
+509;R;5;Maipu (PM)
+510;I;5;Av. Grecia
+510;I;5;Av. Grecia (PM)
+510;R;5;Pudahuel Sur
+511;I;5;Penalolen
+511;R;5;Cerro Navia
+513;I;5;Jose Arrieta
+513;I;5;Jose Arrieta (PM)
+513;R;5;El Montijo
+513v;R;5;Jose Arrieta
+513v;R;5;Jose Arrieta (PT)
+514;I;5;San Luis De Macul
+514;I;5;San Luis De Macul (PM)
+514;R;5;Enea
+514;R;5;Enea (PM)
+514;R;5;Enea (PT)
+514c;I;5;San Luis De Macul
+514c;R;5;(M) Salvador
+515N;I;5;San Luis De Macul
+515N;R;5;Centro
+516;I;5;Las Parcelas
+516;I;5;Las Parcelas (PM)
+516;R;5;Pudahuel Sur
+517;I;5;El Progreso
+517;I;5;El Progreso (PM)
+517;R;5;J. J. Perez
+518;I;5;Bilbao
+518;R;5;J.j. Perez
+519;I;5;Av. Grecia
+519;I;5;Av. Grecia (PM)
+519;R;5;Alameda
+541N;I;5;Colon
+541N;R;5;El Tranque
+546e;I;5;Vitacura
+546e;R;5;Villa El Abrazo
+712;I;7;Recoleta
+712N;I;7;
+712N;R;7;
+712;R;7;Puente Alto
+B01;I;6;Huamachuco
+B01;R;6;El Salto
+B02;I;6;Estacion Mapocho
+B02N;I;6;Plaza Italia
+B02N;R;6;Huechuraba
+B02;R;6;Camino Punta Mocha
+B03;I;6;(M) Cerro Blanco
+B03;R;6;Miraflores
+B04;I;6;Mapocho
+B04;R;6;El Cortijo
+B04v;I;6;(M) Cerro Blanco
+B04v;R;6;El Cortijo
+B05;I;6;Ciudad Empresarial
+B05;R;6;Barrio San Ignacio
+B06;I;6;Santa Laura
+B06;R;6;(M) Zapadores
+B07;I;6;(M) Los Libertadores
+B08;I;6;Mall Plaza Norte
+B08;R;6;Lo Marcoleta
+B09;I;6;Hospital Felix Bulnes
+B09;R;6;Lo Boza
+B10;I;6;(M) Cerro Blanc
+B10;R;6;Villa Los Libertadore
+B11;I;6;Lo Marcoleta
+B11;R;6;El Salto
+B12;I;6;Lo Marcoleta
+B12;I;6;Lo Marcoleta (PM)
+B12;R;6;(M) Zapadores
+B12c;I;6;(M) Los Libertadores
+B13;I;6;Santa Luisa
+B13;I;6;Santa Luisa (PRN)
+B13;R;6;(M) Vespucio Norte
+B13;R;6;(M) Vespucio Norte (PRN)
+B14;I;6;Mapocho
+B14;R;6;El Salto
+B15;I;6;Mapocho
+B15;R;6;Arzobispo Valdivieso
+B16;I;6;(M) Vespucio Norte
+B16;I;6;(M) Vespucio Norte (PRN)
+B16;R;6;El Carmen
+B16;R;6;El Carmen (PRN)
+B17;I;6;Av. Arzobispo Valdivieso
+B17;R;6;Huamachuco
+B18;I;6;(M) Vespucio Norte
+B18;I;6;(M) Vespucio Norte (PRN)
+B18;R;6;Villa Pucara
+B18;R;6;Villa Pucara (PRN)
+B18e;I;6;(M) Vespucio Norte
+B18e;R;6;Villa Pucara
+B19;I;6;El Rosal
+B19;R;6;Juanita Aguirre
+B20;I;6;Mapocho
+B20;R;6;Miraflores
+B21;I;6;Lo Marcoleta
+B21;R;6;Plaza Chacabuco
+B22;I;6;Urmeneta
+B22;R;6;Palacio Riesco
+B23;I;6;Mapocho
+B23;R;6;Reina Maria
+B24;I;6;Mapocho
+B24;R;6;Huamachuco
+B25;I;6;(M) Cerro Blanco
+B25;I;6;(M) Cerro Blanco (PRN)
+B25;R;6;(M) Vespucio Norte
+B25;R;6;(M) Vespucio Norte (PRN)
+B26;I;6;(M) Estacion Central
+B26;R;6;El Cortijo
+B27;I;6;(M) Salvador
+B27;R;6;(M) Vespucio Norte
+B27;R;6;(M) Vespucio Norte (PRN)
+B28;I;6;(M) Estacion Central
+B29;I;6;(M) Santa Ana
+B29;R;6;Renca
+B30N;I;6;Centro
+B30N;R;6;Renca
+B31N;I;6;Quilicura
+B31N;R;6;Alameda
+C01;I;6;Cerro 18
+C01;R;6;(M) Francisco Bilbao
+C01c;I;6;La Ermita
+C01c;R;6;(M) Escuela Militar
+C02;I;6;(M) Escuela
+C02;I;0;(M) Escuela (PM)
+C02;R;6;San Carlos De Apoq
+C02;R;0;San Carlos De Apoq (PM)
+C02c;I;6;(M) Los Domini
+C02c;I;6;(M) Los Domini (PM)
+C02c;R;6;San Carlos De Apoqui
+C02c;R;6;San Carlos De Apoqui (PM)
+C03;I;6;Vital Apoquindo
+C03;R;6;Rotonda Perez Zukjovic
+C03c;I;6;Vital Apoquindo
+C03c;R;6;Lo Gallo
+C04;I;6;(M) Manuel Montt
+C04;R;6;Vital Apoquindo
+C04;R;6;Vital Apoquindo (PM)
+C05;I;6;(M) Francisco Bilbao
+C05;R;6;La Ermita
+C05;R;6;La Ermita (PM)
+C06;I;6;(M) Tobalaba
+C06;R;6;Vital Apoquindo
+C06;R;6;Vital Apoquindo (PM)
+C07;I;6;(M) Francisco Bilbao
+C07;I;6;(M) Francisco Bilbao (PM)
+C07;R;6;La Piramide
+C07;R;6;La Piramide (PM)
+C08;I;6;Cantagallo
+C08;R;6;Camino Real
+C09;I;6;Nueva Bilbao
+C09;R;6;La Dehesa
+C10e;I;6;Camino Juan Pablo Ii
+C10e;R;6;(M) Tobalaba
+C11;I;6;Tabancura
+C11;R;6;(M) Escuela Militar
+C12;I;6;Cantagallo
+C12;R;6;Camino Juan Pablo Ii
+C13;I;6;La Laguna
+C13;R;6;Cantagallo
+C14;I;6;Los Trapenses
+C14;R;6;(M) Escuela Militar
+C15;I;6;Estoril
+C15;R;6;(M) Escuela Militar
+C16;I;6;El Huinganal
+C16;R;6;Vital Apoquindo
+C17;I;6;Los Trapenses
+C17;R;6;Cerro 18
+C18;I;6;Ciudad Empresar
+C18;R;6;(M) Escuela Milit
+C19;I;6;Cantagallo
+C19;R;6;Bernardo Larrain Cotapos
+C20;I;6;Parque Arauco
+C21N;I;6;(M) Escuela Militar
+C21N;R;6;Los Trapenses
+C22;I;6;Rotonda Lo Curr
+C22;R;6;(M) Escuela Militar
+C22;R;6;(M) Escuela Militar (PM)
+D01;I;4;Consistorial
+D01;I;4;Consistorial (PM)
+D01;R;4;Plaza Egana (M)
+D02;I;4;Diagonal Las Torres
+D02;I;4;Diagonal Las Torres (PM)
+D02;R;4;(M) Irarrazaval
+D02;R;4;(M) Irarrazaval (PT)
+D03;I;4;Las Parcelas
+D03;I;4;Las Parcelas (PM)
+D03;R;4;(M) Toesca
+D03c;I;4;Las Parcelas
+D03c;R;4;(M) Plaza Egana
+D05;I;4;Maria Angelica
+D05;R;4;(M) Franklin
+D05;R;4;(M) Franklin (PT)
+D07;I;4;(M) Franklin
+D07;R;4;Diagonal Las Torres
+D07c;I;4;(M) Los Presidente
+D07c;R;4;Diagonal Las Torr
+D08;I;4;(M) Francisco Bilbao
+D08;R;4;Av. Grecia
+D08c;I;4;(M) Francisco Bilbao
+D08c;R;4;Plaza La Reina
+D09;I;4;(M) Manuel Mont
+D09;I;4;(M) Manuel Mont (PT)
+D09N;I;4;(M) Santa Ana
+D09N;R;4;Diagonal Las Torres
+D09;R;4;Diagonal Las Torres
+D09;R;4;Diagonal Las Torres (PM)
+D10;I;4;Alvaro Casanova
+D10;I;4;Alvaro Casanova (PM)
+D10;R;4;(M) Carlos Valdovino
+D10;R;4;(M) Carlos Valdovino (PM)
+D11;I;4;Mall Alto Las Cond
+D11;R;4;Diagonal Las Torr
+D12;I;4;(M) Francisco Bilbao
+D12;R;4;Maria Angelica
+D13;I;3;(M) Irarr
+D13;I;3;(M) Irarr (PRN)
+D13;R;3;(M) Bellavista De La F
+D13;R;3;(M) Bellavista De La F (PRN)
+D14;I;4;(M) Quilin
+D14;R;4;(M) Pedrero
+D15;I;4;(M) Francisco B
+D15;R;4;Diagonal Las Torr
+D16;I;4;(M) Francisco Bilbao
+D16;R;4;(M) Quilin
+D17;I;4;(M) Quilin
+D17;R;4;Alto Macul
+D17v;I;4;
+D17v;R;4;
+D18;I;4;(M) Santa Isabe
+D18;I;4;(M) Santa Isabe (PT)
+D18;R;4;Diagonal Las Torres
+D18;R;4;Diagonal Las Torres (PM)
+D18;R;4;Diagonal Las Torres (PT)
+D20;I;4;Av. Las Torres
+E01;I;3;(M) Santa R
+E01;R;3;San Jose De La Estrel
+E02;I;3;Diego Portales
+E02;I;3;Diego Portales (PRN)
+E02;R;3;(M) Lo Ovalle
+E02;R;3;(M) Lo Ovalle (PRN)
+E03;I;3;Jardin Alto
+E03;I;3;Jardin Alto (N)
+E03;R;3;(M) Lo Ovalle
+E03;R;3;(M) Lo Ovalle (N)
+E04;I;3;(M) Franklin
+E04;R;3;Av. La Florida
+E05;I;3;(M) Bellavista De
+E05;I;3;(M) Bellavista De (PM)
+E05;I;3;(M) Bellavista De (PRN)
+E05;R;3;(M) La Ci
+E05;R;3;(M) La Ci (PRN)
+E06;I;3;Maria An
+E06;I;3;Maria An (PM)
+E06;I;3;Maria An (PRN)
+E06;R;3;(M) Bellavista De La
+E06;R;3;(M) Bellavista De La (PRN)
+E07;I;3;Rojas Ma
+E07;I;3;Rojas Ma (PRN)
+E07;R;3;(M) Bellavista La Flo
+E07;R;3;(M) Bellavista La Flo (PRN)
+E08;I;3;(M) Bellavista De La
+E08;I;3;(M) Bellavista De La (PRN)
+E08;I;3;(M) Bellavista De La (PT)
+E08;R;3;Diego Por
+E08;R;3;Diego Por (PM)
+E08;R;3;Diego Por (PRN)
+E09;I;3;(M) Santa Rosa
+E09;R;3;(M) Elisa Correa
+E10;I;3;Santa Rosa P21
+E10;R;3;El Hualle
+E11;I;3;(M) Santa Rosa
+E11;R;3;Diego Portales
+E12;I;3;Santa Rosa P18
+E13;I;3;(M) Bellavista De La Florida
+E13;I;3;(M) Bellavista De La Florida (PRN)
+E13;I;3;(M) Bellavista De La Florida (PT)
+E13;R;3;Gabriela
+E13;R;3;Gabriela (PM)
+E13;R;3;Gabriela (PRN)
+E14;I;3;(M) Bellavi
+E14;I;0;(M) Bellavi (PM)
+E14;I;3;(M) Bellavi (PRN)
+E14;R;3;San Jose
+E14;R;3;San Jose (PRN)
+E14;R;0;San Jose (PT)
+E15c;I;3;(M) Bellavista De La Fl
+E15c;R;3;Bahia Cat
+E16;I;3;(M) Santa Rosa
+E16;R;3;(M) Sotero Del Rio
+E17;I;3;Las Pe
+E17;I;3;Las Pe (PRN)
+E17;R;3;(M) Bellavista De La Fl
+E17;R;3;(M) Bellavista De La Fl (PRN)
+E18;I;3;(M) Bellavis
+E18;I;3;(M) Bellavis (PRN)
+E18;R;3;Hospital
+E18;R;3;Hospital (PRN)
+F01;I;7;Casas Viejas
+F01;R;7;Villa Padre Hurtado
+F01c;R;7;Casas Viejas
+F02;I;7;San Geronimo
+F02;R;7;Pie Andino
+F03;I;7;Plaza San Bernar
+F03;R;7;(M) Plaza Puente
+F03c;I;7;Villa Las Maminas
+F03c;R;7;Pie Andino
+F05;I;7;Pie Andino
+F05;I;7;Pie Andino (PRN)
+F05;R;7;(M) La Cisterna
+F05;R;7;(M) La Cisterna (PRN)
+F06;I;7;Pie Andino
+F06;R;7;(M) La Cisterna
+F07;R;7;Villa Padre Hurtado
+F08;I;7;Diego Portales
+F08;R;7;Villa Padre Hurtado
+F09;I;7;(M) Elisa Correa
+F09;R;7;Pie Andino
+F10;I;7;Mall Plaza Tobalaba
+F10;R;7;San Guillermo
+F11;I;7;Pie Andino
+F11;R;7;Las Vizcachas
+F12;I;7;(M) Plaza Puente Alto
+F12;R;7;Bajos De Mena
+F12c;I;7;(M) Plaza Puente Alto
+F12c;R;7;Villa El Nocedal
+F13;I;7;Mall Plaza Tobalaba
+F13;R;7;Bajos De Mena
+F13c;I;7;(M) Plaza Puente Alto
+F13c;R;7;Bajos De Mena
+F14;I;7;(M) Plaza Puent
+F14;R;7;Villa Padre Hu
+F15;I;7;(M) Elisa Correa
+F15;R;7;Bajos De Mena
+F16;I;7;Rivera Rio Maip
+F16;R;7;Villa Padre Hurtado
+F18;I;7;(M) Plaza Puente Alto
+F18;R;7;Villa Chiloe
+F19;I;7;Mall Plaza Tobalaba
+F19;R;7;Pie Andino
+F20;I;7;Pie Andino
+F20;I;7;Pie Andino (PRN)
+F20;R;7;(M) La Cisterna
+F20;R;7;(M) La Cisterna (PRN)
+F23;I;7;Mall Plaza Toba
+F23;R;7;Villa Padre Hurt
+F24;I;7;(M) Elisa Correa
+F24;R;7;Casas Viejas
+F25;I;7;(M) Bellavista De La
+F25;I;7;(M) Bellavista De La (PRN)
+F25;R;7;Bajos De
+F25;R;7;Bajos De (PM)
+F25;R;7;Bajos De (PRN)
+F25e;I;7;(M) Bellavista De La
+F25e;I;7;(M) Bellavista De La (PT)
+F25e;R;7;Bajos D
+F25e;R;7;Bajos D (PT)
+F26;I;7;San Carlos Orie
+F26;R;7;Villa Padre Hurta
+F27;I;7;Villa Portezuelo O
+F27;R;7;Villa Padre H
+F28N;I;7;Diego Portales
+F28N;R;7;La Primavera
+F29;I;7;Casas Viejas
+F29;R;7;Pie Andino
+F30N;I;7;La Moneda
+F30N;R;7;Bajos De Mena
+G01;I;2;Santo Tomas
+G01;R;2;Villa 4 De Septiembre
+G01c;I;2;Santa Rosa P.
+G01c;R;2;Villa 4 De Septiemb
+G02;I;2;Puente Los Morro
+G02;R;2;Plaza San Bernardo
+G04;I;2;Santo Tomas
+G04;I;2;Santo Tomas (PRN)
+G04;R;2;(M) La Cisterna
+G04;R;2;(M) La Cisterna (PRN)
+G05;I;2;(M) La Cisterna
+G05;I;2;(M) La Cisterna (N)
+G05;R;2;El Castillo
+G05;R;2;El Castillo (N)
+G07;I;2;Lo Herrera
+G07;R;2;San Francisco
+G08;I;2;(M) La Cisterna
+G08;I;2;(M) La Cisterna (N)
+G08;R;2;Poblacion La Selva
+G08;R;2;Poblacion La Selva (N)
+G08v;I;2;(M) La Cisterna
+G08v;I;2;(M) La Cisterna (PRN)
+G08v;R;2;Nos
+G08v;R;2;Nos (PRN)
+G09;I;2;Santa Margarita
+G09;R;2;Lo Blanco
+G11;I;2;(M) Lo Ovalle
+G11;I;2;(M) Lo Ovalle (PRN)
+G11;R;2;Lo Blanco
+G11;R;2;Lo Blanco (PRN)
+G12;I;2;Cementerio Metropolitano
+G12;I;2;Cementerio Metropolitano (PRN)
+G12;R;2;(M) Lo Ovalle
+G12;R;2;(M) Lo Ovalle (PRN)
+G13;I;2;El Castillo
+G13;I;2;El Castillo (PRN)
+G13;R;2;(M) La Cisterna
+G13;R;2;(M) La Cisterna (PRN)
+G14;I;2;Poblacion Valle Nevado
+G14;R;2;Estacion Lo Blanco
+G15;I;2;Santo Tomas
+G15;I;2;Santo Tomas (N)
+G15;R;2;(M) La Cisterna
+G15;R;2;(M) La Cisterna (N)
+G16;I;2;Lo Blanco
+G16;I;2;Lo Blanco (PRN)
+G16;R;2;(M) La Cisterna
+G16;R;2;(M) La Cisterna (PRN)
+G18;I;2;(M) Lo Ovalle
+G18;I;2;(M) Lo Ovalle (PRN)
+G18;R;2;Santo Tomas
+G18;R;2;Santo Tomas (PRN)
+G22;I;2;(M) La Cisterna
+G22;I;2;(M) La Cisterna (N)
+G22;R;2;Villa Espana
+G22;R;2;Villa Espana (N)
+G23;I;2;Santa Rosa P.43
+G23;R;2;Estacion Lo Blanco
+H02;I;3;(M) Lo Vial
+H02;R;3;(M) Carlos Valdovinos
+H03;I;3;H03in
+H03;I;3;H03in (N)
+H03;R;3;(M) Lo Ovalle
+H03;R;3;(M) Lo Ovalle (N)
+H04;I;3;La Victoria
+H04;R;3;(M) Carlos Valdovinos
+H05;I;3;Pobl. Davila
+H05;R;3;(M) Carlos Valdovinos
+H05c;I;3;(M) Departamental
+H05c;R;3;Pobl. Davila
+H06;I;3;Av. Matta
+H06;R;3;Pobl. Las Turbinas
+H07;I;3;(M) Lo Ovalle
+H07;I;3;(M) Lo Ovalle (PM)
+H07;I;3;(M) Lo Ovalle (PRN)
+H07;R;3;(M) Nuble
+H07;R;3;(M) Nuble (PRN)
+H08;I;3;(M) Lo Ovalle
+H08;I;3;(M) Lo Ovalle (PRN)
+H08;R;3;Pobl. Las Turbinas
+H08;R;3;Pobl. Las Turbinas (PRN)
+H09;I;3;(M) Carlos Valdovinos
+H09;R;3;Pobl. Davila
+H12;I;3;(M) Franklin
+H12;R;3;Lo Espejo
+H13;I;3;Posta Central
+H13;R;3;Santa Olga
+H13;R;3;Santa Olga (PM)
+H14;I;3;(M) Franklin
+H14;I;3;(M) Franklin (PRN)
+H14;R;3;Mall Florida Center
+H14;R;3;Mall Florida Center (PRN)
+I01;I;3;Hospital Borja Arr
+I01;R;3;Villa Los H
+I01;R;3;Villa Los H (PM)
+I02;I;3;(M) Laguna Sur
+I02;R;3;Rinconada
+I03;I;3;(M) Las Rejas
+I03;I;3;(M) Las Rejas (PM)
+I03;R;3;Villa Los Heroes
+I03c;I;3;(M) San Alberto Hurtado
+I03c;R;3;Valle Verde
+I04;I;3;(M) San Alberto Hur
+I04;R;3;Villa El Abraz
+I04c;I;3;(M) Plaza Maipu
+I04c;R;3;Villa El Abrazo
+I04e;I;3;(M) Plaza Maipu
+I05;I;3;(M) Lo Ovalle
+I05;I;3;(M) Lo Ovalle (PRN)
+I05;R;3;Rinconada
+I05;R;3;Rinconada (PRN)
+I07;I;3;Mall Arauco Maipu
+I07;R;3;Rinconada
+I08;I;3;(M) San Alberto H
+I08;I;3;(M) San Alberto H (PRN)
+I08N;I;3;Alameda
+I08N;R;3;La Farfana
+I08;R;3;Mall Arauco
+I08;R;3;Mall Arauco (PRN)
+I08c;I;3;(M) Del Sol
+I09;I;3;(M) Ula
+I09;R;3;Rinconada
+I09c;I;3;(M) Las Rejas
+I09c;R;3;Rinconada
+I09e;I;3;(M) Ula
+I09e;R;3;Rinconada
+I10;I;3;Usach
+I10N;I;3;Alameda
+I10N;R;3;Villa Los Heroes
+I10;R;3;Villa Los Heroes
+I11;I;3;(M) Plaza Maipu
+I11;R;3;Ciudad Satelite
+I12;I;3;Mall Plaza Oeste
+I12;R;3;Pueblito La Farfan
+I12;R;3;Pueblito La Farfan (PRN)
+I13;I;3;(M) San Alber
+I13;R;3;Villa Los Pres
+I14;I;3;Estacion Central
+I14;I;3;Estacion Central (PRN)
+I14N;I;3;
+I14N;R;3;
+I14;R;3;Mall Plaza Oeste
+I16;I;3;Ferrocarril
+I16;R;3;Poblacion Santiago
+I17;I;3;Hospital San Juan De
+I17;R;3;Villa Fran
+I18;I;3;(M) Ula
+I18;R;3;Rinconada
+I20;I;3;Marta Ossa Ruiz
+I20;R;3;Valle Verde
+I21;I;3;(M) Plaza Maipu
+I21;R;3;Villa Hernan Diaz
+I22;I;3;(M) Del Sol
+I22;I;3;(M) Del Sol (PRN)
+I22;R;3;La Farfana
+I22;R;3;La Farfana (PRN)
+I24;I;3;Plaza Oeste
+I24;R;3;Villa Los Maitenes
+I24;R;3;Villa Los Maitenes (PRN)
+I25;I;3;Villa S.henriquez
+I25;R;3;(M) Cerrillos
+J01;I;5;(M) Quinta Normal
+J01;R;5;Pudahuel Sur
+J01c;R;5;(M) San Pablo
+J02;I;5;(M) Ula
+J03;I;5;(M) Republica
+J04;I;5;La Alianza
+J04;R;5;(M) Neptuno
+J05;I;5;(M) Ula
+J06;I;5;(M) Pajaritos
+J06;R;5;(M) Pudahuel
+J07;I;5;(M) Pudahuel
+J07c;I;5;Lo Boza
+J07e;I;5;(M) Pudahuel
+J08;I;5;Hospital Felix Bulnes
+J08;R;5;Pudahuel Sur
+J10;I;5;Parque De Los Reyes
+J10;R;5;San Daniel
+J11;I;5;(M) Pajaritos
+J11;R;5;Lomas De Lo Aguirre
+J12;I;5;Ciudad De Los Valles
+J12;R;5;(M) Pajaritos
+J13;I;5;Costanera Sur
+J13;R;5;(M) Estacion Central
+J13c;I;5;Costanera Sur
+J13c;R;5;(M) San Pablo
+J14c;I;5;Pudahuel Sur
+J14c;R;5;Villa Roosevelt
+J15c;I;5;(M) Neptuno
+J15c;R;5;La Alianza
+J16;I;5;(M) Estacion Central
+J17;I;5;Puerto Santiago
+J17;R;5;(M) Pajaritos
+J18;I;5;(M) San Pablo
+J18;R;5;Enea
+J18c;I;5;(M) San Pablo
+J18c;R;5;El Tranque
+J19;I;5;(M) Quinta Normal
+J19;I;5;(M) Quinta Normal (PM)
+J19;R;5;Pudahuel Sur
+J19;R;5;Pudahuel Sur (PM)
+J20;I;5;(M) Pudahuel

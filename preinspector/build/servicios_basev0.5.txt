@@ -1,0 +1,3855 @@
+101I || recoleta - cerrillos || CERRILLOS
+-----------------------------------------------
+  101I | recoleta - cerrillos
+  101I_cvd | variante ciclovia
+  101I_fmisa | variante feria
+
+101R || cerrillos - recoleta || RECOLETA
+-----------------------------------------------
+  101R | cerrillos - recoleta
+  101R_fmisa | variante feria
+
+101cI || (m) las rejas - cerrillos || CERRILLOS
+-----------------------------------------------
+  101cI | (m) las rejas - cerrillos
+  101cI_fmavi | variante feria
+  101cI_fmisa | variante feria
+
+101cR || cerrillos - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  101cR | cerrillos - (m) las rejas
+  101cR_fmisa | variante feria
+
+102I || (m) las rejas - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  102I | (m) las rejas - mall plaza tobalaba
+
+102R || mall plaza tobalaba - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  102R | mall plaza tobalaba - (m) las rejas
+  102R_fsa | variante feria
+
+103I || providencia - san joaquin || SAN JOAQUIN
+-----------------------------------------------
+  103I | providencia - san joaquin
+  103I_cvd | variante ciclovia
+
+103R || san joaquin - providencia || PROVIDENCIA
+-----------------------------------------------
+  103R | san joaquin - providencia
+  103R_cvd | variante ciclovia
+
+104I || providencia - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  104I | providencia - mall plaza tobalaba
+  104IPM | variante punta manana
+  104I_cvd | variante ciclovia
+
+104R || mall plaza tobalaba - providencia || PROVIDENCIA
+-----------------------------------------------
+  104R | mall plaza tobalaba - providencia
+
+105I || renca - lo espejo || LO ESPEJO
+-----------------------------------------------
+  105I | renca - lo espejo
+
+105R || lo espejo - renca || RENCA
+-----------------------------------------------
+  105R | lo espejo - renca
+  105R_fjudo | variante feria
+
+106I || nueva san martin - penalolen || PENALOLEN
+-----------------------------------------------
+  106I | nueva san martin - penalolen
+  106IPM | variante punta manana
+  106I_cvd | variante ciclovia
+
+106R || penalolen - nueva san martin || NUEVA SAN MARTIN
+-----------------------------------------------
+  106R | penalolen - nueva san martin
+
+107I || ciudad empresarial - av. departamental || AV. DEPARTAMENTAL
+-----------------------------------------------
+  107I | ciudad empresarial - av. departamental
+  107I_cvd | variante ciclovia
+
+107R || av. departamental - ciudad empresarial || CIUDAD EMPRESARIAL
+-----------------------------------------------
+  107R | av. departamental - ciudad empresarial
+
+107cI || ciudad empresarial - plaza renca || PLAZA RENCA
+-----------------------------------------------
+  107cI | ciudad empresarial - plaza renca
+
+107cR || plaza renca - ciudad empresarial || CIUDAD EMPRESARIAL
+-----------------------------------------------
+  107cR | plaza renca - ciudad empresarial
+  107cyR | inyeccion
+
+108I || maipu - la florida || LA FLORIDA
+-----------------------------------------------
+  108I | maipu - la florida
+
+108R || la florida - maipu || MAIPU
+-----------------------------------------------
+  108R | la florida - maipu
+
+109I || renca - maipu || MAIPU
+-----------------------------------------------
+  109I | renca - maipu
+  109I_fmajuvido | variante feria
+
+109NI || (m) plaza italia - maipu || MAIPU
+-----------------------------------------------
+  109NI | (m) plaza italia - maipu
+
+109NR || maipu - (m) plaza italia || (M) PLAZA ITALIA
+-----------------------------------------------
+  109NR | maipu - (m) plaza italia
+
+109R || maipu - renca || RENCA
+-----------------------------------------------
+  109R | maipu - renca
+
+110I || renca - maipu || MAIPU
+-----------------------------------------------
+  110I | renca - maipu
+  110I_fjudo | variante feria
+
+110R || maipu - renca || RENCA
+-----------------------------------------------
+  110R | maipu - renca
+
+110cI || renca - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  110cI | renca - pudahuel sur
+  110cI_fjudo | variante feria
+
+110cR || pudahuel sur - renca || RENCA
+-----------------------------------------------
+  110cR | pudahuel sur - renca
+
+111I || (m) pajaritos - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  111I | (m) pajaritos - ciudad satelite
+
+111R || ciudad satelite - (m) pajaritos || (M) PAJARITOS
+-----------------------------------------------
+  111R | ciudad satelite - (m) pajaritos
+
+113I || ciudad satelite - (m) los heroes || (M) LOS HEROES
+-----------------------------------------------
+  113I | ciudad satelite - (m) los heroes
+
+113R || (m) los heroes - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  113R | (m) los heroes - ciudad satelite
+  113RPM | variante punta manana
+
+113cI || (m) cerrillos - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  113cI | (m) cerrillos - ciudad satelite
+
+113cR || ciudad satelite - (m) cerrillos || (M) CERRILLOS
+-----------------------------------------------
+  113cR | ciudad satelite - (m) cerrillos
+
+113eI || ciudad satelite - (m) los heroes || (M) LOS HEROES
+-----------------------------------------------
+  113eI | ciudad satelite - (m) los heroes
+
+113eR || (m) los heroes - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  113eR | (m) los heroes - ciudad satelite
+
+114I || (m) nunoa - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  114I | (m) nunoa - mall plaza tobalaba
+  114I_cvd | variante ciclovia
+
+114R || mall plaza tobalaba - (m) nunoa || (M) NUNOA
+-----------------------------------------------
+  114R | mall plaza tobalaba - (m) nunoa
+
+115I || villa el abrazo -  (m) los heroes ||  (M) LOS HEROES
+-----------------------------------------------
+  115I | villa el abrazo -  (m) los heroes
+
+115R || (m) los heroes  - villa el abrazo || VILLA EL ABRAZO
+-----------------------------------------------
+  115R | (m) los heroes  - villa el abrazo
+  115RPM | variante punta manana
+  115yR | inyeccion
+
+116I || huechuraba - santiago centro || SANTIAGO CENTRO
+-----------------------------------------------
+  116I | huechuraba - santiago centro
+
+117I || (m) vespucio norte - san joaquin || SAN JOAQUIN
+-----------------------------------------------
+  117I | (m) vespucio norte - san joaquin
+  117IPRN | variante prenocturna
+  117I_cvd | variante ciclovia
+
+117R || san joaquin - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  117R | san joaquin - (m) vespucio norte
+  117RPRN | variante prenocturna
+  117R_cvd | variante ciclovia
+
+117cI || huechuraba - providencia || PROVIDENCIA
+-----------------------------------------------
+  117cI | huechuraba - providencia
+
+118I || maipu - la florida || LA FLORIDA
+-----------------------------------------------
+  118I | maipu - la florida
+
+118R || la florida - maipu || MAIPU
+-----------------------------------------------
+  118R | la florida - maipu
+
+119I || mapocho - lo espejo || LO ESPEJO
+-----------------------------------------------
+  119I | mapocho - lo espejo
+  119I_fmisa | variante feria
+
+119R || lo espejo - mapocho || MAPOCHO
+-----------------------------------------------
+  119R | lo espejo - mapocho
+  119R_fmisa | variante feria
+
+120I || renca - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  120I | renca - (m) la cisterna
+
+120R || (m) la cisterna - renca || RENCA
+-----------------------------------------------
+  120R | (m) la cisterna - renca
+
+121I || mapocho - lo espejo || LO ESPEJO
+-----------------------------------------------
+  121I | mapocho - lo espejo
+  121I_cvd | variante ciclovia
+
+121R || lo espejo - mapocho || MAPOCHO
+-----------------------------------------------
+  121R | lo espejo - mapocho
+
+125I || (m) u de chile - lo espejo || LO ESPEJO
+-----------------------------------------------
+  125I | (m) u de chile - lo espejo
+
+125R || lo espejo - (m) u de chile || (M) U DE CHILE
+-----------------------------------------------
+  125R | lo espejo - (m) u de chile
+
+126I || (m) manuel montt - la higuera || LA HIGUERA
+-----------------------------------------------
+  126I | (m) manuel montt - la higuera
+  126IPM | variante punta manana
+
+126R || la higuera - (m) manuel montt || (M) MANUEL MONTT
+-----------------------------------------------
+  126R | la higuera - (m) manuel montt
+
+201I || mall plaza norte - san bernardo || SAN BERNARDO
+-----------------------------------------------
+  201I | mall plaza norte - san bernardo
+  201I_cvd | variante ciclovia
+
+201R || san bernardo - mall plaza norte || MALL PLAZA NORTE
+-----------------------------------------------
+  201R | san bernardo - mall plaza norte
+
+201eI || (m) santa ana - san bernardo || SAN BERNARDO
+-----------------------------------------------
+  201eI | (m) santa ana - san bernardo
+  201eyI | inyeccion
+
+201eR || san bernardo - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  201eR | san bernardo - (m) santa ana
+
+202cI || los libertadores - mapocho || MAPOCHO
+-----------------------------------------------
+  202cI | los libertadores - mapocho
+
+202cR || mapocho - los libertadores || LOS LIBERTADORES
+-----------------------------------------------
+  202cR | mapocho - los libertadores
+
+203I || huechuraba - la pintana || LA PINTANA
+-----------------------------------------------
+  203I | huechuraba - la pintana
+  203I_fmisa | variante feria
+
+203R || la pintana - huechuraba || HUECHURABA
+-----------------------------------------------
+  203R | la pintana - huechuraba
+  203R_fmisa | variante feria
+
+203eI || centro - la pintana || LA PINTANA
+-----------------------------------------------
+  203eI | centro - la pintana
+  203eI_fmisa | variante feria
+
+203eR || la pintana - centro || CENTRO
+-----------------------------------------------
+  203eR | la pintana - centro
+  203eR_fmisa | variante feria
+
+204I || alameda - gabriela || GABRIELA
+-----------------------------------------------
+  204I | alameda - gabriela
+
+204NI || alameda - gabriela || GABRIELA
+-----------------------------------------------
+  204NI | alameda - gabriela
+
+204NR || gabriela - alameda || ALAMEDA
+-----------------------------------------------
+  204NR | gabriela - alameda
+
+204R || gabriela - alameda || ALAMEDA
+-----------------------------------------------
+  204R | gabriela - alameda
+
+204eI || alameda - gabriela || GABRIELA
+-----------------------------------------------
+  204eI | alameda - gabriela
+
+204eR || gabriela - alameda || ALAMEDA
+-----------------------------------------------
+  204eR | gabriela - alameda
+
+205I || santiago - puente alto || PUENTE ALTO
+-----------------------------------------------
+  205I | santiago - puente alto
+
+205R || puente alto - santiago || SANTIAGO
+-----------------------------------------------
+  205R | puente alto - santiago
+
+205eI || santiago - puente alto || PUENTE ALTO
+-----------------------------------------------
+  205eI | santiago - puente alto
+
+205eR || puente alto - santiago || SANTIAGO
+-----------------------------------------------
+  205eR | puente alto - santiago
+
+206I || centro - la pintana || LA PINTANA
+-----------------------------------------------
+  206I | centro - la pintana
+  206I_fju | variante feria
+  206I_fmavido | variante feria
+
+206R || la pintana - centro || CENTRO
+-----------------------------------------------
+  206R | la pintana - centro
+  206R_fmavido | variante feria
+
+206cI || (m) bio bio - la pintana || LA PINTANA
+-----------------------------------------------
+  206cI | (m) bio bio - la pintana
+  206cI_fju | variante feria
+  206cI_fmavi | variante feria
+
+206cR || la pintana - (m) bio bio || (M) BIO BIO
+-----------------------------------------------
+  206cR | la pintana - (m) bio bio
+  206cR_fmavi | variante feria
+
+207eI || mapocho - av. santa rosa || AV. SANTA ROSA
+-----------------------------------------------
+  207eI | mapocho - av. santa rosa
+
+207eR || santa rosa - mapocho || MAPOCHO
+-----------------------------------------------
+  207eR | santa rosa - mapocho
+
+208I || huechuraba - centro || CENTRO
+-----------------------------------------------
+  208I | huechuraba - centro
+
+208R || centro - huechuraba || HUECHURABA
+-----------------------------------------------
+  208R | centro - huechuraba
+
+208cI || huechuraba - (m) zapadores || (M) ZAPADORES
+-----------------------------------------------
+  208cI | huechuraba - (m) zapadores
+
+208cR || (m) zapadores - huechuraba || HUECHURABA
+-----------------------------------------------
+  208cR | (m) zapadores - huechuraba
+
+209I || alameda - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  209I | alameda - bajos de mena
+
+209R || bajos de mena - alameda || ALAMEDA
+-----------------------------------------------
+  209R | bajos de mena - alameda
+
+209eI || alameda - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  209eI | alameda - bajos de mena
+
+209eR || bajos de mena - alameda || ALAMEDA
+-----------------------------------------------
+  209eR | bajos de mena - alameda
+
+210I || estacion central - puente alto || PUENTE ALTO
+-----------------------------------------------
+  210I | estacion central - puente alto
+
+210R || puente alto - estacion central || ESTACION CENTRAL
+-----------------------------------------------
+  210R | puente alto - estacion central
+
+210vI || estacion central - av. mexico || AV. MEXICO
+-----------------------------------------------
+  210vI | estacion central - av. mexico
+  210vI_cvd | variante ciclovia
+  210vI_fju | variante feria
+
+210vR || av. mexico - estacion central || ESTACION CENTRAL
+-----------------------------------------------
+  210vR | av. mexico - estacion central
+
+211I || la florida - nos || NOS
+-----------------------------------------------
+  211I | la florida - nos
+  211I_fsa | variante feria
+
+211R || nos - la florida || LA FLORIDA
+-----------------------------------------------
+  211R | nos - la florida
+
+211cI || (m) la cisterna - san bernardo || SAN BERNARDO
+-----------------------------------------------
+  211cI | (m) la cisterna - san bernardo
+
+211cR || san bernardo - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  211cR | san bernardo - (m) la cisterna
+
+212I || providencia - la pintana || LA PINTANA
+-----------------------------------------------
+  212I | providencia - la pintana
+  212IPM | variante punta manana
+  212I_cvd | variante ciclovia
+  212I_fju | variante feria
+
+212R || la pintana - providencia || PROVIDENCIA
+-----------------------------------------------
+  212R | la pintana - providencia
+
+213eI || plaza italia - puente alto || PUENTE ALTO
+-----------------------------------------------
+  213eI | plaza italia - puente alto
+
+213eR || puente alto - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  213eR | puente alto - plaza italia
+  213eRPT | variante punta tarde
+
+214I || santa olga - los libertadores || LOS LIBERTADORES
+-----------------------------------------------
+  214I | santa olga - los libertadores
+  214I_fmisa | variante feria
+
+214R || los libertadores - santa olga || SANTA OLGA
+-----------------------------------------------
+  214R | los libertadores - santa olga
+  214R_cvd | variante ciclovia
+  214R_fmisa | variante feria
+
+216I || pablo de rokha - vitacura || VITACURA
+-----------------------------------------------
+  216I | pablo de rokha - vitacura
+  216yIPM | inyeccion
+
+216R || vitacura - pablo de rokha || PABLO DE ROKHA
+-----------------------------------------------
+  216R | vitacura - pablo de rokha
+  216R_fju | variante feria
+  216yRPT | inyeccion
+
+216yncI || 216yIncPM || 216YINCPM
+-----------------------------------------------
+  216yIncPM | no comercial
+  216yncI | 216yIncPM
+
+216yncR || 216yRncPT || 216YRNCPT
+-----------------------------------------------
+  216yRncPT | no comercial
+  216yncR | 216yRncPT
+
+217eI || maestranza - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  217eI | maestranza - (m) santa ana
+
+217eR || (m) santa ana - maestranza || MAESTRANZA
+-----------------------------------------------
+  217eR | (m) santa ana - maestranza
+
+219eI || (m) la cisterna - ciudad empresarial || CIUDAD EMPRESARIAL
+-----------------------------------------------
+  219eI | (m) la cisterna - ciudad empresarial
+  219eITNOCPT | variante transicion nocturna punta tarde
+
+219eR || ciudad empresarial - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  219eR | ciudad empresarial - (m) la cisterna
+  219eRPT | variante punta tarde
+  219eyRPT | inyeccion
+
+221eI || puente alto - matucana || MATUCANA
+-----------------------------------------------
+  221eI | puente alto - matucana
+
+221eR || matucana - puente alto || PUENTE ALTO
+-----------------------------------------------
+  221eR | matucana - puente alto
+
+223I || ciudad empresarial - lo espejo || LO ESPEJO
+-----------------------------------------------
+  223I | ciudad empresarial - lo espejo
+  223I_cvd | variante ciclovia
+
+223R || lo espejo - ciudad empresarial || CIUDAD EMPRESARIAL
+-----------------------------------------------
+  223R | lo espejo - ciudad empresarial
+
+224I || nunoa - gabriela || GABRIELA
+-----------------------------------------------
+  224I | nunoa - gabriela
+  224IPM | variante punta manana
+  224I_cvd | variante ciclovia
+  224I_fdo | variante feria
+  224I_fsa | variante feria
+
+224R || gabriela - nunoa || NUNOA
+-----------------------------------------------
+  224R | gabriela - nunoa
+
+224cI || (m) vicente valdes - gabriela || GABRIELA
+-----------------------------------------------
+  224cI | (m) vicente valdes - gabriela
+
+224cR || gabriela - (m) vicente valdes || (M) VICENTE VALDES
+-----------------------------------------------
+  224cR | gabriela - (m) vicente valdes
+
+225I || las condes - bahia catalina || BAHIA CATALINA
+-----------------------------------------------
+  225I | las condes - bahia catalina
+  225I_cvd | variante ciclovia
+  225I_fvisa | variante feria
+
+225R || bahia catalina - las condes || LAS CONDES
+-----------------------------------------------
+  225R | bahia catalina - las condes
+  225R_cvd | variante ciclovia
+  225R_fvisa | variante feria
+
+226I || centro - nonato coo || NONATO COO
+-----------------------------------------------
+  226I | centro - nonato coo
+  226I_cvd | variante ciclovia
+
+226R || nonato coo - centro || CENTRO
+-----------------------------------------------
+  226R | nonato coo - centro
+  226R_fmisa | variante feria
+
+227I || villa frei - pedro aguirre cerda || PEDRO AGUIRRE CERDA
+-----------------------------------------------
+  227I | villa frei - pedro aguirre cerda
+
+227R || pedro aguirre cerda - villa frei || VILLA FREI
+-----------------------------------------------
+  227R | pedro aguirre cerda - villa frei
+  227RPM | variante punta manana
+  227R_cvd | variante ciclovia
+
+228I || (m) la cisterna - angelmo || ANGELMO
+-----------------------------------------------
+  228I | (m) la cisterna - angelmo
+  228IPRN | variante prenocturna
+
+228R || angelmo - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  228R | angelmo - (m) la cisterna
+  228RPRN | variante prenocturna
+
+229I || (m) la moneda - la pintana || LA PINTANA
+-----------------------------------------------
+  229I | (m) la moneda - la pintana
+  229I_cvd | variante ciclovia
+  229I_fjudo | variante feria
+
+229R || la pintana - (m) la moneda || (M) LA MONEDA
+-----------------------------------------------
+  229R | la pintana - (m) la moneda
+
+230I || los libertadores - av. santa rosa || AV. SANTA ROSA
+-----------------------------------------------
+  230I | los libertadores - av. santa rosa
+  230I_fjudo | variante feria
+
+230R || av. santa rosa - los libertadores || LOS LIBERTADORES
+-----------------------------------------------
+  230R | av. santa rosa - los libertadores
+  230R_fjudo | variante feria
+
+262NI || (m) macul - villa espana || VILLA ESPANA
+-----------------------------------------------
+  262NI | (m) macul - villa espana
+
+262NR || villa espana - (m) macul || (M) MACUL
+-----------------------------------------------
+  262NR | villa espana - (m) macul
+
+264NI || pedro fontova - santo tomas || SANTO TOMAS
+-----------------------------------------------
+  264NI | pedro fontova - santo tomas
+
+264NR || santo tomas - pedro fontova || PEDRO FONTOVA
+-----------------------------------------------
+  264NR | santo tomas - pedro fontova
+
+271I || santiago - san bernardo || SAN BERNARDO
+-----------------------------------------------
+  271I | santiago - san bernardo
+
+271R || san bernardo - santiago || SANTIAGO
+-----------------------------------------------
+  271R | san bernardo - santiago
+
+301I || juan antonio rios - angelmo || ANGELMO
+-----------------------------------------------
+  301I | juan antonio rios - angelmo
+  301I_cvd | variante ciclovia
+  301I_fdo | variante feria
+  301I_fdo2 | variante feria
+  301I_fju | variante feria
+  301I_fsa | variante feria
+
+301R || angelmo  - juan antonio rios || JUAN ANTONIO RIOS
+-----------------------------------------------
+  301R | angelmo  - juan antonio rios
+  301R_fsado | variante feria
+
+301c2I || (m) la cisterna - lo blanco || LO BLANCO
+-----------------------------------------------
+  301c2I | (m) la cisterna - lo blanco
+  301c2IPT | variante punta tarde
+
+301c2R || lo blanco - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  301c2R | lo blanco - (m) la cisterna
+
+301c2ncR || 301c2RncPT || 301C2RNCPT
+-----------------------------------------------
+  301c2RncPT | no comercial
+  301c2ncR | 301c2RncPT
+
+301cI || (m) la cisterna - angelmo || ANGELMO
+-----------------------------------------------
+  301cI | (m) la cisterna - angelmo
+  301cIPM | variante punta manana
+  301cI_fsa | variante feria
+
+301cR || angelmo - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  301cR | angelmo - (m) la cisterna
+  301cRPM | variante punta manana
+  301cR_fsa | variante feria
+
+301eI || (m) la moneda - angelmo || ANGELMO
+-----------------------------------------------
+  301eI | (m) la moneda - angelmo
+  301eIPM | variante punta manana
+
+301eR || angelmo - (m) la moneda || (M) LA MONEDA
+-----------------------------------------------
+  301eR | angelmo - (m) la moneda
+  301eRPM | variante punta manana
+
+302I || (m) santa ana - la pintana || LA PINTANA
+-----------------------------------------------
+  302I | (m) santa ana - la pintana
+  302I_fjudo | variante feria
+  302I_fmavi | variante feria
+  302I_fmavido | variante feria
+
+302NI || alameda - la pintana || LA PINTANA
+-----------------------------------------------
+  302NI | alameda - la pintana
+
+302NR || la pintana - alameda || ALAMEDA
+-----------------------------------------------
+  302NR | la pintana - alameda
+
+302R || la pintana - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  302R | la pintana - (m) santa ana
+  302R_fjudo | variante feria
+  302R_fmavido | variante feria
+
+302eI || (m) los heroes - san ramon || SAN RAMON
+-----------------------------------------------
+  302eI | (m) los heroes - san ramon
+  302eI_fjudo | variante feria
+  302eI_fmavi | variante feria
+
+302eR || san ramon - (m) los heroes || (M) LOS HEROES
+-----------------------------------------------
+  302eR | san ramon - (m) los heroes
+
+303I || quilicura - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  303I | quilicura - plaza italia
+  303I_fdo | variante feria
+  303I_fsa | variante feria
+
+303R || plaza italia - quilicura || QUILICURA
+-----------------------------------------------
+  303R | plaza italia - quilicura
+  303R_fdo | variante feria
+  303R_fsa | variante feria
+
+303eI || quilicura - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  303eI | quilicura - (m) santa ana
+
+303eR || (m) santa ana - quilicura || QUILICURA
+-----------------------------------------------
+  303eR | (m) santa ana - quilicura
+
+307I || lo marcoleta - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  307I | lo marcoleta - plaza italia
+  307I_fdo | variante feria
+
+307cI || lo marcoleta - (m) los libertadores || (M) LOS LIBERTADORES
+-----------------------------------------------
+  307cI | lo marcoleta - (m) los libertadores
+
+307cR || (m) los libertadores - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  307cR | (m) los libertadores - lo marcoleta
+
+307eI || rigoberto jara - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  307eI | rigoberto jara - plaza italia
+
+307eR || plaza italia - rigoberto jara || RIGOBERTO JARA
+-----------------------------------------------
+  307eR | plaza italia - rigoberto jara
+
+308I || lo marcoleta - mapocho || MAPOCHO
+-----------------------------------------------
+  308I | lo marcoleta - mapocho
+  308I_fdo | variante feria
+
+308R || mapocho - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  308R | mapocho - lo marcoleta
+  308R_fdo | variante feria
+
+308cI || san luis - (m) los libertadores || (M) LOS LIBERTADORES
+-----------------------------------------------
+  308cI | san luis - (m) los libertadores
+
+308cR || (m) los libertadores - san luis || SAN LUIS
+-----------------------------------------------
+  308cR | (m) los libertadores - san luis
+
+313eI || quilicura - estacion central || ESTACION CENTRAL
+-----------------------------------------------
+  313eI | quilicura - estacion central
+  313eIPT | variante punta tarde
+
+313eIncI || 313eIPTnc || 313EIPTNC
+-----------------------------------------------
+  313eIPTnc | no comercial
+  313eIncI | 313eIPTnc
+
+313eR || estacion central - quilicura || QUILICURA
+-----------------------------------------------
+  313eR | estacion central - quilicura
+  313eRPT | variante punta tarde
+
+313encI || 313eInc || 313EINC
+-----------------------------------------------
+  313eInc | no comercial
+  313encI | 313eInc
+
+313encR || 313eRnc || 313ERNC
+-----------------------------------------------
+  313eRnc | no comercial
+  313encR | 313eRnc
+
+314I || lo marcoleta - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  314I | lo marcoleta - plaza italia
+
+315cI || rigoberto jara - (m) los libertadores || (M) LOS LIBERTADORES
+-----------------------------------------------
+  315cI | rigoberto jara - (m) los libertadores
+
+315cR || (m) los libertadores - rigoberto jara || RIGOBERTO JARA
+-----------------------------------------------
+  315cR | (m) los libertadores - rigoberto jara
+
+315eI || rigoberto jara - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  315eI | rigoberto jara - plaza italia
+  315eIPMPT | variante punta manana punta tarde
+  315eI_fdo | variante feria
+
+315eR || plaza italia - rigoberto jara || RIGOBERTO JARA
+-----------------------------------------------
+  315eR | plaza italia - rigoberto jara
+  315eRPMPT | variante punta manana punta tarde
+  315eR_fdo | variante feria
+
+321I || (m) lo ovalle - lo sierra || LO SIERRA
+-----------------------------------------------
+  321I | (m) lo ovalle - lo sierra
+  321IPRN | variante prenocturna
+  321I_fjudo | variante feria
+  321I_fmavi | variante feria
+  321I_fmisa | variante feria
+
+321R || lo sierra - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  321R | lo sierra - (m) lo ovalle
+  321RPRN | variante prenocturna
+  321R_fjudo | variante feria
+  321R_fmavi | variante feria
+
+322I || (m) bellavista de la florida - jardin al || JARDIN AL
+-----------------------------------------------
+  322I | (m) bellavista de la florida - jardin al
+
+322R || jardin alto - (m) bellavista de la flori || (M) BELLAVISTA DE LA FLORI
+-----------------------------------------------
+  322R | jardin alto - (m) bellavista de la flori
+
+323I || (m) bellavista de la florida - la loma || LA LOMA
+-----------------------------------------------
+  323I | (m) bellavista de la florida - la loma
+  323IPRN | variante prenocturna
+
+323R || la loma - (m) bellavista la florida || (M) BELLAVISTA LA FLORIDA
+-----------------------------------------------
+  323R | la loma - (m) bellavista la florida
+  323RPRN | variante prenocturna
+  323R_cvd | variante ciclovia
+
+325I || gabriela - (m) irarrazaval || (M) IRARRAZAVAL
+-----------------------------------------------
+  325I | gabriela - (m) irarrazaval
+  325I_cvd | variante ciclovia
+  325I_fmisa | variante feria
+
+325R || (m) irarrazaval - gabriela || GABRIELA
+-----------------------------------------------
+  325R | (m) irarrazaval - gabriela
+  325RPM | variante punta manana
+  325RPM2 | variante punta manana
+  325R_cvd | variante ciclovia
+  325R_fmisa | variante feria
+
+329I || mall florida center - mall plaza oeste || MALL PLAZA OESTE
+-----------------------------------------------
+  329I | mall florida center - mall plaza oeste
+  329IPRN | variante pre nocturno
+  329IPRN_fmisa | variante feria
+  329I_fmisa | variante feria
+
+329R || mall plaza oeste - mall florida center || MALL FLORIDA CENTER
+-----------------------------------------------
+  329R | mall plaza oeste - mall florida center
+  329RPRN | variante pre nocturno
+  329RPRN_fmisa | variante feria
+  329R_cvd | variante ciclovia
+  329R_fmisa | variante feria
+
+345I || lo espejo - alameda || ALAMEDA
+-----------------------------------------------
+  345I | lo espejo - alameda
+
+345R || alameda - lo espejo || LO ESPEJO
+-----------------------------------------------
+  345R | alameda - lo espejo
+  345RPM | variante punta manana
+
+346NI || lo espejo - alameda || ALAMEDA
+-----------------------------------------------
+  346NI | lo espejo - alameda
+
+346NR || alameda - lo espejo || LO ESPEJO
+-----------------------------------------------
+  346NR | alameda - lo espejo
+
+348I || rinconada - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  348I | rinconada - (m) lo ovalle
+  348IPRN | variante pre nocturno
+  348IPRN_fmavi | variante feria
+  348I_fmavi | variante feria
+
+348R || (m) lo ovalle - rinconada || RINCONADA
+-----------------------------------------------
+  348R | (m) lo ovalle - rinconada
+  348RPRN | variante prenocturna
+  348RPRN_fmavi | variante feria
+  348R_fmavi | variante feria
+
+350I || ciudad satelite - rinconada || RINCONADA
+-----------------------------------------------
+  350I | ciudad satelite - rinconada
+
+350R || rinconada - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  350R | rinconada - ciudad satelite
+
+350cI || rinconada - (m) plaza maipu || (M) PLAZA MAIPU
+-----------------------------------------------
+  350cI | rinconada - (m) plaza maipu
+
+385I || villa francia - florida center || FLORIDA CENTER
+-----------------------------------------------
+  385I | villa francia - florida center
+  385IPRN | variante prenocturna
+  385IPRN_fmisa | variante feria
+  385I_fmi | variante feria
+  385I_fmisa | variante feria
+
+385R || florida center - villa francia || VILLA FRANCIA
+-----------------------------------------------
+  385R | florida center - villa francia
+  385RPRN | variante prenocturna
+  385R_fmisa | variante feria
+
+401I || maipu - hospital dipreca || HOSPITAL DIPRECA
+-----------------------------------------------
+  401I | maipu - hospital dipreca
+
+401R || hospital dipreca - maipu || MAIPU
+-----------------------------------------------
+  401R | hospital dipreca - maipu
+
+401cI || (m) escuela militar - las condes || LAS CONDES
+-----------------------------------------------
+  401cI | (m) escuela militar - las condes
+
+401cR || las condes - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  401cR | las condes - (m) escuela militar
+
+402I || pudahuel - mapocho || MAPOCHO
+-----------------------------------------------
+  402I | pudahuel - mapocho
+
+402R || mapocho - pudahuel || PUDAHUEL
+-----------------------------------------------
+  402R | mapocho - pudahuel
+
+403I || (m) santa ana - la reina || LA REINA
+-----------------------------------------------
+  403I | (m) santa ana - la reina
+  403IPM | variante punta manana
+  403I_cvd | variante ciclovia
+
+403R || la reina - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  403R | la reina - (m) santa ana
+
+404I || el descanso - mapocho || MAPOCHO
+-----------------------------------------------
+  404I | el descanso - mapocho
+
+404R || mapocho - el descanso || EL DESCANSO
+-----------------------------------------------
+  404R | mapocho - el descanso
+
+404cI || el descanso - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  404cI | el descanso - (m) las rejas
+
+404cR || (m) las rejas - el descanso || EL DESCANSO
+-----------------------------------------------
+  404cR | (m) las rejas - el descanso
+
+405I || maipu - cantagallo || CANTAGALLO
+-----------------------------------------------
+  405I | maipu - cantagallo
+
+405R || cantagallo - maipu || MAIPU
+-----------------------------------------------
+  405R | cantagallo - maipu
+
+405cI || plaza italia - vitacura || VITACURA
+-----------------------------------------------
+  405cI | plaza italia - vitacura
+  405cyI | inyeccion
+
+405cR || vitacura - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  405cR | vitacura - plaza italia
+
+406I || pudahuel - cantagallo || CANTAGALLO
+-----------------------------------------------
+  406I | pudahuel - cantagallo
+
+406R || cantagallo - pudahuel || PUDAHUEL
+-----------------------------------------------
+  406R | cantagallo - pudahuel
+
+406cI || (m) escuela militar - cantagallo || CANTAGALLO
+-----------------------------------------------
+  406cI | (m) escuela militar - cantagallo
+
+406cR || cantagallo - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  406cR | cantagallo - (m) escuela militar
+
+407I || enea - las condes || LAS CONDES
+-----------------------------------------------
+  407I | enea - las condes
+  407IPRN | variante pre nocturno
+
+407R || las condes - enea || ENEA
+-----------------------------------------------
+  407R | las condes - enea
+  407RPRN | variante pre nocturno
+
+408I || renca - mapocho || MAPOCHO
+-----------------------------------------------
+  408I | renca - mapocho
+
+408R || mapocho - renca || RENCA
+-----------------------------------------------
+  408R | mapocho - renca
+  408RPT | variante punta tarde
+
+408eI || renca - mapocho || MAPOCHO
+-----------------------------------------------
+  408eI | renca - mapocho
+
+408eR || mapocho - renca || RENCA
+-----------------------------------------------
+  408eR | mapocho - renca
+
+408encI || 408eIncPT || 408EINCPT
+-----------------------------------------------
+  408eIncPT | no comercial
+  408encI | 408eIncPT
+
+408encR || 408eRncPM || 408ERNCPM
+-----------------------------------------------
+  408eRncPM | no comercial
+  408encR | 408eRncPM
+
+409I || mapocho - plaza san enrique || PLAZA SAN ENRIQUE
+-----------------------------------------------
+  409I | mapocho - plaza san enrique
+
+409R || plaza san enrique - mapocho || MAPOCHO
+-----------------------------------------------
+  409R | plaza san enrique - mapocho
+
+410I || renca - providencia || PROVIDENCIA
+-----------------------------------------------
+  410I | renca - providencia
+  410IPT | variante punta tarde
+  410yI | inyeccion
+
+410R || providencia - renca || RENCA
+-----------------------------------------------
+  410R | providencia - renca
+  410RPT | variante punta tarde
+
+410eI || renca - providencia || PROVIDENCIA
+-----------------------------------------------
+  410eI | renca - providencia
+
+410encR || 410eRnc || 410ERNC
+-----------------------------------------------
+  410eRnc | no comercial
+  410encR | 410eRnc
+
+411I || providencia - plaza san enrique || PLAZA SAN ENRIQUE
+-----------------------------------------------
+  411I | providencia - plaza san enrique
+  411I_cvd | variante ciclovia
+
+411R || plaza san enrique - providencia || PROVIDENCIA
+-----------------------------------------------
+  411R | plaza san enrique - providencia
+
+412I || enea - la reina || LA REINA
+-----------------------------------------------
+  412I | enea - la reina
+  412I_fmavi | variante feria
+  412Iy | inyeccion
+
+412R || la reina - enea || ENEA
+-----------------------------------------------
+  412R | la reina - enea
+  412R_fmavi | variante feria
+
+413cI || avenida portales - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  413cI | avenida portales - (m) las rejas
+
+413cR || (m) las rejas - avenida portal || AVENIDA PORTAL
+-----------------------------------------------
+  413cR | (m) las rejas - avenida portal
+
+413vI || avenida portales - (m) plaza de maipu || (M) PLAZA DE MAIPU
+-----------------------------------------------
+  413vI | avenida portales - (m) plaza de maipu
+
+413vR || (m) plaza de maipu - avenida portales || AVENIDA PORTALES
+-----------------------------------------------
+  413vR | (m) plaza de maipu - avenida portales
+
+414eI || (m) pudahuel -  los trapenses ||  LOS TRAPENSES
+-----------------------------------------------
+  414eI | (m) pudahuel -  los trapenses
+
+414eR || los trapenses - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  414eR | los trapenses - (m) pudahuel
+
+414encI || 414eIncPT || 414EINCPT
+-----------------------------------------------
+  414eIncPT | no comercial
+  414encI | 414eIncPT
+
+414encR || 414eRncPM || 414ERNCPM
+-----------------------------------------------
+  414eRncPM | no comercial
+  414encR | 414eRncPM
+
+415eI || (m) pudahuel -  (m) manquehue ||  (M) MANQUEHUE
+-----------------------------------------------
+  415eI | (m) pudahuel -  (m) manquehue
+
+415eR || (m) manquehue - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  415eR | (m) manquehue - (m) pudahuel
+
+415encI || 415eIncPT || 415EINCPT
+-----------------------------------------------
+  415eIncPT | no comercial
+  415encI | 415eIncPT
+
+415encR || 415eRncPM || 415ERNCPM
+-----------------------------------------------
+  415eRncPM | no comercial
+  415encR | 415eRncPM
+
+417eI || maipu - (m) manquehue || (M) MANQUEHUE
+-----------------------------------------------
+  417eI | maipu - (m) manquehue
+
+417eR || (m) manquehue - maipu || MAIPU
+-----------------------------------------------
+  417eR | (m) manquehue - maipu
+
+417encI || 417eIncPT || 417EINCPT
+-----------------------------------------------
+  417eIncPT | no comercial
+  417encI | 417eIncPT
+
+417encR || 417eRncPM || 417ERNCPM
+-----------------------------------------------
+  417eRncPM | no comercial
+  417encR | 417eRncPM
+
+418I || enea - av. tobalaba || AV. TOBALABA
+-----------------------------------------------
+  418I | enea - av. tobalaba
+  418IPRN | variante prenocturna
+  418I_fjudo | variante feria
+
+418R || av. tobalaba - enea || ENEA
+-----------------------------------------------
+  418R | av. tobalaba - enea
+  418RPRN | variante prenocturna
+  418RPT | variante punta tarde
+  418R_fjudo | variante feria
+
+419I || villa los heroes - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  419I | villa los heroes - plaza italia
+
+419R || plaza italia - villa los heroes || VILLA LOS HEROES
+-----------------------------------------------
+  419R | plaza italia - villa los heroes
+  419yR | inyeccion
+
+420eI || (m) escuela militar - lo hermida || LO HERMIDA
+-----------------------------------------------
+  420eI | (m) escuela militar - lo hermida
+
+420eR || lo hermida - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  420eR | lo hermida - (m) escuela militar
+  420eRPT | variante punta tarde
+
+421I || maipu - san carlos de apoquindo || SAN CARLOS DE APOQUINDO
+-----------------------------------------------
+  421I | maipu - san carlos de apoquindo
+  421yI | inyeccion
+
+421R || san carlos de apoquindo - maipu || MAIPU
+-----------------------------------------------
+  421R | san carlos de apoquindo - maipu
+
+422I || pobl. teniente merino -  la reina ||  LA REINA
+-----------------------------------------------
+  422I | pobl. teniente merino -  la reina
+  422IPM | variante punta manana
+  422I_cvd | variante ciclovia
+
+422R || la reina  - pobl. teniente merino || POBL. TENIENTE MERINO
+-----------------------------------------------
+  422R | la reina  - pobl. teniente merino
+  422R_fjudo | variante feria
+
+423I || segunda transversal - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  423I | segunda transversal - plaza italia
+
+423R || plaza italia - segunda transversal || SEGUNDA TRANSVERSAL
+-----------------------------------------------
+  423R | plaza italia - segunda transversal
+
+424I || pudahuel sur - (m) u. de chile || (M) U. DE CHILE
+-----------------------------------------------
+  424I | pudahuel sur - (m) u. de chile
+  424I_fjudo | variante feria
+  424I_fmavi | variante feria
+
+424R || (m) u. de chile - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  424R | (m) u. de chile - pudahuel sur
+  424R_fjudo | variante feria
+  424R_fmavi | variante feria
+
+425I || rigoberto jara - lo hermida || LO HERMIDA
+-----------------------------------------------
+  425I | rigoberto jara - lo hermida
+  425I_fjudo | variante feria
+
+425R || lo hermida - rigoberto jara || RIGOBERTO JARA
+-----------------------------------------------
+  425R | lo hermida - rigoberto jara
+  425R_fdo | variante feria
+
+426I || pudahuel - la dehesa || LA DEHESA
+-----------------------------------------------
+  426I | pudahuel - la dehesa
+  426IPRN | variante prenocturna
+
+426R || la dehesa - pudahuel || PUDAHUEL
+-----------------------------------------------
+  426R | la dehesa - pudahuel
+  426RPRN | variante prenocturna
+
+428I || quilicura - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  428I | quilicura - (m) la cisterna
+  428IN | variante nocturna
+  428I_fdo | variante feria
+
+428R || (m) la cisterna - quilicura || QUILICURA
+-----------------------------------------------
+  428R | (m) la cisterna - quilicura
+  428RN | variante nocturna
+  428R_fdo | variante feria
+
+428cI || pudahuel - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  428cI | pudahuel - (m) la cisterna
+  428cITNOC | variante transicion nocturna
+
+428cR || (m) la cisterna - pudahuel || PUDAHUEL
+-----------------------------------------------
+  428cR | (m) la cisterna - pudahuel
+  428cRTNOC | variante transicion nocturna
+
+428eI || quilicura - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  428eI | quilicura - (m) la cisterna
+  428eITNOC | variante transicion nocturna
+
+428eR || (m) la cisterna - quilicura || QUILICURA
+-----------------------------------------------
+  428eR | (m) la cisterna - quilicura
+  428eRTNOC | variante transicion nocturna
+
+429I || lo echevers - lo hermida || LO HERMIDA
+-----------------------------------------------
+  429I | lo echevers - lo hermida
+  429I _fdo | variante feria
+
+429R || lo hermida - lo echevers || LO ECHEVERS
+-----------------------------------------------
+  429R | lo hermida - lo echevers
+  429RPT | variante punta tarde
+  429R_fdo | variante feria
+
+429cI || quilicura - (m) tobalaba || (M) TOBALABA
+-----------------------------------------------
+  429cI | quilicura - (m) tobalaba
+  429cIPT | variante punta tarde
+
+429cR || (m) tobalaba - quilicura || QUILICURA
+-----------------------------------------------
+  429cR | (m) tobalaba - quilicura
+  429cRPT | variante punta tarde
+
+430I || quilicura - la dehesa || LA DEHESA
+-----------------------------------------------
+  430I | quilicura - la dehesa
+  430yI | inyeccion
+
+430R || la dehesa - quilicura || QUILICURA
+-----------------------------------------------
+  430R | la dehesa - quilicura
+
+431cI || nueva san martin - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  431cI | nueva san martin - (m) las rejas
+
+431cR || (m) las rejas  - nueva san martin || NUEVA SAN MARTIN
+-----------------------------------------------
+  431cR | (m) las rejas  - nueva san martin
+
+431vI || nueva san martin - (m) plaza de maipu || (M) PLAZA DE MAIPU
+-----------------------------------------------
+  431vI | nueva san martin - (m) plaza de maipu
+
+431vR || (m) plaza de maipu - nueva san martin || NUEVA SAN MARTIN
+-----------------------------------------------
+  431vR | (m) plaza de maipu - nueva san martin
+
+432NI || maipu - la reina || LA REINA
+-----------------------------------------------
+  432NI | maipu - la reina
+
+432NR || la reina - maipu || MAIPU
+-----------------------------------------------
+  432NR | la reina - maipu
+
+435I || quilicura - vitacura || VITACURA
+-----------------------------------------------
+  435I | quilicura - vitacura
+  435I_fdo | variante feria
+
+435R || vitacura - quilicura || QUILICURA
+-----------------------------------------------
+  435R | vitacura - quilicura
+  435R_fdo | variante feria
+
+501I || (m) parque bustamante - fleming || FLEMING
+-----------------------------------------------
+  501I | (m) parque bustamante - fleming
+
+501R || fleming - (m) parque bustamante || (M) PARQUE BUSTAMANTE
+-----------------------------------------------
+  501R | fleming - (m) parque bustamante
+
+502I || cerro navia - cantagallo || CANTAGALLO
+-----------------------------------------------
+  502I | cerro navia - cantagallo
+
+502R || cantagallo - cerro navia || CERRO NAVIA
+-----------------------------------------------
+  502R | cantagallo - cerro navia
+
+502cI || cerro navia - santiago || SANTIAGO
+-----------------------------------------------
+  502cI | cerro navia - santiago
+
+502cR || santiago - cerro navia || CERRO NAVIA
+-----------------------------------------------
+  502cR | santiago - cerro navia
+
+502cncI || 502cIncPT || 502CINCPT
+-----------------------------------------------
+  502cIncPT | no comercial
+  502cncI | 502cIncPT
+
+502cncR || 502cRncPM || 502CRNCPM
+-----------------------------------------------
+  502cRncPM | no comercial
+  502cncR | 502cRncPM
+
+503I || av. la estrella - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  503I | av. la estrella - vital apoquindo
+  503IPM | variante punta manana
+  503I_cvd | variante ciclovia
+
+503R || vital apoquindo -  av. la estrella ||  AV. LA ESTRELLA
+-----------------------------------------------
+  503R | vital apoquindo -  av. la estrella
+
+504I || el tranque - hospital dipreca || HOSPITAL DIPRECA
+-----------------------------------------------
+  504I | el tranque - hospital dipreca
+  504I_fjudo | variante feria
+
+504R || hospital dipreca - el tranque || EL TRANQUE
+-----------------------------------------------
+  504R | hospital dipreca - el tranque
+  504R_fjudo | variante feria
+
+505I || cerro navia - penalolen || PENALOLEN
+-----------------------------------------------
+  505I | cerro navia - penalolen
+  505IPM | variante punta manana
+  505IPM_fmavi | variante feria
+  505I_cvd | variante ciclovia
+  505I_fmavi | variante feria
+  505I_fsa | variante feria
+
+505R || penalolen - cerro navia || CERRO NAVIA
+-----------------------------------------------
+  505R | penalolen - cerro navia
+  505RPT | variante punta tarde
+  505R_fmavi | variante feria
+  505R_fsa | variante feria
+
+506I || maipu - penalolen || PENALOLEN
+-----------------------------------------------
+  506I | maipu - penalolen
+
+506R || penalolen  - maipu || MAIPU
+-----------------------------------------------
+  506R | penalolen  - maipu
+
+506eI || maipu - penalolen || PENALOLEN
+-----------------------------------------------
+  506eI | maipu - penalolen
+
+506eR || penalolen - maipu || MAIPU
+-----------------------------------------------
+  506eR | penalolen - maipu
+
+506vI || villa el abrazo - penalolen || PENALOLEN
+-----------------------------------------------
+  506vI | villa el abrazo - penalolen
+
+506vR || penalolen - villa el abrazo || VILLA EL ABRAZO
+-----------------------------------------------
+  506vR | penalolen - villa el abrazo
+
+507I || enea - av grecia || AV GRECIA
+-----------------------------------------------
+  507I | enea - av grecia
+  507I_fjudo | variante feria
+
+507R || av grecia - enea || ENEA
+-----------------------------------------------
+  507R | av grecia - enea
+  507R_fjudo | variante feria
+
+507cI || (m) parque ohiggins - penalolen || PENALOLEN
+-----------------------------------------------
+  507cI | (m) parque ohiggins - penalolen
+
+507cR || penalolen - (m) parque ohiggins || (M) PARQUE OHIGGINS
+-----------------------------------------------
+  507cR | penalolen - (m) parque ohiggins
+
+508I || av. mapocho - av.las torres || AV.LAS TORRES
+-----------------------------------------------
+  508I | av. mapocho - av.las torres
+  508IPM | variante punta manana
+  508IPM_fmavi | variante feria
+  508I_fmavi | variante feria
+
+508R || av. las torres - av. mapocho || AV. MAPOCHO
+-----------------------------------------------
+  508R | av. las torres - av. mapocho
+  508RPT | variante punta tarde
+  508RPT_fmavi | variante feria
+  508R_cvd | variante ciclovia
+  508R_fmavi | variante feria
+
+509I || maipu - mapocho || MAPOCHO
+-----------------------------------------------
+  509I | maipu - mapocho
+
+509R || mapocho - maipu || MAIPU
+-----------------------------------------------
+  509R | mapocho - maipu
+  509RPM | variante punta manana
+
+510I || pudahuel sur - av. grecia || AV. GRECIA
+-----------------------------------------------
+  510I | pudahuel sur - av. grecia
+  510IPM | variante punta manana
+  510I_fsa | variante feria
+
+510R || av. grecia - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  510R | av. grecia - pudahuel sur
+  510R_fjudo | variante feria
+  510R_fmisa | variante feria
+  510R_fsa | variante feria
+
+511I || cerro navia - penalolen || PENALOLEN
+-----------------------------------------------
+  511I | cerro navia - penalolen
+  511I_fmavi | variante feria
+
+511R || penalolen - cerro navia || CERRO NAVIA
+-----------------------------------------------
+  511R | penalolen - cerro navia
+  511R_fmavi | variante feria
+
+513I || el montijo - jose arrieta || JOSE ARRIETA
+-----------------------------------------------
+  513I | el montijo - jose arrieta
+  513IPM | variante punta manana
+  513IPM_fmavi | variante feria
+  513I_cvd | variante ciclovia
+  513I_fmavi | variante feria
+
+513R || jose arrieta - el montijo || EL MONTIJO
+-----------------------------------------------
+  513R | jose arrieta - el montijo
+  513R_fmavi | variante feria
+
+513vR || hospital salvador - jose arrieta || JOSE ARRIETA
+-----------------------------------------------
+  513vR | hospital salvador - jose arrieta
+  513vRPT | variante punta tarde
+
+514I || enea - san luis de macul || SAN LUIS DE MACUL
+-----------------------------------------------
+  514I | enea - san luis de macul
+  514IPM | variante punta manana
+  514I_cvd | variante ciclovia
+
+514R || san luis de macul - enea || ENEA
+-----------------------------------------------
+  514R | san luis de macul - enea
+  514RPM | variante punta manana
+  514RPT | variante punta tarde
+  514R_cvd | variante ciclovia
+
+514cI || (m) salvador - san luis de macul || SAN LUIS DE MACUL
+-----------------------------------------------
+  514cI | (m) salvador - san luis de macul
+
+514cR || san luis de macul - (m) salvador || (M) SALVADOR
+-----------------------------------------------
+  514cR | san luis de macul - (m) salvador
+
+514cncI || 514cInc || 514CINC
+-----------------------------------------------
+  514cInc | no comercial
+  514cncI | 514cInc
+
+514cncR || 514cRnc || 514CRNC
+-----------------------------------------------
+  514cRnc | no comercial
+  514cncR | 514cRnc
+
+515NI || centro - san luis de macul || SAN LUIS DE MACUL
+-----------------------------------------------
+  515NI | centro - san luis de macul
+
+515NR || san luis de macul - centro || CENTRO
+-----------------------------------------------
+  515NR | san luis de macul - centro
+
+516I || pudahuel sur - las parcelas || LAS PARCELAS
+-----------------------------------------------
+  516I | pudahuel sur - las parcelas
+  516IPM | variante punta manana
+  516I_fsa | variante feria
+
+516R || las parcelas - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  516R | las parcelas - pudahuel sur
+  516R_fjudo | variante feria
+  516R_fmisa | variante feria
+  516R_fsa | variante feria
+
+517I || j. j. perez - el progreso || EL PROGRESO
+-----------------------------------------------
+  517I | j. j. perez - el progreso
+  517IPM | variante punta manana
+  517I_cvd | variante ciclovia
+
+517R || el progreso - j. j. perez || J. J. PEREZ
+-----------------------------------------------
+  517R | el progreso - j. j. perez
+
+518I || j.j. perez - bilbao || BILBAO
+-----------------------------------------------
+  518I | j.j. perez - bilbao
+
+518R || bilbao - j.j. perez || J.J. PEREZ
+-----------------------------------------------
+  518R | bilbao - j.j. perez
+
+519I || alameda - av. grecia || AV. GRECIA
+-----------------------------------------------
+  519I | alameda - av. grecia
+  519IPM | variante punta manana
+
+519R || av. grecia - alameda || ALAMEDA
+-----------------------------------------------
+  519R | av. grecia - alameda
+
+541NI || el tranque - colon || COLON
+-----------------------------------------------
+  541NI | el tranque - colon
+
+541NR || colon - el tranque || EL TRANQUE
+-----------------------------------------------
+  541NR | colon - el tranque
+
+546eI || villa el abrazo - vitacura || VITACURA
+-----------------------------------------------
+  546eI | villa el abrazo - vitacura
+
+546eR || vitacura - villa el abrazo || VILLA EL ABRAZO
+-----------------------------------------------
+  546eR | vitacura - villa el abrazo
+
+712I || puente alto - recoleta || RECOLETA
+-----------------------------------------------
+  712I | puente alto - recoleta
+  712I_fdo | variante feria
+  712I_fsa | variante feria
+
+712R || recoleta - puente alto || PUENTE ALTO
+-----------------------------------------------
+  712R | recoleta - puente alto
+  712R_fmi | variante feria
+
+752NI || 712NI || 712NI
+-----------------------------------------------
+  712NI | puente alto - (m) escuela militar
+  752NI | 712NI
+
+752NR || 712NR || 712NR
+-----------------------------------------------
+  712NR | (m) escuela militar - puente alto
+  752NR | 712NR
+
+B01I || el salto - huamachuco || HUAMACHUCO
+-----------------------------------------------
+  B01I | el salto - huamachuco
+
+B01R || huamachuco - el salto || EL SALTO
+-----------------------------------------------
+  B01R | huamachuco - el salto
+
+B02I || camino punta mocha - estacion mapocho || ESTACION MAPOCHO
+-----------------------------------------------
+  B02I | camino punta mocha - estacion mapocho
+
+B02NI || huechuraba - plaza italia || PLAZA ITALIA
+-----------------------------------------------
+  B02NI | huechuraba - plaza italia
+
+B02NR || plaza italia - huechuraba || HUECHURABA
+-----------------------------------------------
+  B02NR | plaza italia - huechuraba
+
+B02R || estacion mapocho - camino punta mocha || CAMINO PUNTA MOCHA
+-----------------------------------------------
+  B02R | estacion mapocho - camino punta mocha
+
+B03I || miraflores - (m) cerro blanco || (M) CERRO BLANCO
+-----------------------------------------------
+  B03I | miraflores - (m) cerro blanco
+  B03I_fjudo | variante feria
+
+B03R || (m) cerro blanco - miraflores || MIRAFLORES
+-----------------------------------------------
+  B03R | (m) cerro blanco - miraflores
+
+B04I || el cortijo - mapocho || MAPOCHO
+-----------------------------------------------
+  B04I | el cortijo - mapocho
+
+B04R || mapocho - el cortijo || EL CORTIJO
+-----------------------------------------------
+  B04R | mapocho - el cortijo
+
+B04vI || el cortijo - (m) cerro blanco || (M) CERRO BLANCO
+-----------------------------------------------
+  B04vI | el cortijo - (m) cerro blanco
+
+B04vR || (m) cerro blanco - el cortijo || EL CORTIJO
+-----------------------------------------------
+  B04vR | (m) cerro blanco - el cortijo
+
+B05I || barrio san ignacio - ciudad empresarial || CIUDAD EMPRESARIAL
+-----------------------------------------------
+  B05I | barrio san ignacio - ciudad empresarial
+
+B05R || ciudad empresarial - barrio san ignacio || BARRIO SAN IGNACIO
+-----------------------------------------------
+  B05R | ciudad empresarial - barrio san ignacio
+
+B06I || (m) zapadores - santa laura || SANTA LAURA
+-----------------------------------------------
+  B06I | (m) zapadores - santa laura
+  B06I_fdo | variante feria
+
+B06R || santa laura - (m) zapadores || (M) ZAPADORES
+-----------------------------------------------
+  B06R | santa laura - (m) zapadores
+  B06R_fdo | variante feria
+
+B07I || parque industrial - (m) los libertadores || (M) LOS LIBERTADORES
+-----------------------------------------------
+  B07I | parque industrial - (m) los libertadores
+
+B08I || lo marcoleta - mall plaza norte || MALL PLAZA NORTE
+-----------------------------------------------
+  B08I | lo marcoleta - mall plaza norte
+
+B08R || mall plaza norte - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  B08R | mall plaza norte - lo marcoleta
+
+B09I || lo boza - hospital felix bulnes || HOSPITAL FELIX BULNES
+-----------------------------------------------
+  B09I | lo boza - hospital felix bulnes
+
+B09R || hospital felix bulnes - lo boza || LO BOZA
+-----------------------------------------------
+  B09R | hospital felix bulnes - lo boza
+  B09R_fjudo | variante feria
+
+B10I || villa los libertadores - (m) cerro blanc || (M) CERRO BLANC
+-----------------------------------------------
+  B10I | villa los libertadores - (m) cerro blanc
+  B10I_fjudo | variante feria
+
+B10R || (m) cerro blanco - villa los libertadore || VILLA LOS LIBERTADORE
+-----------------------------------------------
+  B10R | (m) cerro blanco - villa los libertadore
+
+B11I || el salto - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  B11I | el salto - lo marcoleta
+  B11I_fdo | variante feria
+
+B11R || lo marcoleta - el salto || EL SALTO
+-----------------------------------------------
+  B11R | lo marcoleta - el salto
+  B11R_fdo | variante feria
+
+B12I || (m) zapadores - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  B12I | (m) zapadores - lo marcoleta
+  B12IPM | variante punta manana
+
+B12R || lo marcoleta - (m) zapadores || (M) ZAPADORES
+-----------------------------------------------
+  B12R | lo marcoleta - (m) zapadores
+
+B12cI || lo marcoleta - (m) los libertadores || (M) LOS LIBERTADORES
+-----------------------------------------------
+  B12cI | lo marcoleta - (m) los libertadores
+
+B13I || (m) vespucio norte - santa luisa || SANTA LUISA
+-----------------------------------------------
+  B13I | (m) vespucio norte - santa luisa
+  B13IPRN | variante prenocturna
+  B13I_fdo | variante feria
+
+B13R || santa luisa - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B13R | santa luisa - (m) vespucio norte
+  B13RPRN | variante prenocturna
+  B13R_fdo | variante feria
+
+B14I || el salto - mapocho || MAPOCHO
+-----------------------------------------------
+  B14I | el salto - mapocho
+  B14I_fsa | variante feria
+
+B14R || mapocho - el salto || EL SALTO
+-----------------------------------------------
+  B14R | mapocho - el salto
+
+B15I || arzobispo valdivieso - mapocho || MAPOCHO
+-----------------------------------------------
+  B15I | arzobispo valdivieso - mapocho
+  B15I_fvi | variante feria
+
+B15R || mapocho - arzobispo valdivieso || ARZOBISPO VALDIVIESO
+-----------------------------------------------
+  B15R | mapocho - arzobispo valdivieso
+  B15R_fvi | variante feria
+
+B16I || el carmen - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B16I | el carmen - (m) vespucio norte
+  B16IPRN | variante prenocturna
+
+B16R || (m) vespucio norte - el carmen || EL CARMEN
+-----------------------------------------------
+  B16R | (m) vespucio norte - el carmen
+  B16RPRN | variante prenocturna
+  B16R_fvi | variante feria
+
+B17I || huamachuco - av. arzobispo valdivieso || AV. ARZOBISPO VALDIVIESO
+-----------------------------------------------
+  B17I | huamachuco - av. arzobispo valdivieso
+  B17I_fvi | variante feria
+
+B17R || av. arzobispo valdivieso - huamachuco || HUAMACHUCO
+-----------------------------------------------
+  B17R | av. arzobispo valdivieso - huamachuco
+  B17R_fvi | variante feria
+
+B18I || villa pucara - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B18I | villa pucara - (m) vespucio norte
+  B18IPRN | variante prenocturna
+
+B18R || (m) vespucio norte - villa pucara || VILLA PUCARA
+-----------------------------------------------
+  B18R | (m) vespucio norte - villa pucara
+  B18RPRN | variante prenocturna
+
+B18eI || villa pucara - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B18eI | villa pucara - (m) vespucio norte
+
+B18eR || (m) vespucio norte - villa pucara || VILLA PUCARA
+-----------------------------------------------
+  B18eR | (m) vespucio norte - villa pucara
+  B18eR_fvi | variante feria
+
+B19I || juanita aguirre - el rosal || EL ROSAL
+-----------------------------------------------
+  B19I | juanita aguirre - el rosal
+
+B19R || el rosal - juanita aguirre || JUANITA AGUIRRE
+-----------------------------------------------
+  B19R | el rosal - juanita aguirre
+
+B20I || miraflores - mapocho || MAPOCHO
+-----------------------------------------------
+  B20I | miraflores - mapocho
+
+B20R || mapocho - miraflores || MIRAFLORES
+-----------------------------------------------
+  B20R | mapocho - miraflores
+
+B21I || plaza chacabuco - lo marcoleta || LO MARCOLETA
+-----------------------------------------------
+  B21I | plaza chacabuco - lo marcoleta
+  B21I_fdo | variante feria
+
+B21R || lo marcoleta - plaza chacabuco || PLAZA CHACABUCO
+-----------------------------------------------
+  B21R | lo marcoleta - plaza chacabuco
+  B21R_fdo | variante feria
+
+B22I || palacio riesco - urmeneta || URMENETA
+-----------------------------------------------
+  B22I | palacio riesco - urmeneta
+  B22I_fdo | variante feria
+
+B22R || urmeneta - palacio riesco || PALACIO RIESCO
+-----------------------------------------------
+  B22R | urmeneta - palacio riesco
+  B22R_fdo | variante feria
+  B22R_fmi | variante feria
+
+B23I || reina maria - mapocho || MAPOCHO
+-----------------------------------------------
+  B23I | reina maria - mapocho
+
+B23R || mapocho - reina maria || REINA MARIA
+-----------------------------------------------
+  B23R | mapocho - reina maria
+
+B24I || huamachuco - mapocho || MAPOCHO
+-----------------------------------------------
+  B24I | huamachuco - mapocho
+  B24I_fjudo | variante feria
+
+B24R || mapocho - huamachuco || HUAMACHUCO
+-----------------------------------------------
+  B24R | mapocho - huamachuco
+  B24R_fjudo | variante feria
+
+B25I || (m) vespucio norte - (m) cerro blanco || (M) CERRO BLANCO
+-----------------------------------------------
+  B25I | (m) vespucio norte - (m) cerro blanco
+  B25IPRN | variante prenocturna
+
+B25R || (m) cerro blanco - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B25R | (m) cerro blanco - (m) vespucio norte
+  B25RPRN | variante prenocturna
+
+B26I || el cortijo - (m) estacion central || (M) ESTACION CENTRAL
+-----------------------------------------------
+  B26I | el cortijo - (m) estacion central
+
+B26R || (m) estacion central - el cortijo || EL CORTIJO
+-----------------------------------------------
+  B26R | (m) estacion central - el cortijo
+
+B27I || (m) vespucio norte - (m) salvador || (M) SALVADOR
+-----------------------------------------------
+  B27I | (m) vespucio norte - (m) salvador
+  B27I_fdo | variante feria
+
+B27R || (m) salvador - (m) vespucio norte || (M) VESPUCIO NORTE
+-----------------------------------------------
+  B27R | (m) salvador - (m) vespucio norte
+  B27RPRN | variante prenocturna
+  B27R_fdo | variante  feria
+
+B28I || huamachuco - (m) estacion central || (M) ESTACION CENTRAL
+-----------------------------------------------
+  B28I | huamachuco - (m) estacion central
+  B28I_fjudo | variante feria
+
+B29I || renca - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  B29I | renca - (m) santa ana
+
+B29R || (m) santa ana - renca || RENCA
+-----------------------------------------------
+  B29R | (m) santa ana - renca
+
+B30NI || renca - centro || CENTRO
+-----------------------------------------------
+  B30NI | renca - centro
+
+B30NR || centro - renca || RENCA
+-----------------------------------------------
+  B30NR | centro - renca
+
+B31NI || alameda - quilicura || QUILICURA
+-----------------------------------------------
+  B31NI | alameda - quilicura
+
+B31NR || quilicura - alameda || ALAMEDA
+-----------------------------------------------
+  B31NR | quilicura - alameda
+
+C01I || (m) francisco bilbao - cerro 18 || CERRO 18
+-----------------------------------------------
+  C01I | (m) francisco bilbao - cerro 18
+
+C01R || cerro 18 - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  C01R | cerro 18 - (m) francisco bilbao
+
+C01cI || (m) escuela militar - la ermita || LA ERMITA
+-----------------------------------------------
+  C01cI | (m) escuela militar - la ermita
+
+C01cR || la ermita - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C01cR | la ermita - (m) escuela militar
+
+C02I || san carlos de apoquindo - (m) escuela || (M) ESCUELA
+-----------------------------------------------
+  C02I | san carlos de apoquindo - (m) escuela
+  C02IPMPRENOC | variante punta manana - prenocturno
+
+C02R || (m) escuela militar - san carlos de apoq || SAN CARLOS DE APOQ
+-----------------------------------------------
+  C02R | (m) escuela militar - san carlos de apoq
+  C02RPMPRENOC | variante punta manana - prenocturno
+
+C02cI || san carlos de apoquindo - (m) los domini || (M) LOS DOMINI
+-----------------------------------------------
+  C02cI | san carlos de apoquindo - (m) los domini
+  C02cIPM | variante punta manana
+
+C02cR || (m) los dominicos - san carlos de apoqui || SAN CARLOS DE APOQUI
+-----------------------------------------------
+  C02cR | (m) los dominicos - san carlos de apoqui
+  C02cRPM | variante punta manana
+
+C03I || rotonda perez zukjovic - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  C03I | rotonda perez zukjovic - vital apoquindo
+
+C03R || vital apoquindo - rotonda perez zukjovic || ROTONDA PEREZ ZUKJOVIC
+-----------------------------------------------
+  C03R | vital apoquindo - rotonda perez zukjovic
+
+C03cI || lo gallo - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  C03cI | lo gallo - vital apoquindo
+
+C03cR || vital apoquindo - lo gallo || LO GALLO
+-----------------------------------------------
+  C03cR | vital apoquindo - lo gallo
+
+C04I || vital apoquindo - (m) manuel montt || (M) MANUEL MONTT
+-----------------------------------------------
+  C04I | vital apoquindo - (m) manuel montt
+
+C04R || (m) manuel montt - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  C04R | (m) manuel montt - vital apoquindo
+  C04RPM | variante punta manana
+  C04R_cvd | variante ciclovia
+
+C05I || la ermita - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  C05I | la ermita - (m) francisco bilbao
+
+C05R || (m) francisco bilbao - la ermita || LA ERMITA
+-----------------------------------------------
+  C05R | (m) francisco bilbao - la ermita
+  C05RPM | variante punta manana
+
+C06I || vital apoquindo - (m) tobalaba || (M) TOBALABA
+-----------------------------------------------
+  C06I | vital apoquindo - (m) tobalaba
+
+C06R || (m) tobalaba - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  C06R | (m) tobalaba - vital apoquindo
+  C06RPM | variante punta manana
+  C06R_cvd | variante ciclovia
+
+C07I || la piramide - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  C07I | la piramide - (m) francisco bilbao
+  C07IPM | variante punta manana
+
+C07R || (m) francisco bilbao - la piramide || LA PIRAMIDE
+-----------------------------------------------
+  C07R | (m) francisco bilbao - la piramide
+  C07RPM | variante punta manana
+
+C08I || camino real - cantagallo || CANTAGALLO
+-----------------------------------------------
+  C08I | camino real - cantagallo
+
+C08R || cantagallo - camino real || CAMINO REAL
+-----------------------------------------------
+  C08R | cantagallo - camino real
+
+C09I || la dehesa - nueva bilbao || NUEVA BILBAO
+-----------------------------------------------
+  C09I | la dehesa - nueva bilbao
+
+C09R || nueva bilbao - la dehesa || LA DEHESA
+-----------------------------------------------
+  C09R | nueva bilbao - la dehesa
+
+C10eI || (m) tobalaba - camino juan pablo ii || CAMINO JUAN PABLO II
+-----------------------------------------------
+  C10eI | (m) tobalaba - camino juan pablo ii
+
+C10eR || camino juan pablo ii - (m) tobalaba || (M) TOBALABA
+-----------------------------------------------
+  C10eR | camino juan pablo ii - (m) tobalaba
+
+C11I || (m) escuela militar - tabancura || TABANCURA
+-----------------------------------------------
+  C11I | (m) escuela militar - tabancura
+
+C11R || tabancura - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C11R | tabancura - (m) escuela militar
+
+C12I || camino juan pablo ii - cantagallo || CANTAGALLO
+-----------------------------------------------
+  C12I | camino juan pablo ii - cantagallo
+
+C12R || cantagallo - camino juan pablo ii || CAMINO JUAN PABLO II
+-----------------------------------------------
+  C12R | cantagallo - camino juan pablo ii
+
+C13I || cantagallo - la laguna || LA LAGUNA
+-----------------------------------------------
+  C13I | cantagallo - la laguna
+
+C13R || la laguna - cantagallo || CANTAGALLO
+-----------------------------------------------
+  C13R | la laguna - cantagallo
+
+C14I || (m) escuela militar - los trapenses || LOS TRAPENSES
+-----------------------------------------------
+  C14I | (m) escuela militar - los trapenses
+
+C14R || los trapenses - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C14R | los trapenses - (m) escuela militar
+
+C15I || (m) escuela militar - estoril || ESTORIL
+-----------------------------------------------
+  C15I | (m) escuela militar - estoril
+
+C15R || estoril - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C15R | estoril - (m) escuela militar
+
+C16I || vital apoquindo - el huinganal || EL HUINGANAL
+-----------------------------------------------
+  C16I | vital apoquindo - el huinganal
+
+C16R || el huinganal - vital apoquindo || VITAL APOQUINDO
+-----------------------------------------------
+  C16R | el huinganal - vital apoquindo
+
+C17I || cerro 18 - los trapenses || LOS TRAPENSES
+-----------------------------------------------
+  C17I | cerro 18 - los trapenses
+
+C17R || los trapenses - cerro 18 || CERRO 18
+-----------------------------------------------
+  C17R | los trapenses - cerro 18
+
+C18I || (m) escuela militar - ciudad empresar || CIUDAD EMPRESAR
+-----------------------------------------------
+  C18I | (m) escuela militar - ciudad empresar
+
+C18R || ciudad empresarial - (m) escuela milit || (M) ESCUELA MILIT
+-----------------------------------------------
+  C18R | ciudad empresarial - (m) escuela milit
+
+C19I || bernardo larrain cotapos - cantagallo || CANTAGALLO
+-----------------------------------------------
+  C19I | bernardo larrain cotapos - cantagallo
+
+C19R || cantagallo - bernardo larrain cotapos || BERNARDO LARRAIN COTAPOS
+-----------------------------------------------
+  C19R | cantagallo - bernardo larrain cotapos
+
+C20I || (m) escuela militar - parque arauco || PARQUE ARAUCO
+-----------------------------------------------
+  C20I | (m) escuela militar - parque arauco
+
+C21NI || los trapenses - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C21NI | los trapenses - (m) escuela militar
+
+C21NR || (m) escuela militar - los trapenses || LOS TRAPENSES
+-----------------------------------------------
+  C21NR | (m) escuela militar - los trapenses
+
+C22I || (m) escuela militar - rotonda lo curr || ROTONDA LO CURR
+-----------------------------------------------
+  C22I | (m) escuela militar - rotonda lo curr
+
+C22R || rotonda lo curro - (m) escuela militar || (M) ESCUELA MILITAR
+-----------------------------------------------
+  C22R | rotonda lo curro - (m) escuela militar
+  C22RPM | variante punta manana
+
+D01I || plaza egana (m) - consistorial || CONSISTORIAL
+-----------------------------------------------
+  D01I | plaza egana (m) - consistorial
+  D01IPM | variante punta manana
+  D01I_fmi | variante feria
+
+D01R || consistorial - plaza egana (m) || PLAZA EGANA (M)
+-----------------------------------------------
+  D01R | consistorial - plaza egana (m)
+  D01R_fmi | variante feria
+
+D02I || (m) irarrazaval -  diagonal las torres ||  DIAGONAL LAS TORRES
+-----------------------------------------------
+  D02I | (m) irarrazaval -  diagonal las torres
+  D02IPM | variante punta manana
+
+D02R || diagonal las torres - (m) irarrazaval || (M) IRARRAZAVAL
+-----------------------------------------------
+  D02R | diagonal las torres - (m) irarrazaval
+  D02RPT | variante punta tarde
+
+D03I || (m) toesca - las parcelas || LAS PARCELAS
+-----------------------------------------------
+  D03I | (m) toesca - las parcelas
+  D03IPM | variante punta manana
+  D03I_cvd | variante ciclovia
+  D03I_fvi | variante feria
+
+D03R || las parcelas - (m) toesca || (M) TOESCA
+-----------------------------------------------
+  D03R | las parcelas - (m) toesca
+
+D03cI || (m) plaza egana - las parcelas || LAS PARCELAS
+-----------------------------------------------
+  D03cI | (m) plaza egana - las parcelas
+  D03cIPM | variante punta manana
+
+D03cR || las parcelas - (m) plaza egana || (M) PLAZA EGANA
+-----------------------------------------------
+  D03cR | las parcelas - (m) plaza egana
+
+D05I || (m) franklin - maria angelica || MARIA ANGELICA
+-----------------------------------------------
+  D05I | (m) franklin - maria angelica
+
+D05R || maria angelica - (m) franklin || (M) FRANKLIN
+-----------------------------------------------
+  D05R | maria angelica - (m) franklin
+  D05RPT | variante punta tarde
+
+D07I || diagonal las torres - (m) franklin || (M) FRANKLIN
+-----------------------------------------------
+  D07I | diagonal las torres - (m) franklin
+  D07I_fmi | variante feria
+  D07I_fsa | variante feria
+
+D07R || (m) franklin - diagonal las torres || DIAGONAL LAS TORRES
+-----------------------------------------------
+  D07R | (m) franklin - diagonal las torres
+  D07R_fmi | variante feria
+  D07R_fsa | variante feria
+
+D07cI || diagonal las torres - (m) los presidente || (M) LOS PRESIDENTE
+-----------------------------------------------
+  D07cI | diagonal las torres - (m) los presidente
+
+D07cR || (m) los presidentes  - diagonal las torr || DIAGONAL LAS TORR
+-----------------------------------------------
+  D07cR | (m) los presidentes  - diagonal las torr
+
+D08I || av. grecia - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  D08I | av. grecia - (m) francisco bilbao
+
+D08R || (m) francisco bilbao - av. grecia || AV. GRECIA
+-----------------------------------------------
+  D08R | (m) francisco bilbao - av. grecia
+
+D08cI || plaza la reina - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  D08cI | plaza la reina - (m) francisco bilbao
+
+D08cR || (m) francisco bilbao - plaza la reina || PLAZA LA REINA
+-----------------------------------------------
+  D08cR | (m) francisco bilbao - plaza la reina
+
+D09I || diagonal las torres - (m) manuel mont || (M) MANUEL MONT
+-----------------------------------------------
+  D09I | diagonal las torres - (m) manuel mont
+  D09IPT | variante punta tarde
+
+D09NI || diagonal las torres - (m) santa ana || (M) SANTA ANA
+-----------------------------------------------
+  D09NI | diagonal las torres - (m) santa ana
+
+D09NR || (m) santa ana - diagonal las torres || DIAGONAL LAS TORRES
+-----------------------------------------------
+  D09NR | (m) santa ana - diagonal las torres
+
+D09R || (m) manuel montt- diagonal las torres || DIAGONAL LAS TORRES
+-----------------------------------------------
+  D09R | (m) manuel montt- diagonal las torres
+  D09RPM | variante punta manana
+
+D10I || (m) carlos valdovinos - alvaro casanova || ALVARO CASANOVA
+-----------------------------------------------
+  D10I | (m) carlos valdovinos - alvaro casanova
+  D10IPM | variante punta manana
+  D10I_cvd | variante ciclovia
+  D10I_fsa | variante feria
+
+D10R || alvaro casanova - (m) carlos valdovino || (M) CARLOS VALDOVINO
+-----------------------------------------------
+  D10R | alvaro casanova - (m) carlos valdovino
+  D10RPM | variante punta manana
+  D10R_fsa | variante feria
+
+D11I || diagonal las torres - mall alto las cond || MALL ALTO LAS COND
+-----------------------------------------------
+  D11I | diagonal las torres - mall alto las cond
+
+D11R || mall alto las condes - diagonal las torr || DIAGONAL LAS TORR
+-----------------------------------------------
+  D11R | mall alto las condes - diagonal las torr
+
+D12I || maria angelica - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  D12I | maria angelica - (m) francisco bilbao
+
+D12R || (m) francisco bilbao - maria angelica || MARIA ANGELICA
+-----------------------------------------------
+  D12R | (m) francisco bilbao - maria angelica
+
+D13I || (m) bellavista de la florida - (m) irarr || (M) IRARR
+-----------------------------------------------
+  D13I | (m) bellavista de la florida - (m) irarr
+  D13IPRN | variante prenocturna
+
+D13R || (m) irarrazaval - (m) bellavista de la f || (M) BELLAVISTA DE LA F
+-----------------------------------------------
+  D13R | (m) irarrazaval - (m) bellavista de la f
+  D13RPRN | variante prenocturna
+
+D14I || (m) pedrero - (m) quilin || (M) QUILIN
+-----------------------------------------------
+  D14I | (m) pedrero - (m) quilin
+  D14IPRN | variante prenocturna
+
+D14R || (m) quilin - (m) pedrero || (M) PEDRERO
+-----------------------------------------------
+  D14R | (m) quilin - (m) pedrero
+  D14RPRN | variante prenocturna
+
+D15I || diagonal las torres - (m) francisco b || (M) FRANCISCO B
+-----------------------------------------------
+  D15I | diagonal las torres - (m) francisco b
+
+D15R || (m) francisco bilbao - diagonal las torr || DIAGONAL LAS TORR
+-----------------------------------------------
+  D15R | (m) francisco bilbao - diagonal las torr
+
+D16I || (m) quilin - (m) francisco bilbao || (M) FRANCISCO BILBAO
+-----------------------------------------------
+  D16I | (m) quilin - (m) francisco bilbao
+  D16IPRN | variante prenocturna
+
+D16R || (m) francisco bilbao - (m) quilin || (M) QUILIN
+-----------------------------------------------
+  D16R | (m) francisco bilbao - (m) quilin
+  D16RPRN | variante prenocturna
+
+D17I || alto macul - (m) quilin || (M) QUILIN
+-----------------------------------------------
+  D17I | alto macul - (m) quilin
+  D17IPRN | variante prenocturna
+  D17vI | las pircas - (m) quilin
+  D17vIPRN | variante prenocturna
+
+D17R || (m) quilin - alto macul || ALTO MACUL
+-----------------------------------------------
+  D17R | (m) quilin - alto macul
+  D17RPRN | variante prenocturna
+  D17R_cvd | variante ciclovia
+  D17vR | (m) quilin - las pircas
+  D17vRPRN | variante prenocturna
+
+D18I || diagonal las torres - (m) santa isabe || (M) SANTA ISABE
+-----------------------------------------------
+  D18I | diagonal las torres - (m) santa isabe
+  D18IPT | variante punta tarde
+
+D18R || (m) santa isabel - diagonal las torres || DIAGONAL LAS TORRES
+-----------------------------------------------
+  D18R | (m) santa isabel - diagonal las torres
+  D18RPM | variante punta manana
+  D18RPT | variante punta tarde
+
+D20I || diagonal las torres - av. las torres || AV. LAS TORRES
+-----------------------------------------------
+  D20I | diagonal las torres - av. las torres
+
+E01I || san jose de la estrella - (m) santa r || (M) SANTA R
+-----------------------------------------------
+  E01I | san jose de la estrella - (m) santa r
+
+E01R || (m) santa rosa - san jose de la estrel || SAN JOSE DE LA ESTREL
+-----------------------------------------------
+  E01R | (m) santa rosa - san jose de la estrel
+
+E02I || (m) lo ovalle - diego portales || DIEGO PORTALES
+-----------------------------------------------
+  E02I | (m) lo ovalle - diego portales
+  E02IPRN | variante prenocturna
+  E02I_fsa | variante feria
+
+E02R || diego portales - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  E02R | diego portales - (m) lo ovalle
+  E02RPRN | variante prenocturna
+  E02R_fdo | variante feria
+  E02R_fsa | variante feria
+
+E03I || (m) lo ovalle - jardin alto || JARDIN ALTO
+-----------------------------------------------
+  E03I | (m) lo ovalle - jardin alto
+  E03IN | variante nocturna
+
+E03R || jardin alto - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  E03R | jardin alto - (m) lo ovalle
+  E03RN | variante nocturna
+
+E04I || av. la florida - (m) franklin || (M) FRANKLIN
+-----------------------------------------------
+  E04I | av. la florida - (m) franklin
+  E04I_cvd | variante ciclovia
+
+E04R || (m) franklin - av. la florida || AV. LA FLORIDA
+-----------------------------------------------
+  E04R | (m) franklin - av. la florida
+  E04R_cvd | variante ciclovia
+  E04R_fsado | variante feria
+
+E05I || (m) la cisterna - (m) bellavista de || (M) BELLAVISTA DE
+-----------------------------------------------
+  E05I | (m) la cisterna - (m) bellavista de
+  E05IPM | variante punta manana
+  E05IPM_fjudo | variante feria
+  E05IPM_fmisa | variante feria
+  E05IPRN | variante prenocturna
+  E05I_cvd | variante ciclovia
+  E05I_fjudo | variante feria
+  E05I_fmisa | variante feria
+
+E05R || (m) bellavista de la florida - (m) la ci || (M) LA CI
+-----------------------------------------------
+  E05R | (m) bellavista de la florida - (m) la ci
+  E05RPRN | variante prenocturna
+  E05R_cvd | variante ciclovia
+  E05R_fjudo | variante feria
+  E05R_fmisa | variante feria
+
+E06I || (m) bellavista de la florida -  maria an ||  MARIA AN
+-----------------------------------------------
+  E06I | (m) bellavista de la florida -  maria an
+  E06IPM | variante punta manana
+  E06IPRN | variante prenocturna
+
+E06R || maria angelica - (m) bellavista de la || (M) BELLAVISTA DE LA
+-----------------------------------------------
+  E06R | maria angelica - (m) bellavista de la
+  E06RPRN | variante prenocturna
+
+E07I || (m) bellavista de la florida - rojas ma || ROJAS MA
+-----------------------------------------------
+  E07I | (m) bellavista de la florida - rojas ma
+  E07IPRN | variante prenocturna
+
+E07R || rojas magallanes - (m) bellavista la flo || (M) BELLAVISTA LA FLO
+-----------------------------------------------
+  E07R | rojas magallanes - (m) bellavista la flo
+  E07RPRN | variante prenocturna
+  E07R_cvd | variante ciclovia
+
+E08I || diego portales - (m) bellavista de la || (M) BELLAVISTA DE LA
+-----------------------------------------------
+  E08I | diego portales - (m) bellavista de la
+  E08IPRN | variante prenocturna
+  E08IPT | variante punta tarde
+  E08I_cvd | variante ciclovia
+
+E08R || (m) bellavista de la florida - diego por || DIEGO POR
+-----------------------------------------------
+  E08R | (m) bellavista de la florida - diego por
+  E08RPM | variante punta manana
+  E08RPM_fju | variante feria
+  E08RPRN | variante prenocturna
+
+E09I || (m) elisa correa - (m) santa rosa || (M) SANTA ROSA
+-----------------------------------------------
+  E09I | (m) elisa correa - (m) santa rosa
+  E09I_cvd | variante ciclovia
+  E09I_fmisa | variante feria
+
+E09R || (m) santa rosa - (m) elisa correa || (M) ELISA CORREA
+-----------------------------------------------
+  E09R | (m) santa rosa - (m) elisa correa
+  E09R_fmisa | variante feria
+
+E10I || el hualle - santa rosa p21 || SANTA ROSA P21
+-----------------------------------------------
+  E10I | el hualle - santa rosa p21
+  E10I_cvd | variante ciclovia
+  E10I_fvisa | variante feria
+
+E10R || santa rosa p21 - el hualle || EL HUALLE
+-----------------------------------------------
+  E10R | santa rosa p21 - el hualle
+  E10RPM_fvi | variante feria
+  E10R_cvd | variante ciclovia
+  E10R_fvisa | variante feria
+
+E11I || diego portales - (m) santa rosa || (M) SANTA ROSA
+-----------------------------------------------
+  E11I | diego portales - (m) santa rosa
+  E11I_fsa | variante feria
+
+E11R || (m) santa rosa - diego portales || DIEGO PORTALES
+-----------------------------------------------
+  E11R | (m) santa rosa - diego portales
+  E11R_fjudo | variante feria
+  E11R_fsa | variante feria
+
+E12I || maria elena - santa rosa p18 || SANTA ROSA P18
+-----------------------------------------------
+  E12I | maria elena - santa rosa p18
+  E12I_fma | variante feria
+  E12I_fmi | variante feria
+  E12I_fsa | variante feria
+
+E13I || gabriela - (m) bellavista de la florida || (M) BELLAVISTA DE LA FLORIDA
+-----------------------------------------------
+  E13I | gabriela - (m) bellavista de la florida
+  E13IPRN | variante prenocturna
+  E13IPT | variante punta tarde
+
+E13R || (m) bellavista de la florida - gabriela || GABRIELA
+-----------------------------------------------
+  E13R | (m) bellavista de la florida - gabriela
+  E13RPM | variante punta manana
+  E13RPRN | variante prenocturna
+
+E13ncI || E13IncPT || E13INCPT
+-----------------------------------------------
+  E13IncPT | no comercial
+  E13ncI | E13IncPT
+
+E13ncR || E13RncPM || E13RNCPM
+-----------------------------------------------
+  E13RncPM | no comercial
+  E13ncR | E13RncPM
+
+E14I || san jose de la estrella - (m) bellavi || (M) BELLAVI
+-----------------------------------------------
+  E14I | san jose de la estrella - (m) bellavi
+  E14IPM2 | variante punta manana
+  E14IPMPT | variante punta manana punta tarde
+  E14IPRN | variante prenocturna
+
+E14R || (m) bellavista de la florida - san jose || SAN JOSE
+-----------------------------------------------
+  E14R | (m) bellavista de la florida - san jose
+  E14RPMPT | variante punta manana punta tarde
+  E14RPRN | variante prenocturna
+  E14RPT2 | variante punta tarde
+
+E15cI || bahia catalina - (m) bellavista de la fl || (M) BELLAVISTA DE LA FL
+-----------------------------------------------
+  E15cI | bahia catalina - (m) bellavista de la fl
+  E15cI_fmisa | variante feria
+
+E15cR || (m) bellavista de la florida - bahia cat || BAHIA CAT
+-----------------------------------------------
+  E15cR | (m) bellavista de la florida - bahia cat
+  E15cR_fmisa | variante feria
+
+E15cncI || E15cIncPT || E15CINCPT
+-----------------------------------------------
+  E15cIncPT | no comercial
+  E15cncI | E15cIncPT
+
+E15cncR || E15cRncPM || E15CRNCPM
+-----------------------------------------------
+  E15cRncPM | no comercial
+  E15cncR | E15cRncPM
+
+E16I || (m) sotero del rio - (m) santa rosa || (M) SANTA ROSA
+-----------------------------------------------
+  E16I | (m) sotero del rio - (m) santa rosa
+
+E16R || (m) santa rosa - (m) sotero del rio || (M) SOTERO DEL RIO
+-----------------------------------------------
+  E16R | (m) santa rosa - (m) sotero del rio
+
+E17I || (m) bellavista de la florida - las pe || LAS PE
+-----------------------------------------------
+  E17I | (m) bellavista de la florida - las pe
+  E17IPRN | variante prenocturna
+
+E17R || las perdices - (m) bellavista de la fl || (M) BELLAVISTA DE LA FL
+-----------------------------------------------
+  E17R | las perdices - (m) bellavista de la fl
+  E17RPRN | variante prenocturna
+
+E18I || hospital padre hurtado - (m) bellavis || (M) BELLAVIS
+-----------------------------------------------
+  E18I | hospital padre hurtado - (m) bellavis
+  E18IPRN | variante prenocturna
+
+E18R || (m) bellavista de la florida - hospital || HOSPITAL
+-----------------------------------------------
+  E18R | (m) bellavista de la florida - hospital
+  E18RPRN | variante prenocturna
+
+F01I || villa padre hurtado - casas viejas || CASAS VIEJAS
+-----------------------------------------------
+  F01I | villa padre hurtado - casas viejas
+  F01I_fdo | variante feria
+  F01I_fmi | variante feria
+
+F01R || casas viejas - villa padre hurtado || VILLA PADRE HURTADO
+-----------------------------------------------
+  F01R | casas viejas - villa padre hurtado
+  F01R_fdo | variante feria
+  F01R_fmi | variante feria
+  F01R_fsa | variante feria
+
+F01cR || (m) plaza puente alto - casas viejas || CASAS VIEJAS
+-----------------------------------------------
+  F01cR | (m) plaza puente alto - casas viejas
+  F01cR_fmi | variante feria
+
+F02I || pie andino - san geronimo || SAN GERONIMO
+-----------------------------------------------
+  F02I | pie andino - san geronimo
+  F02I_fvi | variante feria
+
+F02R || san geronimo - pie andino || PIE ANDINO
+-----------------------------------------------
+  F02R | san geronimo - pie andino
+  F02R_fma | variante feria
+  F02R_fvi | variante feria
+
+F03I || (m) plaza puente alto - plaza san bernar || PLAZA SAN BERNAR
+-----------------------------------------------
+  F03I | (m) plaza puente alto - plaza san bernar
+  F03I_fdo | variante feria
+  F03I_fmi | variante feria
+
+F03R || plaza san bernardo - (m) plaza puente || (M) PLAZA PUENTE
+-----------------------------------------------
+  F03R | plaza san bernardo - (m) plaza puente
+  F03R_fmi | variante feria
+
+F03cI || pie andino - villa las maminas || VILLA LAS MAMINAS
+-----------------------------------------------
+  F03cI | pie andino - villa las maminas
+  F03cI_fmi | variante feria
+
+F03cR || villa las maminas - pie andino || PIE ANDINO
+-----------------------------------------------
+  F03cR | villa las maminas - pie andino
+  F03cR_fmi | variante feria
+
+F05I || (m) la cisterna - pie andino || PIE ANDINO
+-----------------------------------------------
+  F05I | (m) la cisterna - pie andino
+  F05IPRN | variante prenocturna
+  F05I_fdo | variante feria
+  F05I_fju | variante feria
+
+F05R || pie andino - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  F05R | pie andino - (m) la cisterna
+  F05RPRN | variante prenocturna
+  F05R_fmavi | variante feria
+
+F05RncR || F05Rnc || F05RNC
+-----------------------------------------------
+  F05Rnc | no comercial
+  F05RncR | F05Rnc
+
+F05ncI || F05Inc || F05INC
+-----------------------------------------------
+  F05Inc | no comercial
+  F05ncI | F05Inc
+
+F06I || (m) la cisterna   -  pie andino ||  PIE ANDINO
+-----------------------------------------------
+  F06I | (m) la cisterna   -  pie andino
+  F06IPRN | variante prenocturna
+  F06I_cvd | variante ciclovia
+  F06I_fdo | variante feria
+  F06I_fju | variante feria
+  F06I_fmavi | variante feria
+  F06I_fmi | variante feria
+  F06I_fsa | variante feria
+
+F06R || pie andino - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  F06R | pie andino - (m) la cisterna
+  F06RPRN | variante prenocturna
+  F06R_fdo | variante feria
+  F06R_fmavi | variante feria
+  F06R_fmi | variante feria
+  F06R_fsa | variante feria
+
+F07R || mall plaza tobalaba - villa padre hurtado || VILLA PADRE HURTADO
+-----------------------------------------------
+  F07R | mall plaza tobalaba - villa padre hurtado
+  F07R_cvd | variante ciclovia
+  F07R_fdo | variante feria
+  F07R_fdo_cvd | variante feria
+  F07R_fju | variante feria
+  F07R_fsa | villa padre hurtado - mall plaza tobal
+
+F08I || villa padre hurtado - diego portales || DIEGO PORTALES
+-----------------------------------------------
+  F08I | villa padre hurtado - diego portales
+  F08I_fmavido | variante feria
+
+F08R || diego portales - villa padre hurtado || VILLA PADRE HURTADO
+-----------------------------------------------
+  F08R | diego portales - villa padre hurtado
+  F08R_fmavido | variante feria
+
+F09I || pie andino - (m) elisa correa || (M) ELISA CORREA
+-----------------------------------------------
+  F09I | pie andino - (m) elisa correa
+  F09I_fdo | variante feria
+  F09I_fmavi | variante feria
+  F09I_fsa | variante feria
+
+F09R || (m) elisa correa - pie andino || PIE ANDINO
+-----------------------------------------------
+  F09R | (m) elisa correa - pie andino
+  F09R_cvd | variante ciclovia
+  F09R_fdo | variante feria
+  F09R_fdo_cvd | variante ciclovia
+  F09R_fsa | variante feria
+
+F10I || san guillermo - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  F10I | san guillermo - mall plaza tobalaba
+  F10I_fsa | variante feria
+
+F10R || mall plaza tobalaba - san guillermo || SAN GUILLERMO
+-----------------------------------------------
+  F10R | mall plaza tobalaba - san guillermo
+  F10R_fdo | variante feria
+  F10R_fsa | variante feria
+
+F11I || las vizcachas - pie andino || PIE ANDINO
+-----------------------------------------------
+  F11I | las vizcachas - pie andino
+  F11I_fmavi | variante feria
+  F11I_fsa | variante feria
+
+F11R || pie andino - las vizcachas || LAS VIZCACHAS
+-----------------------------------------------
+  F11R | pie andino - las vizcachas
+  F11R_fmavi | variante feria
+
+F12I || bajos de mena - (m) plaza puente alto || (M) PLAZA PUENTE ALTO
+-----------------------------------------------
+  F12I | bajos de mena - (m) plaza puente alto
+  F12I_fmavi | variante feria
+
+F12R || (m) plaza puente alto - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  F12R | (m) plaza puente alto - bajos de mena
+  F12R_fmavi | variante feria
+  F12R_fsa | variante feria
+
+F12cI || villa el nocedal - (m) plaza puente alto || (M) PLAZA PUENTE ALTO
+-----------------------------------------------
+  F12cI | villa el nocedal - (m) plaza puente alto
+
+F12cR || (m) plaza puente alto - villa el nocedal || VILLA EL NOCEDAL
+-----------------------------------------------
+  F12cR | (m) plaza puente alto - villa el nocedal
+
+F12ncI || F12Inc || F12INC
+-----------------------------------------------
+  F12Inc | no comercial
+  F12ncI | F12Inc
+
+F12ncR || F12Rnc || F12RNC
+-----------------------------------------------
+  F12Rnc | no comercial
+  F12ncR | F12Rnc
+
+F13I || bajos de mena - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  F13I | bajos de mena - mall plaza tobalaba
+  F13I_fdo | variante feria
+  F13I_fju | variante feria
+  F13I_fmavi | variante feria
+  F13I_fsa | variante feria
+
+F13R || mall plaza tobalaba - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  F13R | mall plaza tobalaba - bajos de mena
+  F13R_fdo | variante feria
+  F13R_fju | variante feria
+  F13R_fmavi | variante feria
+  F13R_fsa | variante feria
+
+F13cI || bajos de mena - (m) plaza puente alto || (M) PLAZA PUENTE ALTO
+-----------------------------------------------
+  F13cI | bajos de mena - (m) plaza puente alto
+  F13cI_fju | variante feria
+  F13cI_fmavi | variante feria
+  F13cI_fmi | variante feria
+
+F13cR || (m) plaza puente alto - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  F13cR | (m) plaza puente alto - bajos de mena
+  F13cR_fju | variante feria
+  F13cR_fmavi | variante feria
+  F13cR_fmi | variante feria
+
+F13cncI || F13cInc || F13CINC
+-----------------------------------------------
+  F13cInc | no comercial
+  F13cncI | F13cInc
+
+F13cncR || F13cRnc || F13CRNC
+-----------------------------------------------
+  F13cRnc | no comercial
+  F13cncR | F13cRnc
+
+F14I || villa padre hurtado - (m) plaza puent || (M) PLAZA PUENT
+-----------------------------------------------
+  F14I | villa padre hurtado - (m) plaza puent
+  F14I_fdo | variante feria
+  F14I_fma | variante feria
+  F14I_fmi | variante feria
+  F14I_fsa | variante feria
+  F14I_fvi | variante feria
+
+F14R || (m) plaza puente alto - villa padre hu || VILLA PADRE HU
+-----------------------------------------------
+  F14R | (m) plaza puente alto - villa padre hu
+  F14R_fdo | variante feria
+  F14R_fma | variante feria
+  F14R_fmi | variante feria
+  F14R_fsa | variante feria
+  F14R_fvi | variante feria
+
+F15I || bajos de mena - (m) elisa correa || (M) ELISA CORREA
+-----------------------------------------------
+  F15I | bajos de mena - (m) elisa correa
+  F15I_fmisa | variante feria
+  F15I_fsado | variante feria
+
+F15R || (m) elisa correa - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  F15R | (m) elisa correa - bajos de mena
+  F15R_fdo | variante feria
+  F15R_fmi | variante feria
+  F15R_fsa | variante feria
+  F15R_fsado | variante feria
+
+F16I || villa padre hurtado - rivera rio maip || RIVERA RIO MAIP
+-----------------------------------------------
+  F16I | villa padre hurtado - rivera rio maip
+  F16I_fdo | variante feria
+
+F16R || rivera rio mapo - villa padre hurtado || VILLA PADRE HURTADO
+-----------------------------------------------
+  F16R | rivera rio mapo - villa padre hurtado
+  F16R_cvd | variante ciclovia
+
+F18I || villa chilo - (m) plaza puente alto || (M) PLAZA PUENTE ALTO
+-----------------------------------------------
+  F18I | villa chilo - (m) plaza puente alto
+  F18I_fjudo | variante feria
+
+F18IncI || F18Inc || F18INC
+-----------------------------------------------
+  F18Inc | no comercial
+  F18IncI | F18Inc
+
+F18R || (m) plaza puente alto - villa chiloe || VILLA CHILOE
+-----------------------------------------------
+  F18R | (m) plaza puente alto - villa chiloe
+  F18R_fjudo | variante feria
+  F18R_fsa | variante feria
+
+F18ncR || F18Rnc || F18RNC
+-----------------------------------------------
+  F18Rnc | no comercial
+  F18ncR | F18Rnc
+
+F19I || pie andino - mall plaza tobalaba || MALL PLAZA TOBALABA
+-----------------------------------------------
+  F19I | pie andino - mall plaza tobalaba
+  F19I_fdo | variante feria
+
+F19R || mall plaza tobalaba - pie andino || PIE ANDINO
+-----------------------------------------------
+  F19R | mall plaza tobalaba - pie andino
+  F19R_fdo | variante feria
+  F19R_fmavi | variante feria
+
+F20I || (m) la cisterna - pie andino || PIE ANDINO
+-----------------------------------------------
+  F20I | (m) la cisterna - pie andino
+  F20IPRN | variante prenocturna
+  F20I_fdo | variante feria
+  F20I_fmi | variante feria
+  F20I_fsa | variante feria
+
+F20R || pie andino - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  F20R | pie andino - (m) la cisterna
+  F20RPRN | variante prenocturna
+  F20R_fdo | variante feria
+  F20R_fmavi | variante feria
+  F20R_fmi | variante feria
+  F20R_fsa | variante feria
+
+F23I || villa padre hurtado - mall plaza toba || MALL PLAZA TOBA
+-----------------------------------------------
+  F23I | villa padre hurtado - mall plaza toba
+  F23I_fmavido | variante feria
+
+F23R || mall plaza tobalaba - villa padre hurt || VILLA PADRE HURT
+-----------------------------------------------
+  F23R | mall plaza tobalaba - villa padre hurt
+  F23R_fmavido | variante feria
+
+F24I || casas viejas - (m) elisa correa || (M) ELISA CORREA
+-----------------------------------------------
+  F24I | casas viejas - (m) elisa correa
+  F24I_fmi | variante feria
+
+F24R || (m) elisa correa - casas viejas || CASAS VIEJAS
+-----------------------------------------------
+  F24R | (m) elisa correa - casas viejas
+  F24R_fdo | variante feria
+  F24R_fmi | variante feria
+
+F25I || bajos de mena - (m) bellavista de la || (M) BELLAVISTA DE LA
+-----------------------------------------------
+  F25I | bajos de mena - (m) bellavista de la
+  F25IPRN | variante prenocturna
+  F25I_cvd | variante ciclovia
+  F25I_fmavi | variante feria
+
+F25R || (m) bellavista de la florida - bajos de || BAJOS DE
+-----------------------------------------------
+  F25R | (m) bellavista de la florida - bajos de
+  F25RPM | variante punta manana
+  F25RPRN | variante prenocturna
+  F25R_fju | variante feria
+  F25R_fmavi | variante feria
+
+F25eI || bajos de mena - (m) bellavista de la || (M) BELLAVISTA DE LA
+-----------------------------------------------
+  F25eI | bajos de mena - (m) bellavista de la
+  F25eIPT | variante punta tarde
+  F25eI_fmavi | variante feria
+
+F25eR || (m) bellavista de la florida - bajos d || BAJOS D
+-----------------------------------------------
+  F25eR | (m) bellavista de la florida - bajos d
+  F25eRPT | variante punta tarde
+  F25eR_fmavi | variante feria
+
+F26I || villa padre hurtado - san carlos orie || SAN CARLOS ORIE
+-----------------------------------------------
+  F26I | villa padre hurtado - san carlos orie
+
+F26R || san carlos oriente - villa padre hurta || VILLA PADRE HURTA
+-----------------------------------------------
+  F26R | san carlos oriente - villa padre hurta
+
+F27I || villa padre hurtado - villa portezuelo o || VILLA PORTEZUELO O
+-----------------------------------------------
+  F27I | villa padre hurtado - villa portezuelo o
+  F27I_fmavi | variante feria
+
+F27R || villa portezuelo oriente - villa padre h || VILLA PADRE H
+-----------------------------------------------
+  F27R | villa portezuelo oriente - villa padre h
+  F27R_fmavi | variante feria
+
+F28NI || la primavera - diego portales || DIEGO PORTALES
+-----------------------------------------------
+  F28NI | la primavera - diego portales
+
+F28NR || diego portales - la primavera || LA PRIMAVERA
+-----------------------------------------------
+  F28NR | diego portales - la primavera
+
+F29I || pie andino - casas viejas || CASAS VIEJAS
+-----------------------------------------------
+  F29I | pie andino - casas viejas
+  F29I_fdo | variante feria
+  F29I_fmavi | variante feria
+  F29I_fmi | variante feria
+
+F29R || casas viejas - pie andino || PIE ANDINO
+-----------------------------------------------
+  F29R | casas viejas - pie andino
+  F29R_fdo | variante feria
+
+F30NI || bajos de mena - la moneda || LA MONEDA
+-----------------------------------------------
+  F30NI | bajos de mena - la moneda
+
+F30NR || la moneda - bajos de mena || BAJOS DE MENA
+-----------------------------------------------
+  F30NR | la moneda - bajos de mena
+
+G01I || villa 4 de septiembre - santo tomas || SANTO TOMAS
+-----------------------------------------------
+  G01I | villa 4 de septiembre - santo tomas
+  G01I_fjudo | variante feria
+  G01I_fmijusa | variante feria
+
+G01R || santo tomas - villa 4 de septiembre || VILLA 4 DE SEPTIEMBRE
+-----------------------------------------------
+  G01R | santo tomas - villa 4 de septiembre
+  G01R_fjudo | variante feria
+  G01R_fmijusa | variante feria
+
+G01cI || villa 4 de septiembre - santa rosa p. || SANTA ROSA P.
+-----------------------------------------------
+  G01cI | villa 4 de septiembre - santa rosa p.
+  G01cI_fjudo | variante feria
+
+G01cR || santa rosa p. 21 - villa 4 de septiemb || VILLA 4 DE SEPTIEMB
+-----------------------------------------------
+  G01cR | santa rosa p. 21 - villa 4 de septiemb
+  G01cR_fjudo | variante feria
+
+G02I || plaza san bernardo - puente los morro || PUENTE LOS MORRO
+-----------------------------------------------
+  G02I | plaza san bernardo - puente los morro
+
+G02R || puente los morros - plaza san bernardo || PLAZA SAN BERNARDO
+-----------------------------------------------
+  G02R | puente los morros - plaza san bernardo
+
+G04I || (m) la cisterna - santo tomas || SANTO TOMAS
+-----------------------------------------------
+  G04I | (m) la cisterna - santo tomas
+  G04IPRN | variante prenocturna
+  G04I_fmisa | variante feria
+
+G04R || santo tomas - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G04R | santo tomas - (m) la cisterna
+  G04RPRN | variante prenocturna
+  G04R_fma | variante feria
+
+G05I || el castillo - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G05I | el castillo - (m) la cisterna
+  G05IN | variante nocturna
+
+G05R || (m) la cisterna - el castillo || EL CASTILLO
+-----------------------------------------------
+  G05R | (m) la cisterna - el castillo
+  G05RN | variante nocturna
+  G05R_cvd | variante ciclovia
+  G05R_fmavi | variante feria
+
+G07I || san francisco - lo herrera || LO HERRERA
+-----------------------------------------------
+  G07I | san francisco - lo herrera
+  G07I_fmisa | variante feria
+  G07I_fsa | variante feria
+
+G07R || lo herrera - san francisco || SAN FRANCISCO
+-----------------------------------------------
+  G07R | lo herrera - san francisco
+  G07R_fmisa | variante feria
+
+G08I || poblacion la selva - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G08I | poblacion la selva - (m) la cisterna
+  G08IN | variante nocturna
+
+G08R || (m) la cisterna - poblacion la selva || POBLACION LA SELVA
+-----------------------------------------------
+  G08R | (m) la cisterna - poblacion la selva
+  G08RN | variante nocturna
+
+G08vI || nos - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G08vI | nos - (m) la cisterna
+  G08vIPRN | variante prenocturna
+  G08vI_fsado | variante feria
+
+G08vR || (m) la cisterna - nos || NOS
+-----------------------------------------------
+  G08vR | (m) la cisterna - nos
+  G08vRPRN | variante prenocturna
+  G08vR_fsado | variante feria
+
+G09I || lo blanco - santa margarita || SANTA MARGARITA
+-----------------------------------------------
+  G09I | lo blanco - santa margarita
+
+G09R || santa margarita - lo blanco || LO BLANCO
+-----------------------------------------------
+  G09R | santa margarita - lo blanco
+
+G11I || lo blanco - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  G11I | lo blanco - (m) lo ovalle
+  G11IPRN | variante prenocturna
+
+G11R || (m) lo ovalle - lo blanco || LO BLANCO
+-----------------------------------------------
+  G11R | (m) lo ovalle - lo blanco
+  G11RPRN | variante prenocturna
+  G11R_fju | variante feria
+
+G12I || (m) lo ovalle - cementerio metropolitano || CEMENTERIO METROPOLITANO
+-----------------------------------------------
+  G12I | (m) lo ovalle - cementerio metropolitano
+  G12IPRN | variante prenocturna
+
+G12R || cementerio metropolitano - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  G12R | cementerio metropolitano - (m) lo ovalle
+  G12RPRN | variante prenocturna
+
+G13I || (m) la cisterna - el castillo || EL CASTILLO
+-----------------------------------------------
+  G13I | (m) la cisterna - el castillo
+  G13IPRN | variante prenocturna
+  G13I_fdo | variante feria
+  G13I_fjudo | variante feria
+  G13I_fmavi | variante feria
+  G13I_fmisa | variante feria
+
+G13R || el castillo - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G13R | el castillo - (m) la cisterna
+  G13RPRN | variante prenocturna
+  G13R_fdo | variante feria
+  G13R_fmavi | variante feria
+  G13R_fmisa | variante feria
+
+G14I || estacion lo blanco - poblacion valle nevado || POBLACION VALLE NEVADO
+-----------------------------------------------
+  G14I | estacion lo blanco - poblacion valle nevado
+
+G14R || poblacion valle nevado - estacion lo blanco || ESTACION LO BLANCO
+-----------------------------------------------
+  G14R | poblacion valle nevado - estacion lo blanco
+
+G15I || (m) la cisterna - santo tomas || SANTO TOMAS
+-----------------------------------------------
+  G15I | (m) la cisterna - santo tomas
+  G15IN | variante nocturna
+  G15I_fmisa | variante feria
+
+G15R || santo tomas - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G15R | santo tomas - (m) la cisterna
+  G15RN | variante nocturna
+  G15R_fmisa | variante feria
+
+G16I || (m) la cisterna - lo blanco || LO BLANCO
+-----------------------------------------------
+  G16I | (m) la cisterna - lo blanco
+  G16IPRN | variante prenocturna
+  G16I_fmavi | variante feria
+  G16I_fmisa | variante feria
+
+G16R || lo blanco - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G16R | lo blanco - (m) la cisterna
+  G16RPRN | variante prenocturna
+  G16R_fju | variante feria
+  G16R_fmavi | variante feria
+  G16R_fmisa | variante feria
+
+G18I || santo tomas - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  G18I | santo tomas - (m) lo ovalle
+  G18IPRN | variante prenocturna
+  G18I_fmijusa | variante feria
+
+G18R || (m) lo ovalle - santo tomas || SANTO TOMAS
+-----------------------------------------------
+  G18R | (m) lo ovalle - santo tomas
+  G18RPRN | variante prenocturna
+  G18R_cvd | variante ciclovia
+  G18R_fmijusa | variante feria
+
+G22I || villa espana - (m) la cisterna || (M) LA CISTERNA
+-----------------------------------------------
+  G22I | villa espana - (m) la cisterna
+  G22IN | variante nocturna
+  G22yI | inyeccion
+
+G22R || (m) la cisterna - villa espana || VILLA ESPANA
+-----------------------------------------------
+  G22R | (m) la cisterna - villa espana
+  G22RN | variante nocturna
+  G22R_fvi | variante feria
+
+G23I || estacion lo blanco - santa rosa p.43 || SANTA ROSA P.43
+-----------------------------------------------
+  G23I | estacion lo blanco - santa rosa p.43
+  G23I_fjudo | variante feria
+
+G23R || santa rosa p. 43 - estacion lo blanco || ESTACION LO BLANCO
+-----------------------------------------------
+  G23R | santa rosa p. 43 - estacion lo blanco
+  G23R_fjudo | variante feria
+
+H02I || (m) carlos valdovinos - (m) lo vial || (M) LO VIAL
+-----------------------------------------------
+  H02I | (m) carlos valdovinos - (m) lo vial
+  H03I | (m) lo ovalle - mall plaza oeste
+
+H02R || (m) lo vial - (m) carlos valdovinos || (M) CARLOS VALDOVINOS
+-----------------------------------------------
+  H02R | (m) lo vial - (m) carlos valdovinos
+
+H03I || H03IN || H03IN
+-----------------------------------------------
+  H03I | H03IN
+  H03IN | variante nocturna
+
+H03R || mall plaza oeste - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  H03R | mall plaza oeste - (m) lo ovalle
+  H03RN | variante nocturna
+
+H04I || (m) carlos valdovinos - la victoria || LA VICTORIA
+-----------------------------------------------
+  H04I | (m) carlos valdovinos - la victoria
+  H04I_fmavi | variante feria
+
+H04R || la victoria - (m) carlos valdovinos || (M) CARLOS VALDOVINOS
+-----------------------------------------------
+  H04R | la victoria - (m) carlos valdovinos
+
+H05I || (m) carlos valdovinos - pobl. davila || POBL. DAVILA
+-----------------------------------------------
+  H05I | (m) carlos valdovinos - pobl. davila
+
+H05R || pobl. davila - (m) carlos valdovinos || (M) CARLOS VALDOVINOS
+-----------------------------------------------
+  H05R | pobl. davila - (m) carlos valdovinos
+
+H05cI || pobl. davila - (m) departamental || (M) DEPARTAMENTAL
+-----------------------------------------------
+  H05cI | pobl. davila - (m) departamental
+
+H05cR || (m) departamental - pobl. davila || POBL. DAVILA
+-----------------------------------------------
+  H05cR | (m) departamental - pobl. davila
+
+H06I || pobl. las turbinas - av. matta || AV. MATTA
+-----------------------------------------------
+  H06I | pobl. las turbinas - av. matta
+  H06I_fjudo | variante feria
+
+H06R || av. matta - pobl. las turbinas || POBL. LAS TURBINAS
+-----------------------------------------------
+  H06R | av. matta - pobl. las turbinas
+  H06R_fjudo | variante feria
+
+H07I || (m) nuble - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  H07I | (m) nuble - (m) lo ovalle
+  H07IPM | variante punta manana
+  H07IPM_fmisa | variante feria
+  H07IPRN | variante prenocturna
+  H07I_fmisa | variante feria
+
+H07R || (m) lo ovalle - (m) nuble || (M) NUBLE
+-----------------------------------------------
+  H07R | (m) lo ovalle - (m) nuble
+  H07RPRN | variante prenocturna
+  H07R_fmisa | variante feria
+
+H08I || pobl. las turbinas - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  H08I | pobl. las turbinas - (m) lo ovalle
+  H08IPRN | variante prenocturna
+
+H08R || (m) lo ovalle - pobl.  las turbinas || POBL.  LAS TURBINAS
+-----------------------------------------------
+  H08R | (m) lo ovalle - pobl.  las turbinas
+  H08RPRN | variante prenocturna
+
+H09I || pobl. davila - (m) carlos valdovinos || (M) CARLOS VALDOVINOS
+-----------------------------------------------
+  H09I | pobl. davila - (m) carlos valdovinos
+  H09I_cvd | variante ciclovia
+  H09I_fmavi | variante feria
+
+H09R || (m) carlos valdovinos - pobl. davila || POBL. DAVILA
+-----------------------------------------------
+  H09R | (m) carlos valdovinos - pobl. davila
+  H09R_cvd | variante ciclovia
+
+H12I || lo espejo - (m) franklin || (M) FRANKLIN
+-----------------------------------------------
+  H12I | lo espejo - (m) franklin
+
+H12R || (m) franklin - lo espejo || LO ESPEJO
+-----------------------------------------------
+  H12R | (m) franklin - lo espejo
+  H12R_cvd | variante ciclovia
+
+H13I || santa olga - posta central || POSTA CENTRAL
+-----------------------------------------------
+  H13I | santa olga - posta central
+  H13I_fmavi | variante feria
+  H13I_fmisa | variante feria
+
+H13R || posta central - santa olga || SANTA OLGA
+-----------------------------------------------
+  H13R | posta central - santa olga
+  H13RPM | variante punta manana
+  H13RPM_fmavi | variante feria
+  H13RPM_fmisa | variante feria
+  H13R_cvd | variante ciclovia
+  H13R_fmavi | variante feria
+  H13R_fmisa | variante feria
+
+H14I || mall florida center - (m) franklin || (M) FRANKLIN
+-----------------------------------------------
+  H14I | mall florida center - (m) franklin
+  H14IPRN | variante prenocturna
+
+H14R || (m) franklin - mall florida center || MALL FLORIDA CENTER
+-----------------------------------------------
+  H14R | (m) franklin - mall florida center
+  H14RPRN | variante prenocturna
+  H14RPRN_fma | variante feria
+  H14RPRN_fsa | variante feria
+  H14RPRN_fvi | variante feria
+  H14R_cvd | variante ciclovia
+  H14R_fma | variante feria
+  H14R_fsa | variante feria
+  H14R_fvi | variante feria
+
+I01I || villa los heroes - hospital borja arr || HOSPITAL BORJA ARR
+-----------------------------------------------
+  I01I | villa los heroes - hospital borja arr
+  I01I_cvd | variante ciclovia
+
+I01R || hospital borja arriaran - villa los h || VILLA LOS H
+-----------------------------------------------
+  I01R | hospital borja arriaran - villa los h
+  I01RPM | variante punta manana
+  I01R_cvd | variante ciclovia
+
+I02I || rinconada - (m) laguna sur || (M) LAGUNA SUR
+-----------------------------------------------
+  I02I | rinconada - (m) laguna sur
+  I02I_fjudo | variante feria
+
+I02R || (m) laguna sur - rinconada || RINCONADA
+-----------------------------------------------
+  I02R | (m) laguna sur - rinconada
+  I02R_fjudo | variante feria
+
+I03I || villa los heroes - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  I03I | villa los heroes - (m) las rejas
+  I03IPM | variante punta manana
+  I03IPM_fjudo | variante feria
+  I03IPM_fmavi | variante feria
+  I03IPM_fmisa | variante feria
+  I03I_fjudo | variante feria
+  I03I_fmavi | variante feria
+  I03I_fmisa | variante feria
+
+I03R || (m) las rejas - villa los heroes || VILLA LOS HEROES
+-----------------------------------------------
+  I03R | (m) las rejas - villa los heroes
+  I03R_fmavi | variante feria
+  I03R_fmisa | variante feria
+
+I03cI || valle verde - (m) san alberto hurtado || (M) SAN ALBERTO HURTADO
+-----------------------------------------------
+  I03cI | valle verde - (m) san alberto hurtado
+  I03cI_fmavi | variante feria
+  I03cI_fmisa | variante feria
+
+I03cR || (m) san alberto hurtado - valle verde || VALLE VERDE
+-----------------------------------------------
+  I03cR | (m) san alberto hurtado - valle verde
+  I03cR_fmavi | variante feria
+  I03cR_fmisa | variante feria
+
+I03cncI || I03cIncPT || I03CINCPT
+-----------------------------------------------
+  I03cIncPT | no comercial
+  I03cRncPM | no comercial
+  I03cncI | I03cIncPT
+
+I04I || villa el abrazo - (m) san alberto hur || (M) SAN ALBERTO HUR
+-----------------------------------------------
+  I04I | villa el abrazo - (m) san alberto hur
+  I04I_cvd | variante ciclovia
+
+I04R || (m) san alberto hurtado - villa el abraz || VILLA EL ABRAZ
+-----------------------------------------------
+  I04R | (m) san alberto hurtado - villa el abraz
+  I04R_cvd | variante ciclovia
+
+I04cI || villa el abrazo - (m) plaza maipu || (M) PLAZA MAIPU
+-----------------------------------------------
+  I04cI | villa el abrazo - (m) plaza maipu
+
+I04cR || (m) plaza maipu - villa el abrazo || VILLA EL ABRAZO
+-----------------------------------------------
+  I04cR | (m) plaza maipu - villa el abrazo
+
+I04eI || villa el abrazo - (m) plaza maipu || (M) PLAZA MAIPU
+-----------------------------------------------
+  I04eI | villa el abrazo - (m) plaza maipu
+
+I04encI || I04eRnc || I04ERNC
+-----------------------------------------------
+  I04eRnc | no comercial
+  I04encI | I04eRnc
+
+I04ncI || I04IncPT || I04INCPT
+-----------------------------------------------
+  I04IncPT | no comercial
+  I04RncPM | no comercial
+  I04ncI | I04IncPT
+
+I05I || rinconada - (m) lo ovalle || (M) LO OVALLE
+-----------------------------------------------
+  I05I | rinconada - (m) lo ovalle
+  I05IPRN | variante prenocturna
+  I05I_fmavi | variante feria
+  I05I_fmisa | variante feria
+
+I05R || (m) lo ovalle - rinconada || RINCONADA
+-----------------------------------------------
+  I05R | (m) lo ovalle - rinconada
+  I05RPRN | variante prenocturna
+  I05R_fmavi | variante feria
+  I05R_fmisa | variante feria
+
+I07I || rinconada - mall arauco maipu || MALL ARAUCO MAIPU
+-----------------------------------------------
+  I07I | rinconada - mall arauco maipu
+  I07I_fmavi | variante feria
+
+I07R || mall arauco maipu - rinconada || RINCONADA
+-----------------------------------------------
+  I07R | mall arauco maipu - rinconada
+  I07R_fmavi | variante feria
+
+I08I || mall arauco maipu - (m) san alberto h || (M) SAN ALBERTO H
+-----------------------------------------------
+  I08I | mall arauco maipu - (m) san alberto h
+  I08IPMTPM | variante punta manana transicion punta m
+  I08IPRN | variante prenocturna
+  I08IPTTPT | variante punta tarde transicion punta ta
+
+I08NI || la farfana - alameda || ALAMEDA
+-----------------------------------------------
+  I08NI | la farfana - alameda
+
+I08NR || alameda - la farfana || LA FARFANA
+-----------------------------------------------
+  I08NR | alameda - la farfana
+
+I08R || (m) san alberto hurtado - mall arauco || MALL ARAUCO
+-----------------------------------------------
+  I08R | (m) san alberto hurtado - mall arauco
+  I08RPMTPM | variante punta manana transicion punta m
+  I08RPRN | variante prenocturna
+  I08RPTTPT | variante punta tarde transicion punta ta
+
+I08cI || la farfana - (m) del sol || (M) DEL SOL
+-----------------------------------------------
+  I08cI | la farfana - (m) del sol
+  I08cI_fmavi | variante feria
+
+I08cncR || I08cRnc || I08CRNC
+-----------------------------------------------
+  I08cRnc | no comercial
+  I08cncR | I08cRnc
+
+I09I || rinconada - (m) ula || (M) ULA
+-----------------------------------------------
+  I09I | rinconada - (m) ula
+
+I09R || (m) ula - rinconada || RINCONADA
+-----------------------------------------------
+  I09R | (m) ula - rinconada
+
+I09cI || rinconada - (m) las rejas || (M) LAS REJAS
+-----------------------------------------------
+  I09cI | rinconada - (m) las rejas
+
+I09cR || (m) las rejas - rinconada || RINCONADA
+-----------------------------------------------
+  I09cR | (m) las rejas - rinconada
+
+I09eI || rinconada - (m) ula || (M) ULA
+-----------------------------------------------
+  I09eI | rinconada - (m) ula
+
+I09eR || (m) ula - rinconada || RINCONADA
+-----------------------------------------------
+  I09eR | (m) ula - rinconada
+
+I10I || villa los heroes - usach || USACH
+-----------------------------------------------
+  I10I | villa los heroes - usach
+
+I10NI || villa los heroes - alameda || ALAMEDA
+-----------------------------------------------
+  I10NI | villa los heroes - alameda
+
+I10NR || alameda - villa los heroes || VILLA LOS HEROES
+-----------------------------------------------
+  I10NR | alameda - villa los heroes
+
+I10R || usach - villa los heroes || VILLA LOS HEROES
+-----------------------------------------------
+  I10R | usach - villa los heroes
+
+I11I || ciudad satelite - (m) plaza maipu || (M) PLAZA MAIPU
+-----------------------------------------------
+  I11I | ciudad satelite - (m) plaza maipu
+
+I11R || (m) plaza maipu - ciudad satelite || CIUDAD SATELITE
+-----------------------------------------------
+  I11R | (m) plaza maipu - ciudad satelite
+
+I12I || pueblito la farfana - mall plaza oeste || MALL PLAZA OESTE
+-----------------------------------------------
+  I12I | pueblito la farfana - mall plaza oeste
+
+I12R || mall fplaza oeste - pueblito la farfan || PUEBLITO LA FARFAN
+-----------------------------------------------
+  I12R | mall fplaza oeste - pueblito la farfan
+  I12RPRN | variante prenocturna
+
+I13I || villa los presidentes - (m) san alber || (M) SAN ALBER
+-----------------------------------------------
+  I13I | villa los presidentes - (m) san alber
+
+I13R || (m) san alberto hurtado - villa los pres || VILLA LOS PRES
+-----------------------------------------------
+  I13R | (m) san alberto hurtado - villa los pres
+
+I14I || mall plaza oeste - estacion central || ESTACION CENTRAL
+-----------------------------------------------
+  I14I | mall plaza oeste - estacion central
+  I14IPRN | variante prenocturna
+  I14NI | mall plaza oeste - centro
+
+I14R || estacion central - mall plaza oeste || MALL PLAZA OESTE
+-----------------------------------------------
+  I14NR | centro - mall plaza oeste
+  I14R | estacion central - mall plaza oeste
+  I14R_cvd | variante ciclovia
+
+I16I || poblacion santiago - ferrocarril || FERROCARRIL
+-----------------------------------------------
+  I16I | poblacion santiago - ferrocarril
+  I16I_fmavi | variante feria
+
+I16R || ferrocarril - poblacion santiago || POBLACION SANTIAGO
+-----------------------------------------------
+  I16R | ferrocarril - poblacion santiago
+
+I17I || villa francia - hospital san juan de || HOSPITAL SAN JUAN DE
+-----------------------------------------------
+  I17I | villa francia - hospital san juan de
+  I17I_fmavi | variante feria
+
+I17R || hospital san juan de dios - villa fran || VILLA FRAN
+-----------------------------------------------
+  I17R | hospital san juan de dios - villa fran
+  I17R_cvd | variante ciclovia
+
+I18I || rinconada - (m) ula || (M) ULA
+-----------------------------------------------
+  I18I | rinconada - (m) ula
+  I18I_cvd | variante ciclovia
+  I18I_fdo | variante feria
+
+I18R || (m) ula - rinconada || RINCONADA
+-----------------------------------------------
+  I18R | (m) ula - rinconada
+  I18R_cvd | variante ciclovia
+  I18R_fdo | variante feria
+
+I20I || valle verde - marta ossa ruiz || MARTA OSSA RUIZ
+-----------------------------------------------
+  I20I | valle verde - marta ossa ruiz
+  I20I_fmisa | variante feria
+
+I20R || marta ossa ruiz - valle verde || VALLE VERDE
+-----------------------------------------------
+  I20R | marta ossa ruiz - valle verde
+  I20R_fmisa | variante feria
+
+I21I || villa hernan diaz - (m) plaza maipu || (M) PLAZA MAIPU
+-----------------------------------------------
+  I21I | villa hernan diaz - (m) plaza maipu
+
+I21R || (m) plaza maipu - villa hernan diaz || VILLA HERNAN DIAZ
+-----------------------------------------------
+  I21R | (m) plaza maipu - villa hernan diaz
+
+I22I || la farfana - (m) del sol || (M) DEL SOL
+-----------------------------------------------
+  I22I | la farfana - (m) del sol
+  I22IPRN | variante prenocturna
+  I22I_fmavi | variante feria
+
+I22R || (m) del sol - la farfana || LA FARFANA
+-----------------------------------------------
+  I22R | (m) del sol - la farfana
+  I22RPRN | variante prenocturna
+  I22R_fmavi | variante feria
+
+I24I || villa los maitenes - plaza oeste || PLAZA OESTE
+-----------------------------------------------
+  I24I | villa los maitenes - plaza oeste
+
+I24R || plaza oeste - villa los maitenes || VILLA LOS MAITENES
+-----------------------------------------------
+  I24R | plaza oeste - villa los maitenes
+  I24RPRN | variante prenocturna
+
+I25I || (m) cerrillos - villa s.henriquez || VILLA S.HENRIQUEZ
+-----------------------------------------------
+  I25I | (m) cerrillos - villa s.henriquez
+
+I25R || villa s. henriquez - (m) cerrillos || (M) CERRILLOS
+-----------------------------------------------
+  I25R | villa s. henriquez - (m) cerrillos
+
+J01I || pudahuel sur - (m) quinta normal || (M) QUINTA NORMAL
+-----------------------------------------------
+  J01I | pudahuel sur - (m) quinta normal
+  J01I_cvd | variante ciclovia
+  J01I_fmavi | variante feria
+
+J01R || (m) quinta normal - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  J01R | (m) quinta normal - pudahuel sur
+  J01R_fjudo | variante feria
+  J01R_fmasa | variante feria
+  J01R_fmisa | variante feria
+
+J01cR || carrascal - (m) san pablo || (M) SAN PABLO
+-----------------------------------------------
+  J01cR | carrascal - (m) san pablo
+
+J01cncI || J01cInc || J01CINC
+-----------------------------------------------
+  J01cInc | no comercial
+  J01cncI | J01cInc
+
+J02I || enea - (m) ula || (M) ULA
+-----------------------------------------------
+  J02I | enea - (m) ula
+  J02I_fdo | variante feria
+  J02I_fju | variante feria
+
+J03I || costanera sur - (m) republica || (M) REPUBLICA
+-----------------------------------------------
+  J03I | costanera sur - (m) republica
+  J03I_cvd | variante ciclovia
+
+J04I || (m) neptuno - la alianza || LA ALIANZA
+-----------------------------------------------
+  J04I | (m) neptuno - la alianza
+  J04I_fmisa | variante feria
+
+J04R || la alianza - (m) neptuno || (M) NEPTUNO
+-----------------------------------------------
+  J04R | la alianza - (m) neptuno
+  J04R_fmisa | variante feria
+
+J05I || costanera sur - (m) ula || (M) ULA
+-----------------------------------------------
+  J05I | costanera sur - (m) ula
+  J05I_fdo | variante feria
+
+J06I || (m) pudahuel - (m) pajaritos || (M) PAJARITOS
+-----------------------------------------------
+  J06I | (m) pudahuel - (m) pajaritos
+  J06I_fjudo | variante feria
+  J06I_fmisa | variante feria
+
+J06R || (m) pajaritos - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  J06R | (m) pajaritos - (m) pudahuel
+  J06R_fjudo | variante feria
+  J06R_fmisa | variante feria
+
+J07I || noviciado - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  J07I | noviciado - (m) pudahuel
+
+J07cI || (m) pudahuel - lo boza || LO BOZA
+-----------------------------------------------
+  J07cI | (m) pudahuel - lo boza
+
+J07cncR || J07cRnc || J07CRNC
+-----------------------------------------------
+  J07cRnc | no comercial
+  J07cncR | J07cRnc
+
+J07eI || noviciado - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  J07eI | noviciado - (m) pudahuel
+
+J08I || pudahuel sur - hospital felix bulnes || HOSPITAL FELIX BULNES
+-----------------------------------------------
+  J08I | pudahuel sur - hospital felix bulnes
+  J08I_fjudo | variante feria
+  J08I_fmavi | variante feria
+
+J08R || hospital felix bulnes - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  J08R | hospital felix bulnes - pudahuel sur
+  J08R_fmavi | variante feria
+
+J10I || san daniel - parque de los reyes || PARQUE DE LOS REYES
+-----------------------------------------------
+  J10I | san daniel - parque de los reyes
+  J10I_fjudo | variante feria
+  J10I_fmavi | variante feria
+  J10I_fmisa | variante feria
+
+J10R || parque de los reyes - san daniel || SAN DANIEL
+-----------------------------------------------
+  J10R | parque de los reyes - san daniel
+  J10R_fjudo | variante feria
+  J10R_fmavi | variante feria
+  J10R_fmisa | variante feria
+
+J11I || lomas de lo aguirre - (m) pajaritos || (M) PAJARITOS
+-----------------------------------------------
+  J11I | lomas de lo aguirre - (m) pajaritos
+
+J11R || (m) pajaritos - lomas de lo aguirre || LOMAS DE LO AGUIRRE
+-----------------------------------------------
+  J11R | (m) pajaritos - lomas de lo aguirre
+
+J12I || (m) pajaritos - ciudad de los valles || CIUDAD DE LOS VALLES
+-----------------------------------------------
+  J12I | (m) pajaritos - ciudad de los valles
+
+J12R || ciudad de los valles - (m) pajaritos || (M) PAJARITOS
+-----------------------------------------------
+  J12R | ciudad de los valles - (m) pajaritos
+
+J13I || (m) estacion central - costanera sur || COSTANERA SUR
+-----------------------------------------------
+  J13I | (m) estacion central - costanera sur
+
+J13R || costanera sur - (m) estacion central || (M) ESTACION CENTRAL
+-----------------------------------------------
+  J13R | costanera sur - (m) estacion central
+
+J13cI || (m) san pablo - costanera sur || COSTANERA SUR
+-----------------------------------------------
+  J13cI | (m) san pablo - costanera sur
+
+J13cR || costanera sur - (m) san pablo || (M) SAN PABLO
+-----------------------------------------------
+  J13cR | costanera sur - (m) san pablo
+
+J14cI || villa roosevelt - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  J14cI | villa roosevelt - pudahuel sur
+  J14cI_fjudo | variante feria
+  J14cI_fmi | variante feria
+  J14cI_fsa | variante feria
+
+J14cR || pudahuel sur - villa roosevelt || VILLA ROOSEVELT
+-----------------------------------------------
+  J14cR | pudahuel sur - villa roosevelt
+
+J15cI || la alianza - (m) neptuno || (M) NEPTUNO
+-----------------------------------------------
+  J15cI | la alianza - (m) neptuno
+  J15cI_fmavi | variante feria
+
+J15cR || (m) neptuno - la alianza || LA ALIANZA
+-----------------------------------------------
+  J15cR | (m) neptuno - la alianza
+  J15cR_fmavi | variante feria
+
+J16I || costanera sur - (m) estacion central || (M) ESTACION CENTRAL
+-----------------------------------------------
+  J16I | costanera sur - (m) estacion central
+  J16I_fjudo | variante feria
+  J16I_fmasa | variante feria
+
+J17I || (m) pajaritos - puerto santiago || PUERTO SANTIAGO
+-----------------------------------------------
+  J17I | (m) pajaritos - puerto santiago
+
+J17R || puerto santiago - (m) pajaritos || (M) PAJARITOS
+-----------------------------------------------
+  J17R | puerto santiago - (m) pajaritos
+
+J18I || enea - (m) san pablo || (M) SAN PABLO
+-----------------------------------------------
+  J18I | enea - (m) san pablo
+  J18I_fjudo | variante feria
+
+J18R || (m) san pablo - enea || ENEA
+-----------------------------------------------
+  J18R | (m) san pablo - enea
+  J18R_fjudo | variante feria
+
+J18cI || el tranque - (m) san pablo || (M) SAN PABLO
+-----------------------------------------------
+  J18cI | el tranque - (m) san pablo
+  J18cI_fjudo | variante feria
+  J18cyI | inyeccion
+
+J18cR || (m) san pablo - el tranque || EL TRANQUE
+-----------------------------------------------
+  J18cR | (m) san pablo - el tranque
+
+J18cncI || J18cIncPT || J18CINCPT
+-----------------------------------------------
+  J18cIncPT | no comercial
+  J18cncI | J18cIncPT
+
+J18cncR || J18cRncPM || J18CRNCPM
+-----------------------------------------------
+  J18cRncPM | no comercial
+  J18cncR | J18cRncPM
+
+J18cyncR || J18cyRnc || J18CYRNC
+-----------------------------------------------
+  J18cyRnc | no comercial
+  J18cyncR | J18cyRnc
+
+J19I || pudahuel sur - (m) quinta normal || (M) QUINTA NORMAL
+-----------------------------------------------
+  J19I | pudahuel sur - (m) quinta normal
+  J19IPM | variante punta manana
+  J19I_cvd | variante ciclovia
+  J19I_fmavi | variante feria
+
+J19R || (m) quinta normal - pudahuel sur || PUDAHUEL SUR
+-----------------------------------------------
+  J19R | (m) quinta normal - pudahuel sur
+  J19RPM | variante punta manana
+  J19RPM_fmisa | variante feria
+  J19R_fmisa | variante feria
+
+J20I || el montijo - (m) pudahuel || (M) PUDAHUEL
+-----------------------------------------------
+  J20I | el montijo - (m) pudahuel
+  J20I_fmavi | variante feria
+

@@ -41,6 +41,8 @@ Parametros::Parametros(const char *file)
 // 	columnas = StringFunctions::ExplodeF('\t', &ap);	this->nombreArchivoPuntosCargaBip = columnas[0];
 	columnas = StringFunctions::ExplodeF('\t', &ap);	this->nombreArchivoConsolidadoDeParadas = columnas[0];
     columnas = StringFunctions::ExplodeF('\t', &ap);	this->nombreArchivoRutas = columnas[0];
+    columnas = StringFunctions::ExplodeF('\t', &ap);	this->outputPath = columnas[0];
+    
     
 
 // 	columnas = StringFunctions::ExplodeF('\t', &ap);	this->carpetaKmls = columnas[0];

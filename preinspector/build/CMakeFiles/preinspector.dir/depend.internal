@@ -65,6 +65,26 @@ CMakeFiles/preinspector.dir/IO/Tablas/TablaGrilla.cpp.o
  /home/mauricio/workspace/preInspector/preinspector/Utilidades/StringFunctions.h
  /home/mauricio/workspace/preInspector/preinspector/Utilidades/TimeStampHandler.h
  /home/mauricio/workspace/preInspector/preinspector/Utilidades/Types.h
+CMakeFiles/preinspector.dir/IO/Tablas/TablaRutas.cpp.o
+ /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
+ /home/mauricio/workspace/preInspector/preinspector/IO/Parametros.h
+ /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.cpp
+ /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Diccionarios/DiccionarioServicios.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/Cell.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/Grid.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/Paradero.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/RedParadas.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Paraderos/SecuenciaParaderos.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Rutas/Ruta.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Rutas/Rutas.h
+ /home/mauricio/workspace/preInspector/preinspector/Transporte/Servicios/Servicio.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/ConvertCoordinate.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/Cronometro.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/Geometry2.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/StringFunctions.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/TimeStampHandler.h
+ /home/mauricio/workspace/preInspector/preinspector/Utilidades/Types.h
 CMakeFiles/preinspector.dir/IO/Tablas/TablaServiciosPorParadaParaAndriod.cpp.o
  /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
  /home/mauricio/workspace/preInspector/preinspector/IO/Parametros.h
@@ -188,6 +208,7 @@ CMakeFiles/preinspector.dir/main.cpp.o
  /home/mauricio/workspace/preInspector/preinspector/IO/FuenteDatos.h
  /home/mauricio/workspace/preInspector/preinspector/IO/Parametros.h
  /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaGrilla.h
+ /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaRutas.h
  /home/mauricio/workspace/preInspector/preinspector/IO/Tablas/TablaServiciosPorParadaParaAndriod.h
  /home/mauricio/workspace/preInspector/preinspector/Transporte/Diccionarios/DiccionarioServicios.h
  /home/mauricio/workspace/preInspector/preinspector/Transporte/Grid/Cell.h

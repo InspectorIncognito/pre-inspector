@@ -31,10 +31,13 @@ FuenteDatos::FuenteDatos(const char *nombreArchivoParametros)
 	///Lectura de Parametros
 	this->parametros = new Parametros(nombreArchivoParametros);
 
-	outParameters.open("parameters" + parametros->version + ".csv");
+    system(string("mkdir "+parametros->outputPath+"/"+parametros->version).c_str());
+    
+	outParameters.open(string(parametros->outputPath+"/"+parametros->version + "/PhoneParameters.csv").c_str());
 	outParameters.precision(10);
 	outParameters << "key;value" << endl;
 
+    
 	///Lectura de diccionario de codigos servicio-sentido
 // 	leeDiccionarioServicios();
 
@@ -49,85 +52,10 @@ FuenteDatos::FuenteDatos(const char *nombreArchivoParametros)
 
 	///
 	leeSecuenciaDeParadasDTPM();
+    
+ 
 
 }
-
-// void FuenteDatos::leeDiccionarioServicios()
-// {
-// 	int nTimeStart = Cronometro::GetMilliCount();
-// 
-// 	///Archivo de entrada Principal
-// 	ifstream archivoDiccionario;
-// 	archivoDiccionario.open(parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt");
-// 
-// 	///Chequeo de archivo 
-// 	if (!archivoDiccionario.good())
-// 		cout << "Error : No se encuentra el archivo " << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << "!" << endl;
-// 	else
-// 		cout << "Cargando datos de Diccionario (" << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << ")... ";
-// 
-// 	///Vector contenedor de la linea actual del archivo
-// 	vector<string> cur;
-// 
-// 	int nlineas = 0;
-// 
-// 	///Lectura del header
-// 	cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
-// 
-// 
-// 	///Lectura archivo primario
-// 	while (archivoDiccionario.good())
-// 	{
-// 		nlineas++;
-// 
-// 		///Lectura de linea del archivo
-// 		cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
-// 		
-// 		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
-// 		if (cur.size() == 0 || cur[0].compare("") == 0)
-// 			continue;
-// 
-// 		std::locale loc;
-// 		std::string str = cur[3];
-// 		for (std::string::size_type i = 0; i < cur[3].length(); ++i)
-// 			str[i] = std::toupper(cur[3][i], loc);
-// 
-// 		vector<string> od = StringFunctions::Explode(str, '-');
-// 
-// 		Servicio ser;
-// 		if (od.size() == 2)
-// 			ser = Servicio(cur[0], od[0].substr(0,od[0].length()-1), od[1].substr(1, od[1].length()), cur[7]);
-// 		else if (od.size() == 1)
-// 			ser = Servicio(cur[0], od[0].substr(0, od[0].length() - 1), "", cur[7]);
-// 		else
-// 			cout << "ERROR : Servicio no bien definido en datos de entrada(routes.txt)!" << endl;
-// 
-// 		servicios[ser.nombre] = ser;
-// 
-// 		///Insercion en diccionario de servicios-sentidos global
-// 		dicSS.servicios[string(cur[0] + "I")] = cur[0];
-// 		dicSS.servicios[string(cur[0] + "R")] = cur[0];
-// 
-// 		///identificacion de colores
-// 		map<string, string>::iterator icolor = parametros->mapeoColores.find(cur[7]);
-// 
-// 		if (icolor != parametros->mapeoColores.end())
-// 		{
-// 			dicSS.colores[cur[0]] = (*icolor).second;
-// 
-// 		}
-// 	}
-// 
-// // 	///DEBUG
-// // 	ofstream fout;
-// // 	fout.open("dicSS.out");
-// // 	for (map<string, string>::iterator it = dicSS.servicios.begin(); it != dicSS.servicios.end(); it++)
-// // 		fout << (*it).first << ";" << (*it).second << endl;
-// // 	fout.close();
-// 
-// 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
-// 
-// }
 
 void FuenteDatos::leeRutas()
 {
@@ -190,7 +118,27 @@ void FuenteDatos::leeRutas()
         }
         else
         {
-            (*iit).second.variantes[cur[1]] = cur[8];
+            int antes = cur[8].size();
+            string direccion = StringFunctions::translateCharacters(cur[8]);
+
+            bool cambio=false;
+            if((int)direccion.size() != antes)
+                cambio=true;
+            
+            direccion = std::regex_replace (direccion,regex("pealolen"),"penalolen");
+            direccion = std::regex_replace (direccion,regex("uble"),"nuble");
+            direccion = std::regex_replace (direccion,regex("maana"),"manana");
+            direccion = std::regex_replace (direccion,regex("uoa"),"nunoa");
+            direccion = std::regex_replace (direccion,regex("egaa"),"egana");
+            direccion = std::regex_replace (direccion,regex("espaa"),"espana");
+            direccion = std::regex_replace (direccion,regex("mamias"),"maminas");
+            
+            if(cambio)
+                palabrasTraducidas[cur[8]] = direccion;
+            
+             (*iit).second.variantes[cur[1]] = direccion;
+             
+             
         }
         
         
@@ -251,7 +199,7 @@ void FuenteDatos::leeRutas()
                 std::string str = (*iit).second.direccion;
                 for (std::string::size_type i = 0; i < (*iit).second.direccion.length(); ++i)
                     str[i] = std::toupper((*iit).second.direccion[i], loc);
-
+                
                 vector<string> od = StringFunctions::Explode(str, '-');
                 
                 if ((int)od.size()==2)
@@ -270,7 +218,7 @@ void FuenteDatos::leeRutas()
     
     ///DEBUG
     ofstream debug;
-    debug.open("servicios_base.txt");
+    debug.open("servicios_base" + parametros->version + ".txt");
     for(map<string, Servicio>::iterator iit = serviciosBase.begin();iit != serviciosBase.end();iit++)
     {
         debug << (*iit).first << " || " << (*iit).second.direccion << " || " << (*iit).second.destino << endl;
@@ -282,6 +230,15 @@ void FuenteDatos::leeRutas()
         debug << endl;
     }
     debug.close();
+    
+    ///DEBUG
+    ofstream debug1;
+    debug1.open("palabrasTraducidas" + parametros->version + ".txt");
+    for(map<string, string>::iterator iit = palabrasTraducidas.begin();iit != palabrasTraducidas.end();iit++)
+    {
+        debug1 << (*iit).first << " | " << (*iit).second << endl;
+    }
+    debug1.close();
         
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
 
@@ -621,7 +578,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 
 	///DEBUG
 	ofstream fout;
-	fout.open("Android_busstops_sequences_dtpm" + parametros->version + ".csv");
+	fout.open(string(parametros->outputPath+"/"+parametros->version + "/PhoneBusStopsSequences_dtpm.csv").c_str());
 	fout << "servicio;sentido;color_id;direccion;paradas" << endl;
 	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
 	{
@@ -636,7 +593,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 	fout.close();
     
 	ofstream fout1;
-	fout1.open("test" + parametros->version + ".csv");
+	fout1.open("servicios" + parametros->version + ".dbg");
 	fout1 << "servicio;sentido;color_id;direccion" << endl;
 	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
 	{
@@ -730,6 +687,83 @@ void FuenteDatos::CorrigeParadasMismaPosicion()
 
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
 }
+
+// void FuenteDatos::leeDiccionarioServicios()
+// {
+// 	int nTimeStart = Cronometro::GetMilliCount();
+// 
+// 	///Archivo de entrada Principal
+// 	ifstream archivoDiccionario;
+// 	archivoDiccionario.open(parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt");
+// 
+// 	///Chequeo de archivo 
+// 	if (!archivoDiccionario.good())
+// 		cout << "Error : No se encuentra el archivo " << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << "!" << endl;
+// 	else
+// 		cout << "Cargando datos de Diccionario (" << parametros->nombreCarpetaGTFS + parametros->slash + "routes.txt" << ")... ";
+// 
+// 	///Vector contenedor de la linea actual del archivo
+// 	vector<string> cur;
+// 
+// 	int nlineas = 0;
+// 
+// 	///Lectura del header
+// 	cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
+// 
+// 
+// 	///Lectura archivo primario
+// 	while (archivoDiccionario.good())
+// 	{
+// 		nlineas++;
+// 
+// 		///Lectura de linea del archivo
+// 		cur = StringFunctions::ExplodeF(',', &archivoDiccionario);
+// 		
+// 		///Condicion de salida, a veces no es suficiente solo la condicion del ciclo
+// 		if (cur.size() == 0 || cur[0].compare("") == 0)
+// 			continue;
+// 
+// 		std::locale loc;
+// 		std::string str = cur[3];
+// 		for (std::string::size_type i = 0; i < cur[3].length(); ++i)
+// 			str[i] = std::toupper(cur[3][i], loc);
+// 
+// 		vector<string> od = StringFunctions::Explode(str, '-');
+// 
+// 		Servicio ser;
+// 		if (od.size() == 2)
+// 			ser = Servicio(cur[0], od[0].substr(0,od[0].length()-1), od[1].substr(1, od[1].length()), cur[7]);
+// 		else if (od.size() == 1)
+// 			ser = Servicio(cur[0], od[0].substr(0, od[0].length() - 1), "", cur[7]);
+// 		else
+// 			cout << "ERROR : Servicio no bien definido en datos de entrada(routes.txt)!" << endl;
+// 
+// 		servicios[ser.nombre] = ser;
+// 
+// 		///Insercion en diccionario de servicios-sentidos global
+// 		dicSS.servicios[string(cur[0] + "I")] = cur[0];
+// 		dicSS.servicios[string(cur[0] + "R")] = cur[0];
+// 
+// 		///identificacion de colores
+// 		map<string, string>::iterator icolor = parametros->mapeoColores.find(cur[7]);
+// 
+// 		if (icolor != parametros->mapeoColores.end())
+// 		{
+// 			dicSS.colores[cur[0]] = (*icolor).second;
+// 
+// 		}
+// 	}
+// 
+// // 	///DEBUG
+// // 	ofstream fout;
+// // 	fout.open("dicSS.out");
+// // 	for (map<string, string>::iterator it = dicSS.servicios.begin(); it != dicSS.servicios.end(); it++)
+// // 		fout << (*it).first << ";" << (*it).second << endl;
+// // 	fout.close();
+// 
+// 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << "(min)" << endl;
+// 
+// }
 
 // void FuenteDatos::leeSecuenciaDeParadas()
 // {

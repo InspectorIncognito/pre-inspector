@@ -1,0 +1,40 @@
+(M) LA CISTERNA - VILLA ESPAŃA | (m) la cisterna - villa espana
+(M) LAS REJAS - VILLA LOS HEROES | (m) las rejas - villa los heroes
+(M) LO OVALLE - (M) ŃUBLE | (m) lo ovalle - (m) nuble
+(M) MACUL - VILLA ESPAŃA | (m) macul - villa espana
+(M) PARQUE O'HIGGINS - PEŃALOLEN | (m) parque ohiggins - penalolen
+(M) PLAZA EGAŃA - LAS PARCELAS | (m) plaza egana - las parcelas
+(M) ŃUBLE - (M) LO OVALLE | (m) nuble - (m) lo ovalle
+(M) ŃUŃOA - MALL PLAZA TOBALABA | (m) nunoa - mall plaza tobalaba
+ALAMEDA - VILLA LOS HEROES | alameda - villa los heroes
+CERRO NAVIA - PEŃALOLEN | cerro navia - penalolen
+CONSISTORIAL - PLAZA EGAŃA (M) | consistorial - plaza egana (m)
+GABRIELA - ŃUŃOA | gabriela - nunoa
+HOSPITAL BORJA ARRIARAN - VILLA LOS H | hospital borja arriaran - villa los h
+LAS PARCELAS - (M) PLAZA EGAŃA | las parcelas - (m) plaza egana
+MAIPU - PEŃALOLEN | maipu - penalolen
+MALL PLAZA TOBALABA - (M) ŃUŃOA | mall plaza tobalaba - (m) nunoa
+NUEVA SAN MARTIN - PEŃALOLEN | nueva san martin - penalolen
+PEŃALOLEN  - MAIPU | penalolen  - maipu
+PEŃALOLEN - (M) PARQUE O'HIGGINS | penalolen - (m) parque ohiggins
+PEŃALOLEN - CERRO NAVIA | penalolen - cerro navia
+PEŃALOLEN - MAIPU | penalolen - maipu
+PEŃALOLEN - NUEVA SAN MARTIN | penalolen - nueva san martin
+PEŃALOLEN - VILLA EL ABRAZO | penalolen - villa el abrazo
+PIE ANDINO - VILLA LAS MAMIŃAS | pie andino - villa las maminas
+PLAZA EGAŃA (M) - CONSISTORIAL | plaza egana (m) - consistorial
+USACH - VILLA LOS HEROES | usach - villa los heroes
+VARIANTE PUNTA MAŃANA | variante punta manana
+VARIANTE PUNTA MAŃANA - PRENOCTURNO | variante punta manana - prenocturno
+VARIANTE PUNTA MAŃANA PUNTA TARDE | variante punta manana punta tarde
+VARIANTE PUNTA MAŃANA TRANSICION PUNTA M | variante punta manana transicion punta m
+VILLA CHILO - (M) PLAZA PUENTE ALTO | villa chilo - (m) plaza puente alto
+VILLA EL ABRAZO - PEŃALOLEN | villa el abrazo - penalolen
+VILLA ESPAŃA - (M) LA CISTERNA | villa espana - (m) la cisterna
+VILLA ESPAŃA - (M) MACUL | villa espana - (m) macul
+VILLA LAS MAMIŃAS - PIE ANDINO | villa las maminas - pie andino
+VILLA LOS HEROES - (M) LAS REJAS | villa los heroes - (m) las rejas
+VILLA LOS HEROES - HOSPITAL BORJA ARR | villa los heroes - hospital borja arr
+VILLA LOS HEROES - ALAMEDA | villa los heroes - alameda
+VILLA LOS HEROES - USACH | villa los heroes - usach
+ŃUŃOA - GABRIELA | nunoa - gabriela
