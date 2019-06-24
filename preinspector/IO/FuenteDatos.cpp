@@ -485,6 +485,8 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 				sec.sentido = "I";
 			else
 				sec.sentido = "R";
+            
+            sec.routeCode = sec.servicio+sec.sentido;
 
 			sec.color = color;
 			sec.secuencia += cur[iParCodigoUsuario];
@@ -526,7 +528,10 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
             }
             
 			if (cur[iParCodigoVariante].compare("-") != 0 && cur[iParCodigoVariante].compare("") != 0)
+            {
 				sec.nombre += " (" + cur[iParCodigoVariante] + ")";
+                sec.routeCode += cur[iParCodigoVariante];
+            }
 
 			secuenciaDTPM[codigoServicioSentido] = sec;
 
@@ -579,9 +584,10 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 	///DEBUG
 	ofstream fout;
 	fout.open(string(parametros->outputPath+"/"+parametros->version + "/PhoneBusStopsSequences_dtpm.csv").c_str());
-	fout << "servicio;sentido;color_id;direccion;paradas" << endl;
+	fout << "id_ruta;servicio;sentido;color_id;direccion;paradas" << endl;
 	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
 	{
+        fout << (*isec).second.routeCode << ";";
 		fout << (*isec).second.servicio << ";";
 		fout << (*isec).second.sentido << ";";
 		fout << (*isec).second.color << ";";

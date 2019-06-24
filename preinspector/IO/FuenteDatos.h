@@ -82,6 +82,7 @@ class FuenteDatos{
 		string nombre;
 		string color;
 		string secuencia;
+        string routeCode;
         vector<string> secuenciav;
 	};
 

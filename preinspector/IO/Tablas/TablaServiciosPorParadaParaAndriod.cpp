@@ -69,7 +69,7 @@ void TablaServiciosPorParadaParaAndriod::Crear()
 
 	///Impresion de la tabla
 	ofstream fileout;
-	fileout.open(string(fdd_->parametros->outputPath+"/"+fdd_->parametros->version + "/PhoneBusBtops.csv").c_str());
+	fileout.open(string(fdd_->parametros->outputPath+"/"+fdd_->parametros->version + "/PhoneBusStops.csv").c_str());
 	fileout << "code;";
 	fileout << "name;";
 	fileout << "latitude;";
