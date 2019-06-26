@@ -22,33 +22,33 @@ StringFunctions::~StringFunctions()
 {
 }
 
-string StringFunctions::translateCharacters(string word)
-{
-     std::locale loc;
-     std::string str = word;
-     for (std::string::size_type i = 0; i < word.length(); ++i)
-         str[i] = std::tolower(word[i], loc);
-
-    std::string output;
-    for (std::string::size_type i=0; i < str.length(); i++)
-    {
-        //cout << str[i] << "|" << (int)str[i] << endl;
-        
-        if( (str[i] >= 'A' && str[i] <= 'Z') 
-        ||  (str[i] >= 'a' && str[i] <= 'z') 
-        ||  (str[i] >= '0' && str[i] <= '9') 
-        ||  str[i] == '(' || str[i] == ')' || str[i] == '-' || str[i] == ' ' || str[i] == '/' || str[i] == '.'
-        )
-        {
-            output.push_back(str[i]);
-        }
-        //else{
-        //    cout << "WTF1 : " << (int)str[i] << endl;
-       // }
-    }
-    
-    return output;
-}
+// string StringFunctions::translateCharacters(string word)
+// {
+//      std::locale loc;
+//      std::string str = word;
+//      for (std::string::size_type i = 0; i < word.length(); ++i)
+//          str[i] = std::tolower(word[i], loc);
+// 
+//     std::string output;
+//     for (std::string::size_type i=0; i < str.length(); i++)
+//     {
+//         //cout << str[i] << "|" << (int)str[i] << endl;
+//         
+//         if( (str[i] >= 'A' && str[i] <= 'Z') 
+//         ||  (str[i] >= 'a' && str[i] <= 'z') 
+//         ||  (str[i] >= '0' && str[i] <= '9') 
+//         ||  str[i] == '(' || str[i] == ')' || str[i] == '-' || str[i] == ' ' || str[i] == '/' || str[i] == '.'
+//         )
+//         {
+//             output.push_back(str[i]);
+//         }
+//         //else{
+//         //    cout << "WTF1 : " << (int)str[i] << endl;
+//        // }
+//     }
+//     
+//     return output;
+// }
 
 bool StringFunctions::utf8_check_is_valid(const string& string)
 {
@@ -102,6 +102,11 @@ string StringFunctions::toCamelCase(string in)
 	string out;
 	std::locale loc;
 
+    string tmp;
+    for (int i = 0; i < in.size(); i++)
+        tmp.push_back(std::tolower(in.at(i), loc));
+    in = tmp;
+    
 	for (int i = 0; i < in.size(); i++)
 	{
 		if (i == 0)

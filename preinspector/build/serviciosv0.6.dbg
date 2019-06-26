@@ -10,8 +10,8 @@ servicio;sentido;color_id;direccion
 104;R;7;Providencia
 105;I;6;Lo Espejo
 105;R;6;Renca
-106;I;4;Penalolen
-106;I;4;Penalolen (PM)
+106;I;4;PeÑalolen
+106;I;4;PeÑalolen (PM)
 106;R;4;Nueva San Martin
 107;I;4;Av. Departamental
 107;R;4;Ciudad Empresarial
@@ -37,7 +37,7 @@ servicio;sentido;color_id;direccion
 113e;I;3;(M) Los Herores
 113e;R;3;Ciudad Satelite
 114;I;7;Mall Plaza Tobalaba
-114;R;7;(M) Nunoa
+114;R;7;(M) ÑuÑoa
 115;I;5;(M) Los Heroes
 115;R;5;Villa El Abrazo
 115;R;5;Villa El Abrazo (PM)
@@ -114,7 +114,7 @@ servicio;sentido;color_id;direccion
 217e;I;2;(M) Santa Ana
 217e;R;2;Maestranza
 219e;I;2;Ciudad Empresarial
-219e;I;0;(TNOC)
+219e;I;2;Ciudad Empresarial (TNOC)
 219e;R;2;(M) La Cisterna
 219e;R;2;(M) La Cisterna (PT)
 221e;I;2;Matucana
@@ -123,7 +123,7 @@ servicio;sentido;color_id;direccion
 223;R;2;Ciudad Empresarial
 224;I;2;Gabriela
 224;I;2;Gabriela (PM)
-224;R;2;Nunoa
+224;R;2;ÑuÑoa
 224c;I;2;Gabriela
 224c;R;2;(M) Vicente Valdes
 225;I;2;Bahia Catalina
@@ -141,7 +141,7 @@ servicio;sentido;color_id;direccion
 229;R;2;(M) La Moneda
 230;I;2;Av. Santa Rosa
 230;R;2;Los Libertadores
-262N;I;2;Villa Espana
+262N;I;2;Villa EspaÑa
 262N;R;2;(M) Macul
 264N;I;2;Santo Tomas
 264N;R;2;Pedro Fontova
@@ -339,20 +339,20 @@ servicio;sentido;color_id;direccion
 503;R;5;Av. La Estrella
 504;I;5;Hospital Dipreca
 504;R;5;El Tranque
-505;I;5;Penalolen
-505;I;5;Penalolen (PM)
+505;I;5;PeÑalolen
+505;I;5;PeÑalolen (PM)
 505;R;5;Cerro Navia
 505;R;5;Cerro Navia (PT)
-506;I;5;Penalolen
+506;I;5;PeÑalolen
 506;R;5;Maipu
-506e;I;5;Penalolen
+506e;I;5;PeÑalolen
 506e;R;5;Maipu
-506v;I;5;Penalolen
+506v;I;5;PeÑalolen
 506v;R;5;Villa El Abrazo
 507;I;5;Av Grecia
 507;R;5;Enea
-507c;I;5;Penalolen
-507c;R;5;(M) Parque Ohiggins
+507c;I;5;PeÑalolen
+507c;R;5;(M) Parque O'higgins
 508;I;5;Av.las Torres
 508;I;5;Av.las Torres (PM)
 508;R;5;Av. Mapocho
@@ -363,7 +363,7 @@ servicio;sentido;color_id;direccion
 510;I;5;Av. Grecia
 510;I;5;Av. Grecia (PM)
 510;R;5;Pudahuel Sur
-511;I;5;Penalolen
+511;I;5;PeÑalolen
 511;R;5;Cerro Navia
 513;I;5;Jose Arrieta
 513;I;5;Jose Arrieta (PM)
@@ -480,9 +480,9 @@ C01;R;6;(M) Francisco Bilbao
 C01c;I;6;La Ermita
 C01c;R;6;(M) Escuela Militar
 C02;I;6;(M) Escuela
-C02;I;0;(M) Escuela (PM)
+C02;I;6;(M) Escuela (PM)
 C02;R;6;San Carlos De Apoq
-C02;R;0;San Carlos De Apoq (PM)
+C02;R;6;San Carlos De Apoq (PM)
 C02c;I;6;(M) Los Domini
 C02c;I;6;(M) Los Domini (PM)
 C02c;R;6;San Carlos De Apoqui
@@ -534,20 +534,20 @@ C21N;R;6;Los Trapenses
 C22;I;6;Rotonda Lo Curr
 C22;R;6;(M) Escuela Militar
 C22;R;6;(M) Escuela Militar (PM)
-D01;I;4;Antupirn
-D01;I;4;Antupirn (PM)
-D01;R;4;(M) Plaza Egana
-D02;I;4;Lvaro Casanova
-D02;I;4;Lvaro Casanova (PM)
-D02;I;4;Lvaro Casanova (PT)
-D02;R;4;(M) Irarrzaval
-D02;R;4;(M) Irarrzaval (PM)
+D01;I;4;AntupirÉn
+D01;I;4;AntupirÉn (PM)
+D01;R;4;(M) Plaza EgaÑa
+D02;I;4;Álvaro Casanova
+D02;I;4;Álvaro Casanova (PM)
+D02;I;4;Álvaro Casanova (PT)
+D02;R;4;(M) IrarrÁzaval
+D02;R;4;(M) IrarrÁzaval (PM)
 D03;I;4;Las Parcelas
 D03;I;4;Las Parcelas (PM)
 D03;R;4;(M) Toesca
 D03c;I;4;Las Parcelas
 D03c;I;4;Las Parcelas (PM)
-D03c;R;4;(M) Plaza Egana
+D03c;R;4;(M) Plaza EgaÑa
 D05;I;4;Maria Angelica
 D05;R;4;(M) Franklin
 D05;R;4;(M) Franklin (PT)
@@ -591,9 +591,9 @@ D17v;R;4;Las Pircas
 D17v;R;4;Las Pircas (PRN)
 D18;I;4;(M) Santa Isabel
 D18;I;4;(M) Santa Isabel (PT)
-D18;R;4;Lvaro Casanova
-D18;R;4;Lvaro Casanova (PM)
-D18;R;4;Lvaro Casanova (PT)
+D18;R;4;Álvaro Casanova
+D18;R;4;Álvaro Casanova (PM)
+D18;R;4;Álvaro Casanova (PT)
 D20;I;4;Av. Las Torres
 E01;I;3;(M) Santa R
 E01;R;3;San Jose De La Estrel
@@ -665,7 +665,7 @@ F02;I;7;San Geronimo
 F02;R;7;Pie Andino
 F03;I;7;Plaza San Bernar
 F03;R;7;(M) Plaza Puente
-F03c;I;7;Villa Las Maminas
+F03c;I;7;Villa Las MamiÑas
 F03c;R;7;Pie Andino
 F05;I;7;Pie Andino
 F05;I;7;Pie Andino (PRN)
@@ -781,8 +781,8 @@ G18;R;2;Santo Tomas
 G18;R;2;Santo Tomas (PRN)
 G22;I;2;(M) La Cisterna
 G22;I;2;(M) La Cisterna (N)
-G22;R;2;Villa Espana
-G22;R;2;Villa Espana (N)
+G22;R;2;Villa EspaÑa
+G22;R;2;Villa EspaÑa (N)
 G23;I;2;Santa Rosa P.43
 G23;R;2;Estacion Lo Blanco
 H02;I;3;(M) Lo Vial
@@ -802,8 +802,8 @@ H06;R;3;Pobl. Las Turbinas
 H07;I;3;(M) Lo Ovalle
 H07;I;3;(M) Lo Ovalle (PM)
 H07;I;3;(M) Lo Ovalle (PRN)
-H07;R;3;(M) Nuble
-H07;R;3;(M) Nuble (PRN)
+H07;R;3;(M) Ñuble
+H07;R;3;(M) Ñuble (PRN)
 H08;I;3;(M) Lo Ovalle
 H08;I;3;(M) Lo Ovalle (PRN)
 H08;R;3;Pobl. Las Turbinas
@@ -820,13 +820,13 @@ H14;I;3;(M) Franklin (PRN)
 H14;R;3;Mall Florida Center
 H14;R;3;Mall Florida Center (PRN)
 I01;I;3;Hospital Borja Arr
-I01;R;3;Villa Los H
-I01;R;3;Villa Los H (PM)
+I01;R;3;Villa Los H
+I01;R;3;Villa Los H (PM)
 I02;I;3;(M) Laguna Sur
 I02;R;3;Rinconada
 I03;I;3;(M) Las Rejas
 I03;I;3;(M) Las Rejas (PM)
-I03;R;3;Villa Los Heroes
+I03;R;3;Villa Los Heroes
 I03c;I;3;(M) San Alberto Hurtado
 I03c;R;3;Valle Verde
 I04;I;3;(M) San Alberto Hur
@@ -855,8 +855,8 @@ I09e;I;3;(M) U. De Chile
 I09e;R;3;Rinconada
 I10;I;3;Usach
 I10N;I;3;Alameda
-I10N;R;3;Villa Los Heroes
-I10;R;3;Villa Los Heroes
+I10N;R;3;Villa Los Heroes
+I10;R;3;Villa Los Heroes
 I11;I;3;(M) Plaza Maipu
 I11;R;3;Ciudad Satelite
 I12;I;3;Mall Plaza Oeste

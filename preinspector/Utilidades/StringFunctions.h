@@ -115,7 +115,7 @@ public:
     
     static bool utf8_check_is_valid(const string& string);
     
-    static string translateCharacters(string word);
+//     static string translateCharacters(string word);
 
 };
 

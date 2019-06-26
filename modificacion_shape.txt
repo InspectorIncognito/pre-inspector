@@ -6,3 +6,5 @@ file -bi <file name>
 iconv -f iso-8859-1 -t UTF8 < shapesAbril2019.csv > output.txt
 
 Modificar encondig a Consolidado de paradas tb
+
+

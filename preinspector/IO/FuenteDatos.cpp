@@ -119,19 +119,20 @@ void FuenteDatos::leeRutas()
         else
         {
             int antes = cur[8].size();
-            string direccion = StringFunctions::translateCharacters(cur[8]);
+            //string direccion = StringFunctions::translateCharacters(cur[8]);
+            string direccion = cur[8];
 
             bool cambio=false;
             if((int)direccion.size() != antes)
                 cambio=true;
             
-            direccion = std::regex_replace (direccion,regex("pealolen"),"penalolen");
-            direccion = std::regex_replace (direccion,regex("uble"),"nuble");
-            direccion = std::regex_replace (direccion,regex("maana"),"manana");
-            direccion = std::regex_replace (direccion,regex("uoa"),"nunoa");
-            direccion = std::regex_replace (direccion,regex("egaa"),"egana");
-            direccion = std::regex_replace (direccion,regex("espaa"),"espana");
-            direccion = std::regex_replace (direccion,regex("mamias"),"maminas");
+//             direccion = std::regex_replace (direccion,regex("pealolen"),"penalolen");
+//             direccion = std::regex_replace (direccion,regex("uble"),"nuble");
+//             direccion = std::regex_replace (direccion,regex("maana"),"manana");
+//             direccion = std::regex_replace (direccion,regex("uoa"),"nunoa");
+//             direccion = std::regex_replace (direccion,regex("egaa"),"egana");
+//             direccion = std::regex_replace (direccion,regex("espaa"),"espana");
+//             direccion = std::regex_replace (direccion,regex("mamias"),"maminas");
             
             if(cambio)
                 palabrasTraducidas[cur[8]] = direccion;
