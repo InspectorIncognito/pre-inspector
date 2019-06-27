@@ -1,10 +1,13 @@
-cat shapesAbril2019.txt | awk 'BEGIN{FS="\t";i=0}{print i";"$7";"$15";"$14";"$18";"$19";"$2";"$3";"$8";"$9;i++}' > shapesAbril2019.csv
+0. cat shapesAbril2019.txt | awk 'BEGIN{FS="\t";i=0}{print i";"$7";"$15";"$14";"$18";"$19";"$2";"$3";"$8";"$9;i++}' > shapesAbril2019.csv
 
-#identificacion de encoding
+1. identificacion de encoding
 file -bi <file name>
-
 iconv -f iso-8859-1 -t UTF8 < shapesAbril2019.csv > output.txt
 
-Modificar encondig a Consolidado de paradas tb
+2. Modificar encondig a Consolidado de paradas tb
+
+3. eliminar VILLA LOS HEROES de shape
+4. VILLA LOS H
+
 
 

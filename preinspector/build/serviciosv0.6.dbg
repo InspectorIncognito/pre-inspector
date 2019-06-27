@@ -820,13 +820,13 @@ H14;I;3;(M) Franklin (PRN)
 H14;R;3;Mall Florida Center
 H14;R;3;Mall Florida Center (PRN)
 I01;I;3;Hospital Borja Arr
-I01;R;3;Villa Los H
-I01;R;3;Villa Los H (PM)
+I01;R;3;Villa Los Heroes
+I01;R;3;Villa Los Heroes (PM)
 I02;I;3;(M) Laguna Sur
 I02;R;3;Rinconada
 I03;I;3;(M) Las Rejas
 I03;I;3;(M) Las Rejas (PM)
-I03;R;3;Villa Los Heroes
+I03;R;3;Villa Los Heroes
 I03c;I;3;(M) San Alberto Hurtado
 I03c;R;3;Valle Verde
 I04;I;3;(M) San Alberto Hur
@@ -855,8 +855,8 @@ I09e;I;3;(M) U. De Chile
 I09e;R;3;Rinconada
 I10;I;3;Usach
 I10N;I;3;Alameda
-I10N;R;3;Villa Los Heroes
-I10;R;3;Villa Los Heroes
+I10N;R;3;Villa Los Heroes
+I10;R;3;Villa Los Heroes
 I11;I;3;(M) Plaza Maipu
 I11;R;3;Ciudad Satelite
 I12;I;3;Mall Plaza Oeste
