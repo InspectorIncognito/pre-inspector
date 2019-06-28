@@ -93,5 +93,5 @@ sed -e 's/Villa El Abraz;/Villa El Abrazo;/g' tmp1 > tmp;
 
 
 
-#mv tmp PhoneBusStopsSequences_dtpm.csv;
-#rm tmp1;
+mv tmp PhoneBusStopsSequences_dtpm.csv;
+rm tmp1;

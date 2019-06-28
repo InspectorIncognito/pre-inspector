@@ -57,8 +57,7 @@ Parametros::Parametros(const char *file)
 	for (int i = 0; i < nColores ; i++)
 	{
 		columnas = StringFunctions::ExplodeF('\t', &ap); columnas1 = StringFunctions::Explode(columnas[0], ' ');
-		mapeoColores[columnas1.at(0)] = columnas1.at(1);
-
+		mapeoColores[columnas1.at(1)] = columnas1.at(0);
 	}
 
 	///debug

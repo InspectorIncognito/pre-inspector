@@ -641,11 +641,11 @@ E13;R;3;Gabriela
 E13;R;3;Gabriela (PM)
 E13;R;3;Gabriela (PRN)
 E14;I;3;(M) Bellavi
-E14;I;0;(M) Bellavi (PM)
+E14;I;3;(M) Bellavi (PM)
 E14;I;3;(M) Bellavi (PRN)
 E14;R;3;San Jose
 E14;R;3;San Jose (PRN)
-E14;R;0;San Jose (PT)
+E14;R;3;San Jose (PT)
 E15c;I;3;(M) Bellavista De La Fl
 E15c;R;3;Bahia Cat
 E16;I;3;(M) Santa Rosa

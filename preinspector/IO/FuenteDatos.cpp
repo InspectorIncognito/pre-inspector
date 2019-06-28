@@ -591,7 +591,21 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
         fout << (*isec).second.routeCode << ";";
 		fout << (*isec).second.servicio << ";";
 		fout << (*isec).second.sentido << ";";
-		fout << (*isec).second.color << ";";
+        
+        map<string, string>::iterator icolor = parametros->mapeoColores.find((*isec).second.color);
+        if(icolor!=parametros->mapeoColores.end())
+            fout << (*icolor).second << ";";
+        else
+        {
+            fout << "-" << ";";
+            cout << "ERROR : No se encuetra operador en tabla de colores : " << (*isec).second.color << endl;
+            cout << (*isec).second.routeCode << ";";
+            cout << (*isec).second.servicio << ";";
+            cout << (*isec).second.sentido << ";";
+            cout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
+            cout << (*isec).second.secuencia << endl;
+        }
+        
 		//fout << toCamelCase((*isec).second.nombre) << ";";
 		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
 		fout << (*isec).second.secuencia << endl;
