@@ -585,10 +585,9 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 	///DEBUG
 	ofstream fout;
 	fout.open(string(parametros->outputPath+"/"+parametros->version + "/PhoneBusStopsSequences_dtpm.csv").c_str());
-	fout << "id_ruta;servicio;sentido;color_id;direccion;paradas;color_hex" << endl;
+	fout << "servicio;sentido;color_id;direccion;paradas;color_hex" << endl;
 	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
 	{
-        fout << (*isec).second.routeCode << ";";
 		fout << (*isec).second.servicio << ";";
 		fout << (*isec).second.sentido << ";";
         
@@ -597,7 +596,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
             fout << (*icolor).first << ";";
         else
         {
-            fout << "-" << ";";
+            fout << "0" << ";";
             cout << "ERROR : No se encuetra operador en tabla de colores : " << (*isec).second.color << endl;
             cout << (*isec).second.routeCode << ";";
             cout << (*isec).second.servicio << ";";
@@ -609,11 +608,44 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 		//fout << toCamelCase((*isec).second.nombre) << ";";
 		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
 		fout << (*isec).second.secuencia << ";";
-        fout << "#" << (*icolor).second  << endl;
-		
+        
+        if(icolor!=parametros->mapeoColores.end())
+            fout << "#" << (*icolor).second  << endl;
+        else
+            fout << "#000000" << endl;		
 	}
 	fout.close();
     
+	///DEBUG
+	ofstream fout1;
+	fout1.open(string(parametros->outputPath+"/"+parametros->version + "/ServerBusStopsSequences_dtpm.csv").c_str());
+	fout1 << "id_ruta;servicio;sentido;color_id;direccion;paradas;color_hex" << endl;
+	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
+	{
+        fout1 << (*isec).second.routeCode << ";";
+		fout1 << (*isec).second.servicio << ";";
+		fout1 << (*isec).second.sentido << ";";
+        
+        map<string, string>::iterator icolor = parametros->mapeoColores.find((*isec).second.color);
+        if(icolor!=parametros->mapeoColores.end())
+            fout1 << (*icolor).first << ";";
+        else
+            fout1 << "0" << ";";
+        
+		//fout << toCamelCase((*isec).second.nombre) << ";";
+		fout1 << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
+		fout1 << (*isec).second.secuencia << ";";
+        
+        if(icolor!=parametros->mapeoColores.end())
+            fout1 << "#" << (*icolor).second  << endl;
+        else
+            fout1 << "#000000" << endl;
+
+        
+		
+	}
+	fout1.close();
+/*    
 	ofstream fout1;
 	fout1.open("servicios" + parametros->version + ".dbg");
 	fout1 << "servicio;sentido;color_id;direccion" << endl;
@@ -625,7 +657,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 		fout1 << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << endl;
 		
 	}
-	fout1.close();
+	fout1.close();*/
 
 	cout << Cronometro::GetMilliSpan(nTimeStart) / 60000.0 << endl;
 }
