@@ -90,8 +90,12 @@ sed -e 's/(M) Bellavis;/(M) Bellavista De La Florida;/g' tmp > tmp1;
 sed -e 's/(M) Bellavis (PM);/(M) Bellavista De La Florida (PM);/g' tmp1 > tmp;
 sed -e 's/(M) Bellavis (PRN);/(M) Bellavista De La Florida (PRN);/g' tmp > tmp1;
 sed -e 's/Villa El Abraz;/Villa El Abrazo;/g' tmp1 > tmp;
-mv tmp PhoneBusStopsSequences_dtpm.csv;
-rm tmp1;
+sed -e 's/(M) Bellavista La Flo;/(M) Bellavista De La Florida;/g' tmp > tmp1;
+sed -e 's/(M) Bellavista La Flo (PRN);/(M) Bellavista De La Florida (PRN);/g' tmp1 > tmp;
+sed -e 's/(M) Bellavista De La (PT);/(M) Bellavista De La Florida (PT);/g' tmp > tmp1;
+
+mv tmp1 PhoneBusStopsSequences_dtpm.csv;
+rm tmp;
 
 
 sed -e 's/PeÑalolen/Peñalolen/g' ServerBusStopsSequences_dtpm.csv > tmp;
@@ -186,5 +190,10 @@ sed -e 's/(M) Bellavis;/(M) Bellavista De La Florida;/g' tmp > tmp1;
 sed -e 's/(M) Bellavis (PM);/(M) Bellavista De La Florida (PM);/g' tmp1 > tmp;
 sed -e 's/(M) Bellavis (PRN);/(M) Bellavista De La Florida (PRN);/g' tmp > tmp1;
 sed -e 's/Villa El Abraz;/Villa El Abrazo;/g' tmp1 > tmp;
-mv tmp ServerBusStopsSequences_dtpm.csv;
-rm tmp1;
+sed -e 's/(M) Bellavista La Flo;/(M) Bellavista De La Florida;/g' tmp > tmp1;
+sed -e 's/(M) Bellavista La Flo (PRN);/(M) Bellavista De La Florida (PRN);/g' tmp1 > tmp;
+sed -e 's/(M) Bellavista De La (PT);/(M) Bellavista De La Florida (PT);/g' tmp > tmp1;
+
+
+mv tmp1 ServerBusStopsSequences_dtpm.csv;
+rm tmp;
