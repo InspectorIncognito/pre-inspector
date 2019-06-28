@@ -5,7 +5,7 @@ sed -e 's/Maipu/Maipú/g' tmp > tmp1;
 sed -e 's/Satelite/Satélite/g' tmp1 > tmp;
 sed -e 's/Joaquin/Joaquín/g' tmp > tmp1;
 sed -e 's/Martin/Martín/g' tmp1 > tmp;
-sed -e 's/(M) Pajarito/(M) Pajaritos/g' tmp > tmp1;
+sed -e 's/(M) Pajarito;/(M) Pajaritos;/g' tmp > tmp1;
 sed -e 's/Heroes/Héroes/g' tmp1 > tmp;
 sed -e 's/U de Chile/U\. De Chile/g' tmp > tmp1;
 sed -e 's/Bio Bio/Bío Bío/g' tmp1 > tmp;

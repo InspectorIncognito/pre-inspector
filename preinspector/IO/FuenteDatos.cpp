@@ -585,7 +585,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 	///DEBUG
 	ofstream fout;
 	fout.open(string(parametros->outputPath+"/"+parametros->version + "/PhoneBusStopsSequences_dtpm.csv").c_str());
-	fout << "id_ruta;servicio;sentido;color_id;direccion;paradas" << endl;
+	fout << "id_ruta;servicio;sentido;color_id;direccion;paradas;color_hex" << endl;
 	for (isec = secuenciaDTPM.begin(); isec != secuenciaDTPM.end(); isec++)
 	{
         fout << (*isec).second.routeCode << ";";
@@ -594,7 +594,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
         
         map<string, string>::iterator icolor = parametros->mapeoColores.find((*isec).second.color);
         if(icolor!=parametros->mapeoColores.end())
-            fout << (*icolor).second << ";";
+            fout << (*icolor).first << ";";
         else
         {
             fout << "-" << ";";
@@ -608,7 +608,8 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
         
 		//fout << toCamelCase((*isec).second.nombre) << ";";
 		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
-		fout << (*isec).second.secuencia << endl;
+		fout << (*isec).second.secuencia << ";";
+        fout << (*icolor).second  << endl;
 		
 	}
 	fout.close();
