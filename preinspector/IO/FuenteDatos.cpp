@@ -609,7 +609,7 @@ void FuenteDatos::leeSecuenciaDeParadasDTPM()
 		//fout << toCamelCase((*isec).second.nombre) << ";";
 		fout << StringFunctions::EliminaCadenasBlancos((*isec).second.nombre) << ";";
 		fout << (*isec).second.secuencia << ";";
-        fout << (*icolor).second  << endl;
+        fout << "#" << (*icolor).second  << endl;
 		
 	}
 	fout.close();
