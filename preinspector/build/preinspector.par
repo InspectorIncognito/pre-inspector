@@ -1,11 +1,11 @@
 Parametros Asignacion Paradero a validacion
 ------------------------
 
-/home/mauricio/workspace/preInspector/inputs/2019-06-ConsolidadoParadas.csv				* Nombre de archivo consolidado de paradas
-/home/mauricio/workspace/preInspector/inputs/2019-06-shapes.csv					* Nombre de archivo con las rutas
+/home/mauricio/workspace/preInspector/inputs/2019-07-ConsolidadoParadas.csv				* Nombre de archivo consolidado de paradas
+/home/mauricio/workspace/preInspector/inputs/2019-07-shapes.csv					* Nombre de archivo con las rutas
 /home/mauricio/workspace/preInspector/output		* carpeta de salida
 20.0								* Distancia para el tramado de la ruta
-v0.6								* version
+v0.7								* version
 7									* colores
 249DD5 1					
 0951BC 2				
