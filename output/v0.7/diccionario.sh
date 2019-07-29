@@ -126,10 +126,12 @@ sed -e 's/(M) San Alberto Hur;/(M) San Alberto Hurtado;/g' tmp > tmp1;
 sed -e 's/Villa Fran;/Villa Francia;/g' tmp1 > tmp;
 sed -e 's/Villa Hernan Diaz;/Villa Hernan Díaz;/g' tmp > tmp1;
 sed -e 's/Villa S.henriquez;/Villa S. Henríquez;/g' tmp1 > tmp;
+sed -e 's/B. Larrain Cotapos;/Bernardo Larrain Cotapos;/g' tmp > tmp1;
+sed -e 's/Poblacion La Selva (N);/Población La Selva (N);/g' tmp1 > tmp;
+sed -e 's/Santo Tomas (N);/Santo Tomás (N);/g' tmp > tmp1;
 
-
-mv tmp PhoneBusStopsSequences_dtpm.csv;
-rm tmp1;
+mv tmp1 PhoneBusStopsSequences_dtpm.csv;
+rm tmp;
 
 
 sed -e 's/PeÑalolen/Peñalolen/g' ServerBusStopsSequences_dtpm.csv > tmp;
@@ -260,6 +262,10 @@ sed -e 's/(M) San Alberto Hur;/(M) San Alberto Hurtado;/g' tmp > tmp1;
 sed -e 's/Villa Fran;/Villa Francia;/g' tmp1 > tmp;
 sed -e 's/Villa Hernan Diaz;/Villa Hernan Díaz;/g' tmp > tmp1;
 sed -e 's/Villa S.henriquez;/Villa S. Henríquez;/g' tmp1 > tmp;
+sed -e 's/B. Larrain Cotapos;/Bernardo Larrain Cotapos;/g' tmp > tmp1;
+sed -e 's/Poblacion La Selva (N);/Población La Selva (N);/g' tmp1 > tmp;
+sed -e 's/Santo Tomas (N);/Santo Tomás (N);/g' tmp > tmp1;
 
-mv tmp ServerBusStopsSequences_dtpm.csv;
-rm tmp1;
+
+mv tmp1 ServerBusStopsSequences_dtpm.csv;
+rm tmp;
